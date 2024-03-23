@@ -1,2 +1,2 @@
 # pkmnmap4
-An Interactive Map for Pokémon Platinum, featuring Item &amp;amp; Berry Locations
+A rip of <https://pkmnmap.com> updated to Generation 4 of the Pokémon series. Uses [Leaflet](https://leafletjs.com/) to generate an interactive map.
