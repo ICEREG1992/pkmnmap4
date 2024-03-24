@@ -1,0 +1,28 @@
+<head>
+    <meta charset="utf-8">
+    <title>Pokémon Platinum Interactive Map</title>
+    <meta name="description" content="An Interactive Map for Pokémon Platinum, featuring Item &amp; Berry Locations">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="./leaflet.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div id="page-content">
+        <div id="map" class="leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" tabindex="0"></div>
+        <div id="controlscon">
+            <img id="menu-access" src="./menu_icon.svg" alt="Popout Menu" onclick="changeMenu()">
+            <div id="controls">
+                <button onclick="disableItems()">Items</button>
+                <button onclick="disableHiddenItems()">Hidden Items</button>
+                <button onclick="disableBerryItems()">Berry Items</button>
+                <button onclick="toggleGrid()">toggle Grid</button>
+                <button onclick="toggleUnderwater()">Toggle Underwater</button>
+            </div>
+        </div>
+    </div>
+    <script src="./leaflet.js"></script>
+    <script src="./main.js"></script>
+    <script src="./functions.js"></script>
+    <script src="./overworld.js"></script>
+</body>
