@@ -7,8 +7,8 @@ A rip of <https://pkmnmap.com> updated to Generation 4 of the Pokémon series. U
 1. generate one final map with double resolution
 1. install [ImageMagick](https://imagemagick.org/index.php)
 1. for each exported map image, run the following, where A and B are the image's dimensions divided by 256:
-`magick convert "[map path]" -crop AxB@ +repage +adjoin "[temp path]"
+```magick convert "[map path]" -crop AxB@ +repage +adjoin "[temp path]"```
 1. this will slice your map image into the tiles that you need for your tile set. now you need to assemble them into a directory. you can do this with the "rename" function included in this repository. run the following:
-`from rename import rename
-rename(r'[temp path]', r'[tileset path for this zoom level]', [how many tiles wide your image is])`
+```from rename import rename
+rename(r'[temp path]', r'[tileset path for this zoom level]', [how many tiles wide your image is])```
 1. now you have a set of images for one zoom level. repeat the previous two steps for as many zoom levels as you have.
