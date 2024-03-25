@@ -14,4 +14,4 @@ A rip of <https://pkmnmap.com> updated to Generation 4 of the Pokémon series. U
 from ImgToTileset import ImageToTileset
 ImageToTileset(r"[path to your png map]", r"[directory you want the tileset to be placed]")
 ```
-1. To see your new map, you can update Overworld.js to point to the tileset directory, just make sure to change `tileX` and `tileY` in main.js to be representative of your map's aspect ratio.
+6. To see your new map, you can update Overworld.js to point to the tileset directory, just make sure to change `tileX` and `tileY` in main.js to be representative of your map's aspect ratio.
