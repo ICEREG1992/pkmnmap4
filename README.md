@@ -6,9 +6,9 @@ A rip of <https://pkmnmap.com> updated to Generation 4 of the Pokémon series. U
 1. I've included my personal script for converting a large png into a tileset with multiple zoom levels in this respository as ImgToTileset.py. It will resize your map to the various zoom levels, and for each resize it will split the image into 256x256 pixel tiles which then get arranged into the proper directory structure for Leaflet to be able to render your map.
 1. install [ImageMagick](https://imagemagick.org/index.php)
 1. install prerequisites for ImgToTileset.py:
-    -shutil
-    -os
-    -wand
+    * shutil
+    * os
+    * wand
 1. Run the following in your favorite Python interpreter:
 ```
 from ImgToTileset import ImageToTileset
