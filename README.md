@@ -1,5 +1,5 @@
 # pkmnmap4
-A rip of <https://pkmnmap.com> updated to Generation 4 of the Pokémon series. Uses [Leaflet](https://leafletjs.com/) to generate an interactive map.
+A rip of <https://pkmnmap.com> updated to Generation 4 of the Pokémon series. Uses [Leaflet](https://leafletjs.com/) to generate an interactive map. Map assembled from resources from [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Category:Platinum_locations)
 
 # how to generate a new tileset
 1. Procure a high-resolution map of whatever you want to make a tileset out of. make sure the dimensions of the map image are easily halved, don't worry if you have to add a lot of whitespace
