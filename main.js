@@ -1,13 +1,13 @@
-var tileX = -180;
-var tileY = 240;
+var tileX = -128;
+var tileY = 256;
 var bounds = L.latLngBounds(L.latLng(tileX, 0), L.latLng(0, tileY));
-var outOfBoundsInt = 20;
+var outOfBoundsInt = 32;
 var maxBounds = L.latLngBounds(L.latLng(tileX - outOfBoundsInt, 0 - outOfBoundsInt), L.latLng(0 + outOfBoundsInt, tileY + outOfBoundsInt));
 var map = L.map('map', {
     preferCanvas: true,
     minZoom: 2,
     maxZoom: 7,
-    center: [-90, 120],
+    center: [-32, 16],
     zoom: 2,
     maxBounds: maxBounds,
     maxBoundsViscosity: 1.0,
