@@ -89,7 +89,26 @@ function Overworldf(e) {
     OverworldInfo.addTo(map);
     map.options.minZoom = 2;
 }
+// Verity Lakefront
 markerSet(-452.25, 134.5, "TinyMushroom", hitemIcon, currentMap)
+// Lake Verity
 markerSet(-439.25, 107.5, "TM38 (Fire Blast)", hitemIcon, currentMap)
+// Route 219
 markerSet(-481, 223.5, "Zinc", hitemIcon, currentMap)
 markerSet(-472, 217.5, "Antidote", itemIcon, currentMap)
+// Route 202
+markerSet(-419, 210.5, "Potion", itemIcon, currentMap)
+// Jubilife City
+markerSet(-410.25, 216.5, "Stardust", hitemIcon, currentMap)
+markerSet(-387.5, 190.5, "Potion", itemIcon, currentMap)
+// Route 218
+markerSet(-374, 152.5, "X Accuracy", itemIcon, currentMap)
+markerSet(-371, 165.5, "Rare Candy", itemIcon, currentMap)
+markerSet(-382.5, 141.5, "Hyper Potion", itemIcon, currentMap)
+markerSet(-377, 135.5, "Rawst Berry", berryIcon, currentMap)
+markerSet(-377, 136.5, "Persim Berry", berryIcon, currentMap)
+markerSet(-377, 137.5, "Figy Berry", berryIcon, currentMap)
+markerSet(-377, 138.5, "Pinap Berry", berryIcon, currentMap)
+// Canalave City
+markerSet(-385, 82.5, "TM89 (U-Turn)", itemIcon, currentMap)
+markerSet(-378, 84.5, "Big Pearl", hitemIcon, currentMap)
