@@ -1,13 +1,13 @@
 var tileX = -128;
 var tileY = 256;
 var bounds = L.latLngBounds(L.latLng(tileX, 0), L.latLng(0, tileY));
-var outOfBoundsInt = 32;
+var outOfBoundsInt = 20;
 var maxBounds = L.latLngBounds(L.latLng(tileX - outOfBoundsInt, 0 - outOfBoundsInt), L.latLng(0 + outOfBoundsInt, tileY + outOfBoundsInt));
 var map = L.map('map', {
     preferCanvas: true,
     minZoom: 2,
     maxZoom: 7,
-    center: [-32, 16],
+    center: [-48, 100],
     zoom: 2,
     maxBounds: maxBounds,
     maxBoundsViscosity: 1.0,
@@ -21,10 +21,10 @@ new L.Control.Zoom({
     position: 'bottomright'
 }).addTo(map);
 var LocationArray = [];
-var Grid = L.tileLayer('./tilesets/grid/{z}/{y}/tile{x}.png', {
+var Grid = L.tileLayer('Tilesets/Grid/{z}/{x}/{y}.png', {
     tms: false,
     reuseTiles: true,
-    attribution: 'Original by <a target="_blank" href="http://www.jaxsonkeenes.com">Jaxson Keenes</a> - update by <a target="_blank" href="https://github.com/icereg1992">William_Williams<a>',
+    attribution: 'Maker: <a target="_blank" href="http://www.jaxsonkeenes.com">Jaxson Keenes</a> - Contact: <a target="_blank" href="mailto:admin@oceanicweb.com.au">email</a>',
     bounds: bounds,
     tileSize: 256
 });
@@ -35,22 +35,17 @@ info.onAdd = function(map) {
     this._div = L.DomUtil.create('div', 'info');
     this.update();
     return this._div;
-};
-
+}
+;
 function pkmnListOutput(str, arr, title, perc) {
     if (arr.length != 0) {
         str = str + '<div class="pkmn-list-row">' + title + '</div>';
         for (var i = 0; i < arr.length; i++) {
-            str = str + '' +
-                '<div class="pkmn-list-column">' + arr[i].name + '</div>' +
-                '<div class="pkmn-list-column">' + arr[i].area + '</div>' +
-                '<div class="pkmn-list-column">' + arr[i].levels + '</div>' +
-                '<div class="pkmn-list-column">' + arr[i].rate + perc + '</div>';
+            str = str + '' + '<div class="pkmn-list-column">' + arr[i].name + '</div>' + '<div class="pkmn-list-column">' + arr[i].area + '</div>' + '<div class="pkmn-list-column">' + arr[i].levels + '</div>' + '<div class="pkmn-list-column">' + arr[i].rate + perc + '</div>';
         }
     }
     return str;
 }
-
 function outpkmn(props) {
     var arr = props.Pokémon;
     var nodata = false;
@@ -58,17 +53,8 @@ function outpkmn(props) {
     var arrayPkmn2 = [];
     var arrayPkmnlength = [];
     str = '<div id="pkmn-list">';
-    str = str +
-        '<div class="pkmn-list-column">' +
-        'Name' +
-        '</div><div class="pkmn-list-column">' +
-        'Method' +
-        '</div><div class="pkmn-list-column">' +
-        'Levels' +
-        '</div><div class="pkmn-list-column">' +
-        'Rate' +
-        '</div>';
-    for (const [key, value] of Object.entries(arr)) {
+    str = str + '<div class="pkmn-list-column">' + 'Name' + '</div><div class="pkmn-list-column">' + 'Method' + '</div><div class="pkmn-list-column">' + 'Levels' + '</div><div class="pkmn-list-column">' + 'Rate' + '</div>';
+    for (const [key,value] of Object.entries(arr)) {
         arrayPkmn[key] = value;
         arrayPkmn2.push(key);
         arrayPkmnlength++;
@@ -77,15 +63,11 @@ function outpkmn(props) {
         var pk = [];
         arr2 = arr[arrayPkmn[ia]];
         str = str + '<div class="pkmn-list-row">' + arrayPkmn2[ia] + '</div>';
-        for (const [key, value] of Object.entries(arrayPkmn[arrayPkmn2[ia]])) {
+        for (const [key,value] of Object.entries(arrayPkmn[arrayPkmn2[ia]])) {
             pk[key] = value;
         }
         for (var i = 0; i < (pk.length); i++) {
-            str = str + '' +
-                '<div class="pkmn-list-column">' + pk[i].name + '</div>' +
-                '<div class="pkmn-list-column">' + pk[i].area + '</div>' +
-                '<div class="pkmn-list-column">' + pk[i].levels + '</div>' +
-                '<div class="pkmn-list-column">' + pk[i].rate + '</div>';
+            str = str + '' + '<div class="pkmn-list-column">' + pk[i].name + '</div>' + '<div class="pkmn-list-column">' + pk[i].area + '</div>' + '<div class="pkmn-list-column">' + pk[i].levels + '</div>' + '<div class="pkmn-list-column">' + pk[i].rate + '</div>';
         }
     }
     str = str + '</div>';
@@ -95,14 +77,10 @@ function outpkmn(props) {
     return str;
 }
 info.update = function(props) {
-    this._div.innerHTML = (props ? '<div class="info-header">' +
-        '<h4>' + props.name + '</h4>' +
-        '<button onclick="info.update()">close</button>' +
-        '</div>' +
-        outpkmn(props) : 'Click on a location');
-};
+    this._div.innerHTML = (props ? '<div class="info-header">' + '<h4>' + props.name + '</h4>' + '<button onclick="info.update()">close</button>' + '</div>' + outpkmn(props) : 'Click on a location');
+}
+;
 info.addTo(map);
-
 function style(feature) {
     return {
         weight: 1,
@@ -112,7 +90,6 @@ function style(feature) {
         fillOpacity: 0
     };
 }
-
 function updateFeature(e) {
     OverworldInfo.resetStyle(oldtarget);
     info.update();
@@ -130,13 +107,11 @@ function updateFeature(e) {
     }
     oldtarget = e.target;
 }
-
 function onEachFeature(feature, layer) {
     layer.on({
         click: updateFeature,
     });
 }
-
 function getCordfromLoc(lat, lng) {
     var tileSize = 0.249990234375;
     var latf = ((lat - 0.5) * tileSize - (tileSize / 2));
