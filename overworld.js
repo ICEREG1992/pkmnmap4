@@ -90,9 +90,9 @@ function Overworldf(e) {
     map.options.minZoom = 2;
 }
 // Verity Lakefront
-markerSet(-452.25, 134.5, "TinyMushroom", hitemIcon, currentMap)
+markerSet(-452.12, 134.45, "TinyMushroom", hitemIcon, currentMap)
 // Lake Verity
-markerSet(-439.25, 107.5, "TM38 (Fire Blast)", hitemIcon, currentMap)
+markerSet(-439.18, 107.45, "TM38 (Fire Blast)", hitemIcon, currentMap)
 // Route 219
 markerSet(-481, 223.5, "Zinc", hitemIcon, currentMap)
 markerSet(-472, 217.5, "Antidote", itemIcon, currentMap)
@@ -102,27 +102,27 @@ markerSet(-419, 210.5, "Potion", itemIcon, currentMap)
 markerSet(-410.25, 216.5, "Stardust", hitemIcon, currentMap)
 markerSet(-387.5, 190.5, "Potion", itemIcon, currentMap)
 // Route 218
-markerSet(-374, 152.5, "X Accuracy", itemIcon, currentMap)
+markerSet(-374.12, 152.5, "X Accuracy", itemIcon, currentMap)
 markerSet(-371, 165.5, "Rare Candy", itemIcon, currentMap)
-markerSet(-382.5, 141.5, "Hyper Potion", itemIcon, currentMap)
+markerSet(-382.62, 141.5, "Hyper Potion", itemIcon, currentMap)
 markerSet(-377, 135.5, "Rawst Berry", berryIcon, currentMap)
 markerSet(-377, 136.5, "Persim Berry", berryIcon, currentMap)
 markerSet(-377, 137.5, "Figy Berry", berryIcon, currentMap)
 markerSet(-377, 138.5, "Pinap Berry", berryIcon, currentMap)
 // Canalave City
-markerSet(-385, 82.5, "TM89 (U-Turn)", itemIcon, currentMap)
-markerSet(-378, 84.5, "Big Pearl", hitemIcon, currentMap)
+markerSet(-384.95, 82.45, "TM89 (U-Turn)", itemIcon, currentMap)
+markerSet(-378.06, 84.45, "Big Pearl", hitemIcon, currentMap)
 // Route 203
-markerSet(-375.75, 259.5, "Poké Ball", itemIcon, currentMap)
-markerSet(-371.25, 270.5, "Repel", itemIcon, currentMap)
-markerSet(-376.75, 279.5, "X Defend", itemIcon, currentMap)
+markerSet(-375.68, 259.50, "Poké Ball", itemIcon, currentMap)
+markerSet(-371.18, 270.5, "Repel", itemIcon, currentMap)
+markerSet(-376.82, 279.5, "X Defend", itemIcon, currentMap)
 // Oreburgh City
 markerSet(-393.25, 339.25, "Yellow Shard", itemIcon, currentMap)
 markerSet(-392, 339.25, "Pearl", hitemIcon, currentMap)
 markerSet(-394.5, 343.5, "Dire Hit", itemIcon, currentMap)
 markerSet(-393.25, 342.25, "Heart Scale", hitemIcon, currentMap)
 // Route 207
-markerSet(-343.75, 339.18, "Poké Ball", itemIcon, currentMap)
+markerSet(-343.68, 339.18, "Poké Ball", itemIcon, currentMap)
 markerSet(-343.75, 347.18, "Poké Ball", hitemIcon, currentMap)
 markerSet(-356.4, 371.18, "Revive", itemIcon, currentMap)
 markerSet(-346.10, 375.18, "Super Potion", itemIcon, currentMap)
@@ -140,7 +140,7 @@ markerSet(-354.12, 225.5, "Paralyze Heal", itemIcon, currentMap)
 markerSet(-349.5, 237.5, "HP Up", itemIcon, currentMap)
 markerSet(-361.75, 210.5, "Sea Incense", itemIcon, currentMap)
 markerSet(-330.62, 228.5, "Awakening", itemIcon, currentMap)
-markerSet(-320.62, 210.5, "TM09 (Bullet Seed)", itemIcon, currentMap)
+markerSet(-320.55, 210.5, "TM09 (Bullet Seed)", itemIcon, currentMap)
 // Floaroma Town
 markerSet(-296.5, 226.4, "Oran Berry", berryIcon, currentMap)
 markerSet(-296.5, 230.4, "Cheri Berry", berryIcon, currentMap)
@@ -164,7 +164,7 @@ markerSet(-503.75, 327.45, "Pecha Berry", berryIcon, currentMap)
 markerSet(-503.75, 328.45, "Mago Berry", berryIcon, currentMap)
 markerSet(-503.75, 329.45, "Hondew Berry", berryIcon, currentMap)
 // Route 205
-markerSet(-287.5, 261.5, "X Sp. Def", itemIcon, currentMap)
+markerSet(-287.55, 261.5, "X Sp. Def", itemIcon, currentMap)
 markerSet(-271.12, 252.5, "Heal Ball", itemIcon, currentMap)
 markerSet(-258.2, 251.5, "Repel", itemIcon, currentMap)
 markerSet(-263.4, 267.5, "Super Potion", itemIcon, currentMap)
