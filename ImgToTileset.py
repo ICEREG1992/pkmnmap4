@@ -8,7 +8,7 @@ def ImageToTileset(source, dest):
     os.mkdir(dest+'\\grid')
     print("Converting each size into a Tileset...")
     for i in sizes:
-        size = len(sizes) - int(i[:i.rfind('.')]) + 1
+        size = len(sizes) - int(i[:i.rfind('.')])
         print("Creating grid for zoom level " + str(size))
         width = ImageToGrid(dest+'\\maps\\'+i, dest+'\\grid\\') #this is jank but we need to get width to GridToTileset
         os.mkdir(dest+'\\'+str(size))
