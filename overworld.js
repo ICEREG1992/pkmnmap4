@@ -1,7 +1,7 @@
 var Overworld = L.tileLayer('Tilesets/Overworld/{z}/{y}/{x}.png', {
     tms: false,
     reuseTiles: true,
-    attribution: 'Maker: <a target="_blank" href="http://www.jaxsonkeenes.com">Jaxson Keenes</a> - Contact: <a target="_blank" href="mailto:admin@oceanicweb.com.au">email</a>',
+    attribution: 'Original by: <a target="_blank" href="http://www.jaxsonkeenes.com">Jaxson Keenes</a> | Gen 4 Update by: <a target="_blank" href="https://github.com/ICEREG1992">William_Williams</a>',
     bounds: bounds,
     tileSize: 256
 }).addTo(map);
@@ -163,3 +163,48 @@ markerSet(-503.75, 326.45, "Leppa Berry", berryIcon, currentMap)
 markerSet(-503.75, 327.45, "Pecha Berry", berryIcon, currentMap)
 markerSet(-503.75, 328.45, "Mago Berry", berryIcon, currentMap)
 markerSet(-503.75, 329.45, "Hondew Berry", berryIcon, currentMap)
+// Route 205
+markerSet(-287.5, 261.5, "X Sp. Def", itemIcon, currentMap)
+markerSet(-271.12, 252.5, "Heal Ball", itemIcon, currentMap)
+markerSet(-258.2, 251.5, "Repel", itemIcon, currentMap)
+markerSet(-263.4, 267.5, "Super Potion", itemIcon, currentMap)
+markerSet(-277.5, 260.5, "Stardust", hitemIcon, currentMap)
+markerSet(-194.36, 333.5, "Super Potion", hitemIcon, currentMap)
+markerSet(-210.55, 322.5, "Guard Spec.", itemIcon, currentMap)
+markerSet(-302, 250.5, "Chesto Berry", berryIcon, currentMap)
+markerSet(-302, 251.5, "Pecha Berry", berryIcon, currentMap)
+markerSet(-268, 259.55, "Oran Berry", berryIcon, currentMap)
+markerSet(-268, 260.55, "Pecha Berry", berryIcon, currentMap)
+markerSet(-193.5, 325.5, "Cheri Berry", berryIcon, currentMap)
+markerSet(-193.5, 326.5, "Pecha Berry", berryIcon, currentMap)
+markerSet(-193.5, 327.5, "Oran Berry", berryIcon, currentMap)
+markerSet(-193.5, 328.5, "Oran Berry", berryIcon, currentMap)
+// Valley Windworks
+markerSet(-303.62, 294.55, "Potion", itemIcon, currentMap)
+markerSet(-295.12, 280.45, "Electirizer", itemIcon, currentMap)
+markerSet(-296.32, 284.32, "Max Ether", hitemIcon, currentMap)
+markerSet(-291.56, 290.45, "TM24 (Thunderbolt)", itemIcon, currentMap)
+// Eterna Forest
+markerSet(-233, 276.5, "Silver Powder", itemIcon, currentMap)
+markerSet(-231.45, 291.5, "TM82 (Sleep Talk)", itemIcon, currentMap)
+markerSet(-220.45, 278.5, "Razz Berry", berryIcon, currentMap)
+markerSet(-220.45, 279.5, "Bluk Berry", berryIcon, currentMap)
+markerSet(-220.45, 280.5, "Cheri Berry", berryIcon, currentMap)
+markerSet(-220.45, 281.5, "Oran Berry", berryIcon, currentMap)
+// Fuego Ironworks
+markerSet(-252.7, 227.5, "Ultra Ball", hitemIcon, currentMap)
+markerSet(-240.5, 225.5, "Big Mushroom", hitemIcon, currentMap)
+// Eterna City
+markerSet(-223.62, 365.18, "Super Potion", itemIcon, currentMap)
+markerSet(-191.25, 375.18, "TM46 (Thief)", itemIcon, currentMap)
+markerSet(-193.62, 375.18, "Draco Plate", hitemIcon, currentMap)
+markerSet(-192.06, 395.18, "Moon Stone", hitemIcon, currentMap)
+// Route 206
+markerSet(-319.25, 361.12, "PP Up", hitemIcon, currentMap)
+markerSet(-296.18, 361.18, "Ether", hitemIcon, currentMap)
+markerSet(-300.25, 350.18, "Burn Heal", itemIcon, currentMap)
+markerSet(-287.06, 343.18, "TinyMushroom", hitemIcon, currentMap)
+markerSet(-283.92, 362.18, "Super Repel", itemIcon, currentMap)
+markerSet(-277.82, 340.18, "Poison Barb", itemIcon, currentMap)
+markerSet(-328.25, 343.25, "Razz Berry", berryIcon, currentMap)
+markerSet(-328.25, 344.25, "Razz Berry", berryIcon, currentMap)
