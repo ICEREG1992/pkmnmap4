@@ -365,3 +365,4 @@ markerSet(-290.45, 859.06, "Dive Ball", itemIcon, currentMap)
 markerSet(-285.82, 875.06, "Rare Candy", itemIcon, currentMap)
 // Pokémon League
 markerSet(-243.75, 859.06, "Sky Plate", hitemIcon, currentMap)
+// Route 224 (TODO: BERRIES)
