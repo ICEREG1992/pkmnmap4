@@ -3,30 +3,52 @@ var OverworldVectorData = {
     "features": [{
         "type": "Feature",
         "properties": {
-            "name": "Littleroot",
+            "name": "Twinleaf Town",
             "world": "Overworld",
             "Pokémon": {
-                "Gifts": [{
-                    "name": "Chikorita",
-                    "area": "Gift",
-                    "levels": "5",
-                    "rate": 'One',
+                "Surfing": [{
+                    "name": "Psyduck",
+                    "area": "Surfing",
+                    "levels": "20-30",
+                    "rate": '90%',
                 }, {
-                    "name": "Cyndaquil",
-                    "area": "Gift",
-                    "levels": "5",
-                    "rate": 'One',
+                    "name": "Golduck",
+                    "area": "Surfing",
+                    "levels": "20-40",
+                    "rate": '10%',
+                } ],
+                "Fishing": [{
+                    "name": "Magikarp",
+                    "area": "Old Rod",
+                    "levels": "3-15",
+                    "rate": '100%',
                 }, {
-                    "name": "Totodile",
-                    "area": "Gift",
-                    "levels": "5",
-                    "rate": 'One',
+                    "name": "Goldeen",
+                    "area": "Good Rod",
+                    "levels": "15-35",
+                    "rate": '45%',
+                }, {
+                    "name": "Magikarp",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '55%',
+                }, {
+                    "name": "Gyarados",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '55%',
+                }, {
+                    "name": "Seaking",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '45%',
                 }, ]
             }
         },
         "geometry": {
             "type": "Polygon",
-            "coordinates": [[getCordfromLoc(-283, 119), getCordfromLoc(-283, 139), getCordfromLoc(-301, 139), getCordfromLoc(-301, 119), getCordfromLoc(-283, 119)]]
+            "coordinates": [[getCordfromLoc(-461.6875, 142.9375), getCordfromLoc(-486.25, 142.9375), getCordfromLoc(-486.25, 174.9375), getCordfromLoc(-461.6875, 174.9375), getCordfromLoc(-461.6875, 142.9375)]]
+            //"coordinates": [[getCordfromLoc(-462, 143), getCordfromLoc(-486, 143), getCordfromLoc(-486, 175), getCordfromLoc(-462, 175), getCordfromLoc(-462, 143)]]
         }
     }, {
         "type": "Feature",

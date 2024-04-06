@@ -2,8 +2,10 @@ tileSize = 1;
 map.on('click', function (e) {
     var coord = e.latlng;
     console.log(e)
-    var lat = Math.floor((coord.lat / tileSize) + 1);
-    var lng = Math.floor(coord.lng / tileSize);
+    var lat = (coord.lat / tileSize) + 1;
+    var lng = coord.lng / tileSize;
+    lat = Math.round(lat * 16) / 16;
+    lng  = Math.round(lng * 16) / 16;
     console.log('Tile Location: ' + lat + ', ' + lng);
     console.log(
     'Map Location: ' + Math.floor(lat * tileSize) + ', ' + Math.floor(lng * tileSize)
