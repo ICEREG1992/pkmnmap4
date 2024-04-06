@@ -92,7 +92,7 @@ function Overworldf(e) {
 // Verity Lakefront
 markerSet(-452.12, 134.45, "TinyMushroom", hitemIcon, currentMap)
 // Lake Verity
-markerSet(-439.18, 107.45, "TM38 (Fire Blast)", hitemIcon, currentMap)
+markerSet(-439.12, 107.45, "TM38 (Fire Blast)", hitemIcon, currentMap)
 // Route 219
 markerSet(-481, 223.5, "Zinc", hitemIcon, currentMap)
 markerSet(-472, 217.5, "Antidote", itemIcon, currentMap)
