@@ -7,7 +7,7 @@ var map = L.map('map', {
     preferCanvas: true,
     minZoom: 2,
     maxZoom: 7,
-    center: [-48, 100],
+    center: [-64, 128],
     zoom: 2,
     maxBounds: maxBounds,
     maxBoundsViscosity: 1.0,
