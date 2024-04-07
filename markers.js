@@ -8,8 +8,8 @@ var hitemIcon = L.divIcon({
     iconSize: null,
     popupAnchor: [0, -10]
 });
-var mitemIcon = L.divIcon({
-    className: 'mitemIcon',
+var tmitemIcon = L.divIcon({
+    className: 'tmitemIcon',
     iconSize: null,
     popupAnchor: [0, -10]
 });
@@ -44,6 +44,8 @@ function markerSet(lat, lng, description, iconimage, world) {
             OverworldBerryItemLayer.addLayer(marker);
         } else if (iconimage == entrance) {
             OverworldEntranceItemLayer.addLayer(marker);
+        } else if (iconimage == tmitemIcon) {
+            OverworldTMItemLayer.addLayer(marker);
         }
     } else if (world == "Petalburg Woods") {
         if (iconimage == hitemIcon) {

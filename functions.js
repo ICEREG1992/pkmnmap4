@@ -12,22 +12,28 @@ map.on('click', function (e) {
     );
 });
 function disableItems() {
-var elements = document.getElementsByClassName('itemIcon');
-for (var i = 0, length = elements.length; i < length; i++) {
-    elements[i].classList.toggle('hidden');
-}
+    var elements = document.getElementsByClassName('itemIcon');
+    for (var i = 0, length = elements.length; i < length; i++) {
+        elements[i].classList.toggle('hidden');
+    }
 }
 function disableHiddenItems() {
-var elements = document.getElementsByClassName('hitemIcon');
-for (var i = 0, length = elements.length; i < length; i++) {
-    elements[i].classList.toggle('hidden');
-}
+    var elements = document.getElementsByClassName('hitemIcon');
+    for (var i = 0, length = elements.length; i < length; i++) {
+        elements[i].classList.toggle('hidden');
+    }
 }
 function disableBerryItems() {
-var elements = document.getElementsByClassName('berryIcon');
-for (var i = 0, length = elements.length; i < length; i++) {
-    elements[i].classList.toggle('hidden');
+    var elements = document.getElementsByClassName('berryIcon');
+    for (var i = 0, length = elements.length; i < length; i++) {
+        elements[i].classList.toggle('hidden');
+    }
 }
+function disableTMItems() {
+    var elements = document.getElementsByClassName('tmitemIcon');
+    for (var i = 0, length = elements.length; i < length; i++) {
+        elements[i].classList.toggle('hidden');
+    }
 }
 function toggleGrid() {
 if (map.hasLayer(Grid)) {
