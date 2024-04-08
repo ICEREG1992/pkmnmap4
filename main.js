@@ -3,6 +3,7 @@ var tileY = 256;
 var bounds = L.latLngBounds(L.latLng(tileX, 0), L.latLng(0, tileY));
 var outOfBoundsInt = 20;
 var maxBounds = L.latLngBounds(L.latLng(tileX - outOfBoundsInt, 0 - outOfBoundsInt), L.latLng(0 + outOfBoundsInt, tileY + outOfBoundsInt));
+var mapTime = 1;
 var map = L.map('map', {
     preferCanvas: true,
     minZoom: 2,
@@ -47,33 +48,48 @@ function pkmnListOutput(str, arr, title, perc) {
     return str;
 }
 function outpkmn(props) {
-    var arr = props.Pokémon;
-    var nodata = false;
-    var arrayPkmn = [];
-    var arrayPkmn2 = [];
-    var arrayPkmnlength = [];
-    str = '<div id="pkmn-list">';
-    str = str + '<div class="pkmn-list-column">' + 'Name' + '</div><div class="pkmn-list-column">' + 'Method' + '</div><div class="pkmn-list-column">' + 'Levels' + '</div><div class="pkmn-list-column">' + 'Rate' + '</div>';
-    for (const [key,value] of Object.entries(arr)) {
-        arrayPkmn[key] = value;
-        arrayPkmn2.push(key);
-        arrayPkmnlength++;
+    const pokemonData = props.Pokémon;
+    var str = '<div id="pkmn-list">';
+    str += '<div class="pkmn-list-column">Name</div><div class="pkmn-list-column">Method</div><div class="pkmn-list-column">Levels</div><div class="pkmn-list-column">Rate</div>';
+
+    if (!pokemonData || Object.keys(pokemonData).length === 0) {
+        return '<div class="pkmn-nodata">No Data Available</div>';
     }
-    for (var ia = 0; ia < arrayPkmnlength; ia++) {
-        var pk = [];
-        arr2 = arr[arrayPkmn[ia]];
-        str = str + '<div class="pkmn-list-row">' + arrayPkmn2[ia] + '</div>';
-        for (const [key,value] of Object.entries(arrayPkmn[arrayPkmn2[ia]])) {
-            pk[key] = value;
+
+    for (const [pokemonName, pokemonAttributes] of Object.entries(pokemonData)) {
+        str += `<div class="pkmn-list-row">${pokemonName}</div>`;
+        
+        for (const attribute of pokemonAttributes) {
+            var useMapTimeLevels = false;
+            var useMapTimeRate = false;
+
+            var levels = attribute.levels;
+            var rate = attribute.rate;
+            
+            if (Array.isArray(levels)) {
+                levels = levels[mapTime];
+                useMapTimeLevels = true;
+            }
+
+            if (Array.isArray(rate)) {
+                rate = rate[mapTime];
+                useMapTimeRate = true;
+            }
+            
+            str += `<div class="pkmn-list-column">${attribute.name}</div>
+                    <div class="pkmn-list-column">${attribute.area}</div>`
+            var levelsdiv = document.createElement('div')
+            levelsdiv.className = useMapTimeLevels ? `pkmn-list-column time${mapTime}` : "pkmn-list-column"
+            levelsdiv.innerHTML = levels
+            str += levelsdiv.outerHTML
+            var ratediv = document.createElement('div')
+            ratediv.className = useMapTimeRate ? `pkmn-list-column time${mapTime}` : "pkmn-list-column"
+            ratediv.innerHTML = rate
+            str += ratediv.outerHTML
         }
-        for (var i = 0; i < (pk.length); i++) {
-            str = str + '' + '<div class="pkmn-list-column">' + pk[i].name + '</div>' + '<div class="pkmn-list-column">' + pk[i].area + '</div>' + '<div class="pkmn-list-column">' + pk[i].levels + '</div>' + '<div class="pkmn-list-column">' + pk[i].rate + '</div>';
-        }
     }
-    str = str + '</div>';
-    if (arrayPkmn2.length === 0) {
-        str = '<div class="pkmn-nodata">No Data Available</div>';
-    }
+
+    str += '</div>';
     return str;
 }
 info.update = function(props) {
@@ -117,4 +133,16 @@ function getCordfromLoc(lat, lng) {
     var latf = ((lat - 0.5) * tileSize - (tileSize / 2));
     var lngf = ((lng + 0.5) * tileSize + (tileSize / 2));
     return [lngf, latf];
+}
+function setMorning() {
+    mapTime = 0;
+    info.update();
+}
+function setDay() {
+    mapTime = 1;
+    info.update();
+}
+function setNight() {
+    mapTime = 2;
+    info.update();
 }
