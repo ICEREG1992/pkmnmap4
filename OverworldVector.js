@@ -589,111 +589,100 @@ var OverworldVectorData = {
     }, {
         "type": "Feature",
         "properties": {
-            "name": "Route 113",
+            "name": "Route 203",
             "world": "Overworld",
             "Pokémon": {
                 "Grass": [{
-                    "name": "Slugma",
+                    "name": "Zubat",
                     "area": "Grass",
-                    "levels": "14-16",
+                    "levels": "4",
+                    "rate": ['0%', '0%', '10%'],
+                }, {
+                    "name": "Abra",
+                    "area": "Grass",
+                    "levels": "4-5",
+                    "rate": '15%',
+                }, {
+                    "name": "Starly",
+                    "area": "Grass",
+                    "levels": ["4-7", "4-7", "4, 6, 7"],
+                    "rate": ['35%', '35%', '25%'],
+                }, {
+                    "name": "Bidoof",
+                    "area": "Grass",
+                    "levels": ['5-7', '4-7', '5-7'],
+                    "rate": ['15%', '25%', '15%'],
+                }, {
+                    "name": "Kricketot",
+                    "area": "Grass",
+                    "levels": ['4', '0', '5'],
+                    "rate": ['10%', '0%', '10%'],
+                }, {
+                    "name": "Shinx",
+                    "area": "Grass",
+                    "levels": "4-5",
                     "rate": '25%',
+                }, ],
+                "Surfing": [{
+                    "name": "Psyduck",
+                    "area": "Surfing",
+                    "levels": "20-30",
+                    "rate": '90%',
                 }, {
-                    "name": "Skarmory",
-                    "area": "Grass",
-                    "levels": "16",
-                    "rate": '5%',
+                    "name": "Golduck",
+                    "area": "Surfing",
+                    "levels": "20-40",
+                    "rate": '10%',
+                }, ],
+                "Fishing": [{
+                    "name": "Maggikarp",
+                    "area": "Old Rod",
+                    "levels": "3-15",
+                    "rate": '100%',
                 }, {
-                    "name": "Spinda",
-                    "area": "Grass",
-                    "levels": "14-16",
-                    "rate": '70%',
+                    "name": "Goldeen",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '45%',
+                }, {
+                    "name": "Magikarp",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '55%',
+                }, {
+                    "name": "Seaking",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '45%',
+                }, {
+                    "name": "Gyarados",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '55%',
                 }, ]
             }
         },
         "geometry": {
             "type": "Polygon",
-            "coordinates": [[getCordfromLoc(1, 99), getCordfromLoc(1, 199), getCordfromLoc(-19, 199), getCordfromLoc(-19, 99), getCordfromLoc(1, 99)]]
+            "coordinates": [[getCordfromLoc(-363.125, 241), getCordfromLoc(-386.125, 241), getCordfromLoc(-386.125, 303.1875), getCordfromLoc(-363.125, 303.1875), getCordfromLoc(-363.125, 241)]]
         }
     }, {
         "type": "Feature",
         "properties": {
-            "name": "Route 111",
+            "name": "Oreburgh City",
             "world": "Overworld",
             "Pokémon": {
-                "Grass": [{
-                    "name": "Sandshrew",
-                    "area": "Deep Sand",
-                    "levels": "19-21",
-                    "rate": '35%',
-                }, {
-                    "name": "Trapinch",
-                    "area": "Deep Sand",
-                    "levels": "19-21",
-                    "rate": '35%',
-                }, {
-                    "name": "Cacnea",
-                    "area": "Deep Sand",
-                    "levels": "20, 22",
-                    "rate": '6%',
-                }, {
-                    "name": "Baltoy",
-                    "area": "Deep Sand",
-                    "levels": "19-21",
-                    "rate": '24%',
-                }, ],
-                "Rock Smash": [{
-                    "name": "Geodude",
-                    "area": "Rock Smash",
-                    "levels": "5-20",
-                    "rate": '100%',
-                }, ],
-                "Surfing": [{
-                    "name": "Goldeen",
-                    "area": "Surfing",
-                    "levels": "5-35",
-                    "rate": '1%',
-                }, {
-                    "name": "Marill",
-                    "area": "Surfing",
-                    "levels": "10-30",
-                    "rate": '99%',
-                }, ],
-                "Fishing": [{
-                    "name": "Goldeen",
-                    "area": "Old Rod",
-                    "levels": "5-10",
-                    "rate": '30%',
-                }, {
-                    "name": "Magikarp",
-                    "area": "Old Rod",
-                    "levels": "5-10",
-                    "rate": '70%',
-                }, {
-                    "name": "Goldeen",
-                    "area": "Good Rod",
-                    "levels": "10-30",
-                    "rate": '20%',
-                }, {
-                    "name": "Magikarp",
-                    "area": "Good Rod",
-                    "levels": "10-30",
-                    "rate": '60%',
-                }, {
-                    "name": "Barboach",
-                    "area": "Good Rod",
-                    "levels": "10-30",
-                    "rate": '20%',
-                }, {
-                    "name": "Barboach",
-                    "area": "Super Rod",
-                    "levels": "20-45",
-                    "rate": '100%',
+                "Trade": [{
+                    "name": "Abra",
+                    "area": "Trade Machop",
+                    "levels": "The same as the traded Pokémon",
+                    "rate": 'One',
                 }, ]
             }
         },
         "geometry": {
             "type": "Polygon",
-            "coordinates": [[getCordfromLoc(1, 199), getCordfromLoc(1, 239), getCordfromLoc(-139, 239), getCordfromLoc(-139, 199), getCordfromLoc(1, 199)]]
+            "coordinates": [[getCordfromLoc(-361.75, 303.1875), getCordfromLoc(-413, 303.1875), getCordfromLoc(-413, 367.1875), getCordfromLoc(-361.75, 367.1875), getCordfromLoc(-361.75, 303.1875)]]
         }
     }, {
         "type": "Feature",
