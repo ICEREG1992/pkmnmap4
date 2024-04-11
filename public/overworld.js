@@ -1,4 +1,4 @@
-var Overworld = L.tileLayer('Tilesets/Overworld/{z}/{y}/{x}.png', {
+var Overworld = L.tileLayer('tilesets/overworld/{z}/{y}/{x}.png', {
     tms: false,
     reuseTiles: true,
     attribution: 'Original by <a target="_blank" href="http://www.jaxsonkeenes.com">Jaxson Keenes</a> | Gen 4 Update by <a target="_blank" href="https://github.com/ICEREG1992">William_Williams</a>',

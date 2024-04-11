@@ -22,7 +22,7 @@ new L.Control.Zoom({
     position: 'bottomright'
 }).addTo(map);
 var LocationArray = [];
-var Grid = L.tileLayer('Tilesets/Grid/{z}/{x}/{y}.png', {
+var Grid = L.tileLayer('tilesets/grid/{z}/{x}/{y}.png', {
     tms: false,
     reuseTiles: true,
     attribution: 'Original by <a target="_blank" href="http://www.jaxsonkeenes.com">Jaxson Keenes</a> | Gen 4 Update by <a target="_blank" href="https://github.com/ICEREG1992">William_Williams</a>',
