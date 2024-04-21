@@ -25,7 +25,7 @@ def ImageToSizes(source, dest):
             print("Exporting size " + str(ind))
             #export each smaller version
             with img.clone() as i:
-                i.resize(dim[0], dim[1], filter='point')
+                i.resize(dim[0], dim[1], filter='triangle') # bilinear filter
                 i.save(filename=dest+'\\maps\\'+str(ind)+'.png')
                 pass
             dim = (int(dim[0]/2), int(dim[1]/2))
