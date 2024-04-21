@@ -1086,97 +1086,13 @@ var OverworldVectorData = {
     }, {
         "type": "Feature",
         "properties": {
-            "name": "Route 110",
+            "name": "Eterna Forest (Exterior)",
             "world": "Overworld",
-            "Pokémon": {
-                "Grass": [{
-                    "name": "Oddish",
-                    "area": "Grass",
-                    "levels": "13",
-                    "rate": '10%',
-                }, {
-                    "name": "Poochyena",
-                    "area": "Grass",
-                    "levels": "12",
-                    "rate": '20%',
-                }, {
-                    "name": "Wingull",
-                    "area": "Grass",
-                    "levels": "12",
-                    "rate": '8%',
-                }, {
-                    "name": "Electrike",
-                    "area": "Grass",
-                    "levels": "12-13",
-                    "rate": '30%',
-                }, {
-                    "name": "Plusle",
-                    "area": "Grass",
-                    "levels": "12-13",
-                    "rate": '2%',
-                }, {
-                    "name": "Minun",
-                    "area": "Grass",
-                    "levels": "13",
-                    "rate": '15%',
-                }, {
-                    "name": "Gulpin",
-                    "area": "Grass",
-                    "levels": "12-13",
-                    "rate": '15%',
-                }, ],
-                "Surfing": [{
-                    "name": "Tentacool",
-                    "area": "Surfing",
-                    "levels": "5-35",
-                    "rate": '60%',
-                }, {
-                    "name": "Wingull",
-                    "area": "Surfing",
-                    "levels": "10-30",
-                    "rate": '35%',
-                }, {
-                    "name": "Pelipper",
-                    "area": "Surfing",
-                    "levels": "25-30",
-                    "rate": '5%',
-                }, ],
-                "Fishing": [{
-                    "name": "Tentacool",
-                    "area": "Old Rod",
-                    "levels": "5-10",
-                    "rate": '30%',
-                }, {
-                    "name": "Magikarp",
-                    "area": "Old Rod",
-                    "levels": "5-10",
-                    "rate": '70%',
-                }, {
-                    "name": "Tentacool",
-                    "area": "Good Rod",
-                    "levels": "10-30",
-                    "rate": '20%',
-                }, {
-                    "name": "Magikarp",
-                    "area": "Good Rod",
-                    "levels": "10-30",
-                    "rate": '60%',
-                }, {
-                    "name": "Wailmer",
-                    "area": "Good Rod",
-                    "levels": "10-30",
-                    "rate": '20%',
-                }, {
-                    "name": "Wailmer",
-                    "area": "Super Rod",
-                    "levels": "20-45",
-                    "rate": '100%',
-                }, ]
-            }
+            "Pokémon": {}
         },
         "geometry": {
             "type": "Polygon",
-            "coordinates": [[getCordfromLoc(-159, 199), getCordfromLoc(-159, 239), getCordfromLoc(-259, 239), getCordfromLoc(-259, 199), getCordfromLoc(-159, 199)]]
+            "coordinates": [[getCordfromLoc(-198.0625, 257.25), getCordfromLoc(-235.375, 257.25), getCordfromLoc(-235.375, 303.5), getCordfromLoc(-198.0625, 303.5), getCordfromLoc(-198.0625, 257.25)]]
         }
     }, {
         "type": "Feature",
