@@ -1325,6 +1325,503 @@ var OverworldVectorData = {
             "type": "Polygon",
             "coordinates": [[getCordfromLoc(-335.75, 335.1875), getCordfromLoc(-361.75, 335.1875), getCordfromLoc(-361.75, 402.0625), getCordfromLoc(-335.75, 402.0625), getCordfromLoc(-335.75, 335.1875)]]
         }
-    }, 
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Route 211 (West)",
+            "world": "Overworld",
+            "Pokémon": {
+                "Grass": [{
+                    "name": "Zubat",
+                    "area": "Grass",
+                    "levels": "14",
+                    "rate": ['0%', '0%', '10%'],
+                }, {
+                    "name": "Machop",
+                    "area": "Grass",
+                    "levels": "14-15",
+                    "rate": "15%",
+                }, {
+                    "name": "Hoothoot",
+                    "area": "Grass",
+                    "levels": "15",
+                    "rate": ['0%', '0%', '10%'],
+                }, {
+                    "name": "Meditite",
+                    "area": "Grass",
+                    "levels": ['13-15', '13-15', '13'],
+                    "rate": ['40%', '40%', '20%'],
+                }, {
+                    "name": "Bidoof",
+                    "area": "Grass",
+                    "levels": "14",
+                    "rate": "20%",
+                }, {
+                    "name": "Chingling",
+                    "area": "Grass",
+                    "levels": "14, 16",
+                    "rate": "15%",
+                }, {
+                    "name": "Bronzor",
+                    "area": "Grass",
+                    "levels": "14, 16",
+                    "rate": "10%",
+                }, ]
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[getCordfromLoc(-189.25, 399.1875), getCordfromLoc(-211.375, 399.1875), getCordfromLoc(-211.375, 432.6875), getCordfromLoc(-189.25, 432.6875), getCordfromLoc(-189.25, 399.1875)]]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Route 211 (East)",
+            "world": "Overworld",
+            "Pokémon": {
+                "Grass": [{
+                    "name": "Zubat",
+                    "area": "Grass",
+                    "levels": "28",
+                    "rate": ['0%', '0%', '10%'],
+                }, {
+                    "name": "Machoke",
+                    "area": "Grass",
+                    "levels": "29-30",
+                    "rate": "15%",
+                }, {
+                    "name": "Graveler",
+                    "area": "Grass",
+                    "levels": "28",
+                    "rate": "20%",
+                }, {
+                    "name": "Noctowl",
+                    "area": "Grass",
+                    "levels": "29",
+                    "rate": ['0%', '0%', '10%'],
+                }, {
+                    "name": "Meditite",
+                    "area": "Grass",
+                    "levels": ['27-29', '27-29', '27'],
+                    "rate": ['40%', '40%', '20%'],
+                }, {
+                    "name": "Chingling",
+                    "area": "Grass",
+                    "levels": "28, 30",
+                    "rate": "15%",
+                }, {
+                    "name": "Bronzor",
+                    "area": "Grass",
+                    "levels": "29",
+                    "rate": "10%",
+                }, ]
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[getCordfromLoc(-187.0625, 432.6875), getCordfromLoc(-214.625, 432.6875), getCordfromLoc(-214.625, 466.125), getCordfromLoc(-187.0625, 466.125), getCordfromLoc(-187.0625, 432.6875)]]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Celestic Town",
+            "world": "Overworld",
+            "Pokémon": {
+                "Surfing": [{
+                    "name": "Psyduck",
+                    "area": "Surfing",
+                    "levels": "20-30",
+                    "rate": '90%',
+                }, {
+                    "name": "Golduck",
+                    "area": "Surfing",
+                    "levels": "20-40",
+                    "rate": "10%",
+                }, ],
+                "Fishing": [{
+                    "name": "Magikarp",
+                    "area": "Old Rod",
+                    "levels": "3-15",
+                    "rate": '100%',
+                }, {
+                    "name": "Magikarp",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '55%',
+                }, {
+                    "name": "Goldeen",
+                    "area": "Good Rod",
+                    "levels": "15-35",
+                    "rate": '45%',
+                }, {
+                    "name": "Seaking",
+                    "area": "Super Rod",
+                    "levels": "40-55",
+                    "rate": '5%',
+                }, {
+                    "name": "Gyarados",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '40%',
+                }, {
+                    "name": "Corphish",
+                    "area": "Super Rod",
+                    "levels": "30-40",
+                    "rate": '40%',
+                }, {
+                    "name": "Crawdaunt",
+                    "area": "Super Rod",
+                    "levels": "40-55",
+                    "rate": '15%',
+                }, ]
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[getCordfromLoc(-186.0625, 466.125), getCordfromLoc(-215.3125, 466.125), getCordfromLoc(-215.3125, 498.125), getCordfromLoc(-186.0625, 498.125), getCordfromLoc(-186.0625, 466.125)]]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Route 210 (North)",
+            "world": "Overworld",
+            "Pokémon": {
+                "Grass": [{
+                    "name": "Machop",
+                    "area": "Grass",
+                    "levels": "28-29",
+                    "rate": '15%',
+                }, {
+                    "name": "Machoke",
+                    "area": "Grass",
+                    "levels": "29-30",
+                    "rate": '10%',
+                }, {
+                    "name": "Scyther",
+                    "area": "Grass",
+                    "levels": ['27, 29', '29', '29'],
+                    "rate": ['15%', '5%', '5%'],
+                }, {
+                    "name": "Hoothoot",
+                    "area": "Grass",
+                    "levels": "27",
+                    "rate": ['0%', '0%', '10%'],
+                }, {
+                    "name": "Noctowl",
+                    "area": "Grass",
+                    "levels": "27",
+                    "rate": ['0%', '0%', '10%'],
+                }, {
+                    "name": "Meditite",
+                    "area": "Grass",
+                    "levels": ['27, 29', '27, 29', '29'],
+                    "rate": ['20%', '20%', '10%'],
+                }, {
+                    "name": "Swablu",
+                    "area": "Grass",
+                    "levels": "27",
+                    "rate": ['20%', '30%', '20%'],
+                }, {
+                    "name": "Bibarel",
+                    "area": "Grass",
+                    "levels": "28",
+                    "rate": '20%',
+                }, ],
+                "Surfing": [{
+                    "name": "Psyduck",
+                    "area": "Surfing",
+                    "levels": "20-30",
+                    "rate": '90%',
+                }, {
+                    "name": "Golduck",
+                    "area": "Surfing",
+                    "levels": "20-40",
+                    "rate": "10%",
+                }, ],
+                "Fishing": [{
+                    "name": "Magikarp",
+                    "area": "Old Rod",
+                    "levels": "3-15",
+                    "rate": '100%',
+                }, {
+                    "name": "Magikarp",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '55%',
+                }, {
+                    "name": "Barboach",
+                    "area": "Good Rod",
+                    "levels": "15-20",
+                    "rate": '40%',
+                }, {
+                    "name": "Whiscash",
+                    "area": "Good Rod",
+                    "levels": "25-35",
+                    "rate": '5%',
+                }, {
+                    "name": "Gyarados",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '55%',
+                }, {
+                    "name": "Whiscash",
+                    "area": "Super Rod",
+                    "levels": "20-50",
+                    "rate": '45%',
+                }, ]
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[getCordfromLoc(-191.4375, 498.125), getCordfromLoc(-214.5, 498.125), getCordfromLoc(-214.5, 562.6875), getCordfromLoc(-217.375, 562.6875), getCordfromLoc(-217.375, 596.125), getCordfromLoc(-191.4375, 596.125), getCordfromLoc(-191.4375, 498.125)]]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Route 210 (South)",
+            "world": "Overworld",
+            "Pokémon": {
+                "Grass": [{
+                    "name": "Geodude",
+                    "area": "Grass",
+                    "levels": "18",
+                    "rate": "20%'",
+                }, {
+                    "name": "Ponyta",
+                    "area": "Grass",
+                    "levels": ['19-21', '19-21', '19, 21'],
+                    "rate": ['25%', '35%', '15%'],
+                }, {
+                    "name": "Chansey",
+                    "area": "Grass",
+                    "levels": "19, 21",
+                    "rate": "5%",
+                }, {
+                    "name": "Scyther",
+                    "area": "Grass",
+                    "levels": ['19, 21', '19', '19'],
+                    "rate": ['15%', '5%', '5%'],
+                }, {
+                    "name": "Hoothoot",
+                    "area": "Grass",
+                    "levels": "20",
+                    "rate": ['0%', '0%', '10%'],
+                }, {
+                    "name": "Noctowl",
+                    "area": "Grass",
+                    "levels": "21",
+                    "rate": ['0%', '0%', '10%'],
+                }, {
+                    "name": "Roselia",
+                    "area": "Grass",
+                    "levels": "20-21",
+                    "rate": "15%",
+                }, {
+                    "name": "Staravia",
+                    "area": "Grass",
+                    "levels": "19",
+                    "rate": "20%",
+                }, ]
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[getCordfromLoc(-217.375, 562.6875), getCordfromLoc(-291.625, 562.6875), getCordfromLoc(-291.625, 596.125), getCordfromLoc(-217.375, 596.125), getCordfromLoc(-217.375, 562.6875)]]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Solaceon Town",
+            "world": "Overworld",
+            "Pokémon": {}
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[getCordfromLoc(-291.625, 560.625), getCordfromLoc(-317.375, 560.625), getCordfromLoc(-317.375, 626.0625), getCordfromLoc(-291.625, 626.0625), getCordfromLoc(-291.625, 560.625)]]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Route 209",
+            "world": "Overworld",
+            "Pokémon": {
+                "Grass": [{
+                    "name": "Zubat",
+                    "area": "Grass",
+                    "levels": "19",
+                    "rate": ['0%', '0%', '10%'],
+                }, {
+                    "name": "Chansey",
+                    "area": "Grass",
+                    "levels": "17, 19",
+                    "rate": '5%',
+                }, {
+                    "name": "Ralts",
+                    "area": "Grass",
+                    "levels": ['17-19', '17-19', '18-19'],
+                    "rate": ['20%', '20%', '10%'],
+                }, {
+                    "name": "Roselia",
+                    "area": "Grass",
+                    "levels": "19-20",
+                    "rate": "25%",
+                }, {
+                    "name": "Duskull",
+                    "area": "Grass",
+                    "levels": "17",
+                    "rate": ['0%', '0%', '10%'],
+                }, {
+                    "name": "Staravia",
+                    "area": "Grass",
+                    "levels": ['18-19', '18-19', '18'],
+                    "rate": ['20%', '20%', '10%'],
+                }, {
+                    "name": "Bibarel",
+                    "area": "Grass",
+                    "levels": "18-19",
+                    "rate": "30%",
+                }, ],
+                "Surfing": [{
+                    "name": "Psyduck",
+                    "area": "Surfing",
+                    "levels": "20-30",
+                    "rate": '90%',
+                }, {
+                    "name": "Golduck",
+                    "area": "Surfing",
+                    "levels": "20-40",
+                    "rate": "10%",
+                }, ],
+                "Fishing": [{
+                    "name": "Magikarp",
+                    "area": "Old Rod",
+                    "levels": "3-15",
+                    "rate": '100%',
+                }, {
+                    "name": "Goldeen",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '35%',
+                }, {
+                    "name": "Magikarp",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '65%',
+                }, {
+                    "name": "Seaking",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '35%',
+                }, {
+                    "name": "Gyarados",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '65%',
+                }, ]
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[getCordfromLoc(-317.375, 529.8125), getCordfromLoc(-367.9375, 529.8125), getCordfromLoc(-367.9375, 594.5625), getCordfromLoc(-317.375, 594.5625), getCordfromLoc(-317.375, 529.8125)]]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Hearthome City",
+            "world": "Overworld",
+            "Pokémon": {
+                "Gifts":[{
+                    "name": "Eevee",
+                    "area": "Gift",
+                    "levels": "20",
+                    "rate": "One",
+                }, ]
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[getCordfromLoc(-317.125, 465.5), getCordfromLoc(-366.3125, 465.5), getCordfromLoc(-366.3125, 529.8125), getCordfromLoc(-317.125, 529.8125), getCordfromLoc(-317.125, 465.5)]]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Route 208",
+            "world": "Overworld",
+            "Pokémon": {
+                "Grass": [{
+                    "name": "Zubat",
+                    "area": "Grass",
+                    "levels": "19",
+                    "rate": ['0%', '0%', '10%'],
+                }, {
+                    "name": "Ralts",
+                    "area": "Grass",
+                    "levels": "17-18",
+                    "rate": "15%",
+                }, {
+                    "name": "Roselia",
+                    "area": "Grass",
+                    "levels": "19-20",
+                    "rate": "15%",
+                }, {
+                    "name": "Bidoof",
+                    "area": "Grass",
+                    "levels": "18",
+                    "rate": "20%",
+                }, {
+                    "name": "Bibarel",
+                    "area": "Grass",
+                    "levels": "18-20",
+                    "rate": "20%",
+                }, {
+                    "name": "Budew",
+                    "area": "Grass",
+                    "levels": ['18-19', '18-19', '18'],
+                    "rate": ['30%', '30%', '20%'],
+                }, ],
+                "Surfing": [{
+                    "name": "Psyduck",
+                    "area": "Surfing",
+                    "levels": "20",
+                    "rate": '90%',
+                }, {
+                    "name": "Golduck",
+                    "area": "Surfing",
+                    "levels": "20-40",
+                    "rate": "10%",
+                }, ],
+                "Fishing": [{
+                    "name": "Magikarp",
+                    "area": "Old Rod",
+                    "levels": "3-15",
+                    "rate": '100%',
+                }, {
+                    "name": "Goldeen",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '45%',
+                }, {
+                    "name": "Magikarp",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '55%',
+                }, {
+                    "name": "Seaking",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '45%',
+                }, {
+                    "name": "Gyarados",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '55%',
+                }, ]
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[getCordfromLoc(-337.9375, 402.0625), getCordfromLoc(-365.9375, 402.0625), getCordfromLoc(-365.9375, 465.5), getCordfromLoc(-337.9375, 465.5), getCordfromLoc(-337.9375, 402.0625)]]
+        }
+    },
     ]
 }
