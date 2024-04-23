@@ -5,7 +5,7 @@ The site is available at <https://pkmnmap4.web.app/>.
 
 # how to generate a new tileset
 1. Procure a high-resolution map of whatever you want to make a tileset out of. make sure the dimensions of the map image are easily halved, don't worry if you have to add a lot of whitespace
-1. I've included my personal script for converting a large png into a tileset with multiple zoom levels in this respository as ImgToTileset.py. It will resize your map to the various zoom levels, and for each resize it will split the image into 256x256 pixel tiles which then get arranged into the proper directory structure for Leaflet to be able to render your map.
+1. I've included my personal script for converting a large png into a tileset with multiple zoom levels in this respository as `ImageToTileset` in `HelperTools.py`. It will resize your map to the various zoom levels, and for each resize it will split the image into 256x256 pixel tiles which then get arranged into the proper directory structure for Leaflet to be able to render your map.
 1. install [ImageMagick](https://imagemagick.org/index.php)
 1. install wand as a prerequisite for HelperTools.py
 1. Run the following in your favorite Python interpreter:
