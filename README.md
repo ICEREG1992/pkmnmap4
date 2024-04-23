@@ -14,3 +14,14 @@ from HelperTools import ImageToTileset
 ImageToTileset(r"[path to your png map]", r"[directory you want the tileset to be placed]")
 ```
 6. To see your new map, you can update Overworld.js to point to the tileset directory, just make sure to change `tileX` and `tileY` in main.js to be representative of your map's aspect ratio.
+
+# how to create new regions
+1. Open your final map png in an image editor like Paint.NET
+1. Select the area you wish to turn into a clickable region
+1. Make note of the following values: Selection top left coordinate, selection width and height.
+1. Insert those values into my helper function:
+```
+from HelperTools import Translate
+Translate(x, y, w, h)
+```
+5. Copy and paste the output into the "coordinates" property of a feature in one of the vector js files.
