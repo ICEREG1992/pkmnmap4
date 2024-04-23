@@ -47,7 +47,7 @@ var OverworldVectorData = {
         },
         "geometry": {
             "type": "Polygon",
-            "coordinates": [[getCordfromLoc(-462.4375, 142.9375), getCordfromLoc(-486.25, 142.9375), getCordfromLoc(-486.25, 174.9375), getCordfromLoc(-462.4375, 174.9375), getCordfromLoc(-462.4375, 142.9375)]]
+            "coordinates": [[getCordfromLoc(-462.375, 142.9375), getCordfromLoc(-486.25, 142.9375), getCordfromLoc(-486.25, 174.9375), getCordfromLoc(-462.375, 174.9375), getCordfromLoc(-462.375, 142.9375)]]
         }
     }, {
         "type": "Feature",
@@ -91,7 +91,7 @@ var OverworldVectorData = {
         },
         "geometry": {
             "type": "Polygon",
-            "coordinates": [[getCordfromLoc(-444.6825, 117.9375), getCordfromLoc(-462.375, 117.9375), getCordfromLoc(-462.375, 205.5), getCordfromLoc(-440.375, 205.5), getCordfromLoc(-440.375, 141.4375), getCordfromLoc(-444.6825, 141.4375)]]
+            "coordinates": [[getCordfromLoc(-440.375, 117.9375), getCordfromLoc(-462.375, 117.9375), getCordfromLoc(-462.375, 207.9375), getCordfromLoc(-440.375, 207.9375), getCordfromLoc(-440.375, 117.9375)]]
         }
     }, {
         "type": "Feature",
@@ -156,7 +156,7 @@ var OverworldVectorData = {
         },
         "geometry": {
             "type": "Polygon",
-            "coordinates": [[getCordfromLoc(-404.125, 87.4375), getCordfromLoc(-444.625, 87.4375), getCordfromLoc(-444.625, 141.4375), getCordfromLoc(-404.125, 141.4375), getCordfromLoc(-404.125, 87.4375)]]
+            "coordinates": [[getCordfromLoc(-404.125, 87.4375), getCordfromLoc(-440.375, 87.4375), getCordfromLoc(-440.375, 141.4375), getCordfromLoc(-404.125, 141.4375), getCordfromLoc(-404.125, 87.4375)]]
         }
     }, {
         "type": "Feature",
@@ -167,7 +167,7 @@ var OverworldVectorData = {
         },
         "geometry": {
             "type": "Polygon",
-            "coordinates": [[getCordfromLoc(-438.5625, 205.5), getCordfromLoc(-462.375, 205.5), getCordfromLoc(-462.375, 238.9375), getCordfromLoc(-438.5625, 238.9375), getCordfromLoc(-438.5625, 205.5)]]
+            "coordinates": [[getCordfromLoc(-440.375, 207.9375), getCordfromLoc(-462.375, 207.9375), getCordfromLoc(-462.375, 238.9375), getCordfromLoc(-440.375, 238.9375), getCordfromLoc(-440.375, 207.9375)]]
         }
     }, {
         "type": "Feature",
@@ -1093,6 +1093,237 @@ var OverworldVectorData = {
         "geometry": {
             "type": "Polygon",
             "coordinates": [[getCordfromLoc(-198.0625, 257.25), getCordfromLoc(-235.375, 257.25), getCordfromLoc(-235.375, 303.5), getCordfromLoc(-198.0625, 303.5), getCordfromLoc(-198.0625, 257.25)]]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Route 205 (North)",
+            "world": "Overworld",
+            "Pokémon": {
+                "Grass": [{
+                    "name": "Hoothoot",
+                    "area": "Grass",
+                    "levels": "12",
+                    "rate": ['0%', '0%', '10%'],
+                }, {
+                    "name": "Wurmple",
+                    "area": "Grass",
+                    "levels": "13",
+                    "rate": ['10%', '10%', '0%'],
+                }, {
+                    "name": "Silcoon",
+                    "area": "Grass",
+                    "levels": "14",
+                    "rate": '10%',
+                }, {
+                    "name": "Beautifly",
+                    "area": "Grass",
+                    "levels": "15",
+                    "rate": '1%',
+                }, {
+                    "name": "Cascoon",
+                    "area": "Grass",
+                    "levels": "14",
+                    "rate": '10%',
+                }, {
+                    "name": "Dustox",
+                    "area": "Grass",
+                    "levels": "15",
+                    "rate": '1%',
+                }, {
+                    "name": "Bidoof",
+                    "area": "Grass",
+                    "levels": "12-14",
+                    "rate": '30%',
+                }, {
+                    "name": "Kricketot",
+                    "area": "Grass",
+                    "levels": ["12-13", '0', '13'],
+                    "rate": ['10%', '0%', '10%'],
+                }, {
+                    "name": "Budew",
+                    "area": "Grass",
+                    "levels": "12-14",
+                    "rate": ['28%', '38%', '28%'],
+                }, ],
+                "Surfing": [{
+                    "name": "Psyduck",
+                    "area": "Surfing",
+                    "levels": "20-30",
+                    "rate": '90%',
+                }, {
+                    "name": "Golduck",
+                    "area": "Surfing",
+                    "levels": "20-40",
+                    "rate": '10%',
+                }, ],
+                "Fishing": [{
+                    "name": "Magikarp",
+                    "area": "Old Rod",
+                    "levels": "3-15",
+                    "rate": '100%',
+                }, {
+                    "name": "Magikarp",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '55%',
+                }, {
+                    "name": "Barboach",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '45%',
+                }, {
+                    "name": "Gyarados",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '55%',
+                }, {
+                    "name": "Whiscash",
+                    "area": "Super Rod",
+                    "levels": "20-50",
+                    "rate": '45%',
+                }, ]
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[getCordfromLoc(-187.3125, 303.5), getCordfromLoc(-212.25, 303.5), getCordfromLoc(-212.25, 335.1875), getCordfromLoc(-187.3125, 335.1875), getCordfromLoc(-187.3125, 303.5)]]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Eterna City",
+            "world": "Overworld",
+            "Pokémon": {
+                "Surfing": [{
+                    "name": "Psyduck",
+                    "area": "Surfing",
+                    "levels": "20-30",
+                    "rate": '90%',
+                }, {
+                    "name": "Golduck",
+                    "area": "Surfing",
+                    "levels": "20-40",
+                    "rate": '10%',
+                }, ],
+                "Fishing": [{
+                    "name": "Magikarp",
+                    "area": "Old Rod",
+                    "levels": "3-15",
+                    "rate": '100%',
+                }, {
+                    "name": "Magikarp",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '55%',
+                }, {
+                    "name": "Barboach",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '45%',
+                }, {
+                    "name": "Gyarados",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '55%',
+                }, {
+                    "name": "Whiscash",
+                    "area": "Super Rod",
+                    "levels": "20-50",
+                    "rate": '45%',
+                }, ],
+                "Gifts": [{
+                    "name": "Togepi",
+                    "area": "Egg",
+                    "levels": "1",
+                    "rate": "One",
+                }]
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[getCordfromLoc(-184.625, 335.1875), getCordfromLoc(-236.375, 335.1875), getCordfromLoc(-236.375, 399.1875), getCordfromLoc(-184.625, 399.1875), getCordfromLoc(-184.625, 335.1875)]]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Route 206",
+            "world": "Overworld",
+            "Pokémon": {
+                "Grass": [{
+                    "name": "Zubat",
+                    "area": "Grass",
+                    "levels": "17",
+                    "rate": ['0%', '0%', '10%'],
+                }, {
+                    "name": "Machop",
+                    "area": "Grass",
+                    "levels": "17-19",
+                    "rate": "20%",
+                }, {
+                    "name": "Geodude",
+                    "area": "Grass",
+                    "levels": "16, 18",
+                    "rate": '30%',
+                }, {
+                    "name": "Ponyta",
+                    "area": "Grass",
+                    "levels": ['16', '16-17', '16'],
+                    "rate": ['20%', '30%', '20%'],
+                }, {
+                    "name": "Gligar",
+                    "area": "Grass",
+                    "levels": ['16, 18', '16, 18', '16'],
+                    "rate": ['20%', '20%', '10%'],
+                }, {
+                    "name": "Kricketune",
+                    "area": "Grass",
+                    "levels": ['17', '0', '18'],
+                    "rate": ['10%', '0%', '10%'],
+                }, ]
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[getCordfromLoc(-236.375, 338.125), getCordfromLoc(-335.75, 338.125), getCordfromLoc(-335.75, 365.25), getCordfromLoc(-236.375, 365.25), getCordfromLoc(-236.375, 338.125)]]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Route 207",
+            "world": "Overworld",
+            "Pokémon": {
+                "Grass": [{
+                    "name": "Zubat",
+                    "area": "Grass",
+                    "levels": "5",
+                    "rate": ['0%', '0%', '10%'],
+                }, {
+                    "name": "Machop",
+                    "area": "Grass",
+                    "levels": ['6-8', '5-8', '6-8'],
+                    "rate": ['35%', '45%', '35%'],
+                }, {
+                    "name": "Geodude",
+                    "area": "Grass",
+                    "levels": "5-7",
+                    "rate": '30%',
+                }, {
+                    "name": "Ponyta",
+                    "area": "Grass",
+                    "levels": ['5-7', '5-7', '5, 7'],
+                    "rate": ['25%', '25%', '15%'],
+                }, {
+                    "name": "Kricketot",
+                    "area": "Grass",
+                    "levels": ['5', '0', '6'],
+                    "rate": ['10%', '0%', '10%'],
+                }, ]
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[getCordfromLoc(-335.75, 335.1875), getCordfromLoc(-361.75, 335.1875), getCordfromLoc(-361.75, 402.0625), getCordfromLoc(-335.75, 402.0625), getCordfromLoc(-335.75, 335.1875)]]
         }
     }, 
     ]

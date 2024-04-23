@@ -35,14 +35,17 @@ function disableTMItems() {
         elements[i].classList.toggle('hidden');
     }
 }
-function toggleGrid() {
-if (map.hasLayer(Grid)) {
-    map.removeLayer(Grid);
-    console.log('Grid removed');
-} else {
-    map.addLayer(Grid);
-    console.log('Grid added');
+function setMorning() {
+    mapTime = 0;
+    info.update(oldtarget.feature.properties);
 }
+function setDay() {
+    mapTime = 1;
+    info.update(oldtarget.feature.properties);
+}
+function setNight() {
+    mapTime = 2;
+    info.update(oldtarget.feature.properties);
 }
 var content = document.getElementById('controls');
 var swch = 0;

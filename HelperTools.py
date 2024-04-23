@@ -56,3 +56,13 @@ def GridToTileset(source, dest, width):
         shutil.move(source+'\\'+f, dest+'\\'+str(ptr2)+'\\'+str(ptr)+'.png')
         ptr = ptr + 1
         ptr = ptr % width
+
+def Translate(x, y, w, h):
+    x1 = (x / 16) - 1
+    y1 = -((y / 16) - 1)
+    w = w / 16
+    h = h / 16
+    x2 = x1 + w
+    y2 = y1 - h
+    return f"[[getCordfromLoc({y1}, {x1}), getCordfromLoc({y2}, {x1}), getCordfromLoc({y2}, {x2}), getCordfromLoc({y1}, {x2}), getCordfromLoc({y1}, {x1})]]"
+    # [[getCordfromLoc(-234.0625, 207.5), getCordfromLoc(-262.5625, 207.5), getCordfromLoc(-262.5625, 239.5), getCordfromLoc(-234.0625, 239.5), getCordfromLoc(-234.0625, 207.5)]]

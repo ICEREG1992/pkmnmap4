@@ -134,15 +134,3 @@ function getCordfromLoc(lat, lng) {
     var lngf = ((lng + 0.5) * tileSize + (tileSize / 2));
     return [lngf, latf];
 }
-function setMorning() {
-    mapTime = 0;
-    info.update();
-}
-function setDay() {
-    mapTime = 1;
-    info.update();
-}
-function setNight() {
-    mapTime = 2;
-    info.update();
-}
