@@ -2311,6 +2311,408 @@ var OverworldVectorData = {
             "type": "Polygon",
             "coordinates": [[getCordfromLoc(-365.9375, 465.5), getCordfromLoc(-441.4375, 465.5), getCordfromLoc(-441.4375, 499.0), getCordfromLoc(-365.9375, 499.0), getCordfromLoc(-365.9375, 465.5)]]
         }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Route 222",
+            "world": "Overworld",
+            "Pokémon": {
+                "Grass": [{
+                    "name": "Magnemite",
+                    "area": "Grass",
+                    "levels": "39",
+                    "rate": "10%",
+                }, {
+                    "name": "Magneton",
+                    "area": "Grass",
+                    "levels": '41',
+                    "rate": "5%",
+                }, {
+                    "name": "Electabuzz",
+                    "area": "Grass",
+                    "levels": ['39, 41', '39, 41', '39'],
+                    "rate": ['30%', '30%', '20%'],
+                }, {
+                    "name": "Wingull",
+                    "area": "Grass",
+                    "levels": "38",
+                    "rate": '10%',
+                }, {
+                    "name": "Pelipper",
+                    "area": "Grass",
+                    "levels": "40",
+                    "rate": "5%",
+                }, {
+                    "name": "Luxio",
+                    "area": "Grass",
+                    "levels": "38, 40",
+                    "rate": "10%",
+                }, {
+                    "name": "Floatzel",
+                    "area": "Grass",
+                    "levels": ['40', '40', '38, 40-41'],
+                    "rate": ['20%', '20%', '40%'],
+                }, {
+                    "name": "Chatot",
+                    "area": "Grass",
+                    "levels": "38",
+                    "rate": ['10%', '10%', '0%'],
+                }, ],
+                "Surfing": [{
+                    "name": "Tentacool",
+                    "area": "Surfing",
+                    "levels": "30-40",
+                    "rate": '60%',
+                }, {
+                    "name": "Tentacruel",
+                    "area": "Surfing",
+                    "levels": "30-50",
+                    "rate": "9%",
+                }, {
+                    "name": "Wingull",
+                    "area": "Surfing",
+                    "levels": "30-40",
+                    "rate": "30%",
+                }, {
+                    "name": "Pelipper",
+                    "area": "Surfing",
+                    "levels": "30-50",
+                    "rate": "1%",
+                }, ],
+                "Fishing": [{
+                    "name": "Magikarp",
+                    "area": "Old Rod",
+                    "levels": "3-15",
+                    "rate": '100%',
+                }, {
+                    "name": "Magikarp",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '55%',
+                }, {
+                    "name": "Remoraid",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '45%',
+                }, {
+                    "name": "Gyarados",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '55%',
+                }, {
+                    "name": "Octillery",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '45%',
+                }, ]
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[getCordfromLoc(-386.6875, 752.0625), getCordfromLoc(-417.375, 752.0625), getCordfromLoc(-417.375, 848.0625), getCordfromLoc(-386.6875, 848.0625), getCordfromLoc(-386.6875, 752.0625)]]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Sunyshore City",
+            "world": "Overworld",
+            "Pokémon": {
+                "Surfing": [{
+                    "name": "Tentacool",
+                    "area": "Surfing",
+                    "levels": "30-40",
+                    "rate": '60%',
+                }, {
+                    "name": "Tentacruel",
+                    "area": "Surfing",
+                    "levels": "30-50",
+                    "rate": "9%",
+                }, {
+                    "name": "Wingull",
+                    "area": "Surfing",
+                    "levels": "30-40",
+                    "rate": "30%",
+                }, {
+                    "name": "Pelipper",
+                    "area": "Surfing",
+                    "levels": "30-50",
+                    "rate": "1%",
+                }, ],
+                "Fishing": [{
+                    "name": "Magikarp",
+                    "area": "Old Rod",
+                    "levels": "3-15",
+                    "rate": '100%',
+                }, {
+                    "name": "Magikarp",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '55%',
+                }, {
+                    "name": "Remoraid",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '45%',
+                }, {
+                    "name": "Staryu",
+                    "area": "Super Rod",
+                    "levels": "20-50",
+                    "rate": '15%',
+                }, {
+                    "name": "Gyarados",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '40%',
+                }, {
+                    "name": "Octillery",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '45%',
+                }, ]
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[getCordfromLoc(-364.6875, 848.0625), getCordfromLoc(-416.4375, 848.0625), getCordfromLoc(-416.4375, 912.0625), getCordfromLoc(-364.6875, 912.0625), getCordfromLoc(-364.6875, 848.0625)]]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Route 223",
+            "world": "Overworld",
+            "Pokémon": {
+                "Surfing": [{
+                    "name": "Tentacruel",
+                    "area": "Surfing",
+                    "levels": "30-50",
+                    "rate": "60%",
+                }, {
+                    "name": "Pelipper",
+                    "area": "Surfing",
+                    "levels": "30-50",
+                    "rate": "30%",
+                }, {
+                    "name": "Mantyke",
+                    "area": "Surfing",
+                    "levels": "30-40",
+                    "rate": "10%",
+                }, ],
+                "Fishing": [{
+                    "name": "Magikarp",
+                    "area": "Old Rod",
+                    "levels": "3-15",
+                    "rate": '100%',
+                }, {
+                    "name": "Magikarp",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '55%',
+                }, {
+                    "name": "Remoraid",
+                    "area": "Good Rod",
+                    "levels": "15-25",
+                    "rate": '40%',
+                }, {
+                    "name": "Octillery",
+                    "area": "Good Rod",
+                    "levels": "25-35",
+                    "rate": '5%',
+                }, {
+                    "name": "Gyarados",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '40%',
+                }, {
+                    "name": "Octillery",
+                    "area": "Super Rod",
+                    "levels": "20-50",
+                    "rate": '15%',
+                }, {
+                    "name": "Wailmer",
+                    "area": "Super Rod",
+                    "levels": "30-40",
+                    "rate": "40%",
+                }, {
+                    "name": "Wailord",
+                    "area": "Super Rod",
+                    "levels": "40-55",
+                    "rate": "5%",
+                }, ]
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[getCordfromLoc(-267.8125, 848.0625), getCordfromLoc(-364.6875, 848.0625), getCordfromLoc(-364.6875, 880.0625), getCordfromLoc(-267.8125, 880.0625), getCordfromLoc(-267.8125, 848.0625)]]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Pokémon League",
+            "world": "Overworld",
+            "Pokémon": {
+                "Surfing": [{
+                    "name": "Tentacruel",
+                    "area": "Surfing",
+                    "levels": "30-50",
+                    "rate": "5%",
+                }, {
+                    "name": "Wingull",
+                    "area": "Surfing",
+                    "levels": "30-40",
+                    "rate": "60%",
+                }, {
+                    "name": "Pelipper",
+                    "area": "Surfing",
+                    "levels": "30-50",
+                    "rate": "35%",
+                }, ],
+                "Fishing": [{
+                    "name": "Magikarp",
+                    "area": "Old Rod",
+                    "levels": "3-15",
+                    "rate": '100%',
+                }, {
+                    "name": "Magikarp",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '55%',
+                }, {
+                    "name": "Remoraid",
+                    "area": "Good Rod",
+                    "levels": "15-25",
+                    "rate": '45%',
+                }, {
+                    "name": "Gyarados",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '40%',
+                }, {
+                    "name": "Octillery",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '45%',
+                }, {
+                    "name": "Luvdisc",
+                    "area": "Super Rod",
+                    "levels": "20-30",
+                    "rate": "15%",
+                }, ]
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[getCordfromLoc(-205.5625, 848.0625), getCordfromLoc(-267.8125, 848.0625), getCordfromLoc(-267.8125, 879.0625), getCordfromLoc(-205.5625, 879.0625), getCordfromLoc(-205.5625, 848.0625)]]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Route 224",
+            "world": "Overworld",
+            "Pokémon": {
+                "Grass": [{
+                    "name": "Oddish",
+                    "area": "Grass",
+                    "levels": "49",
+                    "rate": ['0%', '0%', '20%'],
+                }, {
+                    "name": "Gloom",
+                    "area": "Grass",
+                    "levels": '51',
+                    "rate": "5%",
+                }, {
+                    "name": "Bellsprout",
+                    "area": "Grass",
+                    "levels": '49',
+                    "rate": ['20%', '20%', '0%'],
+                }, {
+                    "name": "Weepinbell",
+                    "area": "Grass",
+                    "levels": "51",
+                    "rate": '5%',
+                }, {
+                    "name": "Beautifly",
+                    "area": "Grass",
+                    "levels": "52",
+                    "rate": "5%",
+                }, {
+                    "name": "Dustox",
+                    "area": "Grass",
+                    "levels": "52",
+                    "rate": "5%",
+                }, {
+                    "name": "Pelipper",
+                    "area": "Grass",
+                    "levels": '51',
+                    "rate": '10%',
+                }, {
+                    "name": "Roselia",
+                    "area": "Grass",
+                    "levels": "50",
+                    "rate": '20%',
+                }, {
+                    "name": "Floatzel",
+                    "area": "Grass",
+                    "levels": "50",
+                    "rate": '20%',
+                }, {
+                    "name": "Gastrodon",
+                    "area": "Grass",
+                    "levels": "49",
+                    "rate": '10%',
+                }, ],
+                "Surfing": [{
+                    "name": "Tentacruel",
+                    "area": "Surfing",
+                    "levels": "35-55",
+                    "rate": "30%",
+                }, {
+                    "name": "Pelipper",
+                    "area": "Surfing",
+                    "levels": "35-55",
+                    "rate": "60%",
+                }, {
+                    "name": "Gastrodon",
+                    "area": "Surfing",
+                    "levels": "35-55",
+                    "rate": "10%",
+                }, ],
+                "Fishing": [{
+                    "name": "Magikarp",
+                    "area": "Old Rod",
+                    "levels": "3-15",
+                    "rate": '100%',
+                }, {
+                    "name": "Magikarp",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '55%',
+                }, {
+                    "name": "Remoraid",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '45%',
+                }, {
+                    "name": "Gyarados",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '40%',
+                }, {
+                    "name": "Octillery",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '45%',
+                }, {
+                    "name": "Luvdisc",
+                    "area": "Super Rod",
+                    "levels": "20-30",
+                    "rate": '15%',
+                }, ]
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[getCordfromLoc(-192.9375, 879.0625), getCordfromLoc(-243.25, 879.0625), getCordfromLoc(-243.25, 911.5625), getCordfromLoc(-219.5625, 911.5625), getCordfromLoc(-219.5625, 943.0625), getCordfromLoc(-169.25, 943.0625), getCordfromLoc(-169.25, 910.5625), getCordfromLoc(-192.9375, 910.5625), getCordfromLoc(-192.9375, 879.0625)]]
+        }
     }, 
     ]
 }
