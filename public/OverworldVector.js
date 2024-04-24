@@ -2251,7 +2251,7 @@ var OverworldVectorData = {
                     "name": "Ralts",
                     "area": "Grass",
                     "levels": '22',
-                    "rate": ['0%', '0%', '0%'],
+                    "rate": ['0%', '10%', '0%'],
                 }, {
                     "name": "Kirlia",
                     "area": "Grass",
