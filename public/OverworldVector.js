@@ -2713,6 +2713,133 @@ var OverworldVectorData = {
             "type": "Polygon",
             "coordinates": [[getCordfromLoc(-192.9375, 879.0625), getCordfromLoc(-243.25, 879.0625), getCordfromLoc(-243.25, 911.5625), getCordfromLoc(-219.5625, 911.5625), getCordfromLoc(-219.5625, 943.0625), getCordfromLoc(-169.25, 943.0625), getCordfromLoc(-169.25, 910.5625), getCordfromLoc(-192.9375, 910.5625), getCordfromLoc(-192.9375, 879.0625)]]
         }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Route 216",
+            "world": "Overworld",
+            "Pokémon": {
+                "Grass": [{
+                    "name": "Zubat",
+                    "area": "Grass",
+                    "levels": "32",
+                    "rate": ['0%', '0%', '10%'],
+                }, {
+                    "name": "Graveler",
+                    "area": "Grass",
+                    "levels": '35',
+                    "rate": '5%',
+                }, {
+                    "name": "Sneasel",
+                    "area": "Grass",
+                    "levels": '33-35',
+                    "rate": '35%',
+                }, {
+                    "name": "Meditite",
+                    "area": "Grass",
+                    "levels": ['32-33', '32-33', '33'],
+                    "rate": ['20%', '20%', '10%'],
+                }, {
+                    "name": "Snorunt",
+                    "area": "Grass",
+                    "levels": '33',
+                    "rate": ['0%', '0%', '10%'],
+                }, {
+                    "name": "Snover",
+                    "area": "Grass",
+                    "levels": ['32-35', '32-35', '32, 34-35'],
+                    "rate": ['40%', '40%', '30%'],
+                }, ]
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[getCordfromLoc(-148.9375, 339.625), getCordfromLoc(-175.5, 339.625), getCordfromLoc(-175.5, 436.625), getCordfromLoc(-148.9375, 436.625), getCordfromLoc(-148.9375, 339.625)]]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Route 217",
+            "world": "Overworld",
+            "Pokémon": {
+                "Grass": [{
+                    "name": "Sneasel",
+                    "area": "Grass",
+                    "levels": ['33-35', '33-35', '34-35'],
+                    "rate": ['25%', '25%', '15%'],
+                }, {
+                    "name": "Swinub",
+                    "area": "Grass",
+                    "levels": '32-34',
+                    "rate": '35%',
+                }, {
+                    "name": "Snorunt",
+                    "area": "Grass",
+                    "levels": '33',
+                    "rate": ['0%', '0%', '20%'],
+                }, {
+                    "name": "Snover",
+                    "area": "Grass",
+                    "levels": ['32-35', '32-35', '32, 34-35'],
+                    "rate": ['40%', '40%', '30%'],
+                }, ]
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[getCordfromLoc(-56.1875, 339.625), getCordfromLoc(-148.9375, 339.625), getCordfromLoc(-148.9375, 372.625), getCordfromLoc(-56.1875, 372.625), getCordfromLoc(-56.1875, 339.625)]]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Acuity Lakefront",
+            "world": "Overworld",
+            "Pokémon": {
+                "Grass": [{
+                    "name": "Sneasel",
+                    "area": "Grass",
+                    "levels": ['33-35', '33-35', '34-35'],
+                    "rate": ['25%', '25%', '15%'],
+                }, {
+                    "name": "Swinub",
+                    "area": "Grass",
+                    "levels": '32-34',
+                    "rate": '35%',
+                }, {
+                    "name": "Snorunt",
+                    "area": "Grass",
+                    "levels": '32-33',
+                    "rate": ['0%', '0%', '20%'],
+                }, {
+                    "name": "Snover",
+                    "area": "Grass",
+                    "levels": ['32-35', '32-35', '33-35'],
+                    "rate": ['40%', '40%', '30%'],
+                }, ]
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[getCordfromLoc(-5.125, 339.625), getCordfromLoc(-56.1875, 339.625), getCordfromLoc(-56.1875, 403.625), getCordfromLoc(-5.125, 403.625), getCordfromLoc(-5.125, 339.625)]]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "name": "Snowpoint City",
+            "world": "Overworld",
+            "Pokémon": {
+                "Trade": [{
+                    "name": "Haunter",
+                    "area": "Trade Medicham",
+                    "levels": "The same as the traded Pokémon",
+                    "rate": 'One',
+                }, ]
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[getCordfromLoc(-2.1875, 403.625), getCordfromLoc(-56.1875, 403.625), getCordfromLoc(-56.1875, 435.125), getCordfromLoc(-2.1875, 435.125), getCordfromLoc(-2.1875, 403.625)]]
+        }
     }, 
     ]
 }
