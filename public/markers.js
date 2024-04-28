@@ -73,5 +73,8 @@ function markerSet(lat, lng, description, iconImage, world) {
 }
 
 function onClickEvent(e) {
-    loadMap(e.target.name);
+    console.log(e);
+    if (e.target.iconImage.options.className == "entrance") {
+        loadMap(e.target.name);
+    }
 }

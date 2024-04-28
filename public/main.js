@@ -4,6 +4,7 @@
 //var maxBounds = L.latLngBounds(L.latLng(tileX - outOfBoundsInt, 0 - outOfBoundsInt), L.latLng(0 + outOfBoundsInt, tileY + outOfBoundsInt));
 const outOfBoundsInt = 20;
 var mapTime = 1;
+var oldtarget;
 var map = L.map('map', {
     preferCanvas: true,
     // minZoom: 2,
@@ -66,7 +67,6 @@ function loadMap(mapName) {
     map.options.minZoom = selectedMap.minZoom;
     map.options.maxZoom = selectedMap.maxZoom;
     map.options.maxBounds = L.latLngBounds(L.latLng(selectedMap.bounds[0] - outOfBoundsInt, 0 - outOfBoundsInt), L.latLng(0 + outOfBoundsInt, selectedMap.bounds[1] + outOfBoundsInt));
-    map.setView([selectedMap.bounds[0]/2, selectedMap.bounds[1]/2], selectedMap.zoom);
     // create tile and vector layers
     var tileLayer = L.tileLayer('Tilesets/' + selectedMap.shortname + '/{z}/{y}/{x}.png', {
         tms: false,
@@ -88,6 +88,7 @@ function loadMap(mapName) {
     selectedMap?.berryLayer?.addTo(map);
     selectedMap?.tmLayer?.addTo(map);
     selectedMap?.entranceLayer?.addTo(map);
+    map.setView([selectedMap.bounds[0]/2, selectedMap.bounds[1]/2], selectedMap.zoom);
 }
 
 function pkmnListOutput(str, arr, title, perc) {

@@ -44,6 +44,7 @@ function Overworldf(e) {
 }
 // Entrances
 markerSet(-421.82, 114.45, "Verity Cavern", entranceIcon, currentMap)
+markerSet(-372.82, 295.45, "Oreburgh Gate", entranceIcon, currentMap)
 /* TODO:
 Oreburgh Gate
 Oreburgh Mine
