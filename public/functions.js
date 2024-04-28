@@ -1,16 +1,4 @@
 tileSize = 1;
-map.on('click', function (e) {
-    var coord = e.latlng;
-    console.log(e)
-    var lat = (coord.lat / tileSize) + 1;
-    var lng = coord.lng / tileSize;
-    lat = Math.round(lat * 16) / 16;
-    lng  = Math.round(lng * 16) / 16;
-    console.log('Tile Location: ' + lat + ', ' + lng);
-    console.log(
-    'Map Location: ' + Math.floor(lat * tileSize) + ', ' + Math.floor(lng * tileSize)
-    );
-});
 function disableItems() {
     var elements = document.getElementsByClassName('itemIcon');
     for (var i = 0, length = elements.length; i < length; i++) {
@@ -18,7 +6,7 @@ function disableItems() {
     }
 }
 function disableHiddenItems() {
-    var elements = document.getElementsByClassName('hitemIcon');
+    var elements = document.getElementsByClassName('hiddenIcon');
     for (var i = 0, length = elements.length; i < length; i++) {
         elements[i].classList.toggle('hidden');
     }
@@ -30,7 +18,7 @@ function disableBerryItems() {
     }
 }
 function disableTMItems() {
-    var elements = document.getElementsByClassName('tmitemIcon');
+    var elements = document.getElementsByClassName('tmIcon');
     for (var i = 0, length = elements.length; i < length; i++) {
         elements[i].classList.toggle('hidden');
     }
@@ -50,12 +38,19 @@ function setNight() {
 var content = document.getElementById('controls');
 var swch = 0;
 function changeMenu() {
-if (swch == 0) {
-    content.style.display = 'flex';
-    swch = 1;
-} else {
-    content.style.display = '';
-    swch = 0;
+    if (swch == 0) {
+        content.style.display = 'flex';
+        swch = 1;
+    } else {
+        content.style.display = '';
+        swch = 0;
+    }
 }
+
+function getCordfromLoc(lat, lng) {
+    var tileSize = 0.249990234375;
+    var latf = ((lat - 0.5) * tileSize - (tileSize / 2));
+    var lngf = ((lng + 0.5) * tileSize + (tileSize / 2));
+    return [lngf, latf];
 }
   

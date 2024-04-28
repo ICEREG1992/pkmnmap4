@@ -1,4 +1,4 @@
-var OverworldVectorData = {
+var overworldVector = {
     "type": "FeatureCollection",
     "features": [{
         "type": "Feature",

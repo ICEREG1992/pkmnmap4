@@ -1,4 +1,4 @@
-var VerityCavernVectorData = {
+var verityCavernVector = {
   'type': 'FeatureCollection',
   'features': [
     {
