@@ -98,6 +98,36 @@ function Overworldf(e) {
 }
 // Entrances
 markerSet(-421.82, 114.45, "Verity Cavern", entrance, currentMap)
+/* TODO:
+Oreburgh Gate
+Oreburgh Mine
+Ravaged Path
+Floaroma Meadow
+Eterna Forest
+Old Chateau
+Wayward Cave
+Mount Coronet
+Amity Square
+Lost Tower
+Solaceon Ruins
+Maniac Tunnel
+Lake Valor
+Great Marsh
+Pokemon Mansion
+Trophy Garden
+Fuego Ironworks
+Iron Island
+Lake Acuity
+Spear Pillar
+Victory Road
+Battle Park
+Stark Mountain
+Snowpoint Temple
+Sendoff Spring
+Turnback Cave
+Fullmoon Island
+Newmoon Island
+*/
 // Verity Lakefront
 markerSet(-452.12, 134.45, "TinyMushroom", hitemIcon, currentMap)
 // Lake Verity
