@@ -47,13 +47,15 @@ function markerSet(lat, lng, description, iconimage, world) {
         } else if (iconimage == tmitemIcon) {
             OverworldTMItemLayer.addLayer(marker);
         }
-    } else if (world == "Petalburg Woods") {
+    } else if (world == "Verity Cavern") {
         if (iconimage == hitemIcon) {
-            PetalburgWoodsHiddenItemLayer.addLayer(marker);
+            VerityCavernHiddenItemLayer.addLayer(marker);
         } else if (iconimage == itemIcon) {
-            PetalburgWoodsItemLayer.addLayer(marker);
+            VerityCavernItemLayer.addLayer(marker);
         } else if (iconimage == entrance) {
-            PetalburgWoodsEntranceItemLayer.addLayer(marker);
+            VerityCavernEntranceItemLayer.addLayer(marker);
+        } else if (iconimage == tmitemIcon) {
+            VerityCavernTMItemLayer.addLayer(marker);
         }
     } else if (world == "Victory Road") {
         if (iconimage == hitemIcon) {
@@ -157,8 +159,8 @@ function markerSet(lat, lng, description, iconimage, world) {
 function onClickEvent(e) {
     if (e.target.name == "Overworld") {
         Overworldf(e);
-    } else if (e.target.name == "Petalburg Woods") {
-        PetalburgWoodsf(e);
+    } else if (e.target.name == "Verity Cavern") {
+        VerityCavernf(e);
     } else if (e.target.name == "Victory Road") {
         VictoryRoadf(e);
     } else if (e.target.name == "Rusturf Tunnel") {

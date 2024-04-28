@@ -59,9 +59,11 @@ function Overworldf(e) {
         map.removeLayer(layer);
     });
     info.update();
+    map.options.minZoom = 2;
+    map.options.maxZoom = 7;
     map.options.maxBounds = maxBounds;
-    if (currentMap == "Fiery Path")
-        map.setView([-11, 43], 5);
+    if (currentMap == "Verity Cavern")
+        map.setView([-105, 28], 5);
     if (currentMap == "Granite Cave")
         map.setView([-90, 11], 5);
     if (currentMap == "Jagged Pass")
@@ -94,6 +96,8 @@ function Overworldf(e) {
     OverworldInfo.addTo(map);
     map.options.minZoom = 2;
 }
+// Entrances
+markerSet(-421.82, 114.45, "Verity Cavern", entrance, currentMap)
 // Verity Lakefront
 markerSet(-452.12, 134.45, "TinyMushroom", hitemIcon, currentMap)
 // Lake Verity

@@ -22,13 +22,6 @@ new L.Control.Zoom({
     position: 'bottomright'
 }).addTo(map);
 var LocationArray = [];
-var Grid = L.tileLayer('tilesets/grid/{z}/{x}/{y}.png', {
-    tms: false,
-    reuseTiles: true,
-    attribution: 'Original by <a target="_blank" href="http://www.jaxsonkeenes.com">Jaxson Keenes</a> | Gen 4 Update by <a target="_blank" href="https://github.com/ICEREG1992/pkmnmap4">William_Williams</a>',
-    bounds: bounds,
-    tileSize: 256
-});
 var info = L.control({
     position: 'bottomleft'
 });
@@ -36,8 +29,7 @@ info.onAdd = function(map) {
     this._div = L.DomUtil.create('div', 'info');
     this.update();
     return this._div;
-}
-;
+};
 function pkmnListOutput(str, arr, title, perc) {
     if (arr.length != 0) {
         str = str + '<div class="pkmn-list-row">' + title + '</div>';
