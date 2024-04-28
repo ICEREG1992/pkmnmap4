@@ -68,7 +68,7 @@ function loadMap(mapName) {
     map.options.maxZoom = selectedMap.maxZoom;
     map.options.maxBounds = L.latLngBounds(L.latLng(selectedMap.bounds[0] - outOfBoundsInt, 0 - outOfBoundsInt), L.latLng(0 + outOfBoundsInt, selectedMap.bounds[1] + outOfBoundsInt));
     // create tile and vector layers
-    var tileLayer = L.tileLayer('Tilesets/' + selectedMap.shortname + '/{z}/{y}/{x}.png', {
+    var tileLayer = L.tileLayer('tilesets/' + selectedMap.shortname + '/{z}/{y}/{x}.png', {
         tms: false,
         reuseTiles: true,
         attribution: 'Original by <a target="_blank" href="http://www.jaxsonkeenes.com">Jaxson Keenes</a> | Gen 4 Update by <a target="_blank" href="https://github.com/ICEREG1992/pkmnmap4">William_Williams</a>',
