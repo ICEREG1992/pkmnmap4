@@ -7,6 +7,7 @@ function Overworldf(e) {
     map.options.minZoom = 2;
     map.options.maxZoom = 7;
     map.options.maxBounds = maxBounds;
+    // TODO: put this feature into the new maps js system
     if (currentMap == "Verity Cavern")
         map.setView([-105, 28], 5);
     if (currentMap == "Granite Cave")
