@@ -46,6 +46,7 @@ function Overworldf(e) {
 markerSet(-421.82, 114.45, "Verity Cavern", entranceIcon, currentMap)
 markerSet(-372.82, 295.45, "Oreburgh Gate", entranceIcon, currentMap)
 markerSet(-372.82, 305.18, "Oreburgh Gate", entranceIcon, currentMap)
+markerSet(-410.62, 350.18, "Oreburgh Mine", entranceIcon, currentMap)
 /* TODO:
 Oreburgh Mine
 Ravaged Path

@@ -1,6 +1,9 @@
 import shutil, os
 from wand.image import Image
 def ImageToTileset(source, dest):
+    # see if directory already exists
+    if not os.path.exists:
+        os.mkdir(dest)
     print("Exporting multiple sizes of your source image...")
     os.mkdir(dest+'\\maps')
     ImageToSizes(source, dest)
@@ -62,6 +65,16 @@ def Translate(x, y, w, h):
     y1 = -((y / 16) - 1)
     w = w / 16
     h = h / 16
+    x2 = x1 + w
+    y2 = y1 - h
+    return f"[[getCordfromLoc({y1}, {x1}), getCordfromLoc({y2}, {x1}), getCordfromLoc({y2}, {x2}), getCordfromLoc({y1}, {x2}), getCordfromLoc({y1}, {x1})]]"
+    # [[getCordfromLoc(-234.0625, 207.5), getCordfromLoc(-262.5625, 207.5), getCordfromLoc(-262.5625, 239.5), getCordfromLoc(-234.0625, 239.5), getCordfromLoc(-234.0625, 207.5)]]
+
+def TranslateSmall(x, y, w, h):
+    x1 = (x / 2) - 1
+    y1 = -((y / 2) - 1)
+    w = w / 2
+    h = h / 2
     x2 = x1 + w
     y2 = y1 - h
     return f"[[getCordfromLoc({y1}, {x1}), getCordfromLoc({y2}, {x1}), getCordfromLoc({y2}, {x2}), getCordfromLoc({y1}, {x2}), getCordfromLoc({y1}, {x1})]]"

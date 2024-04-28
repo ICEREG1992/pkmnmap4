@@ -25,7 +25,7 @@ from HelperTools import Translate
 Translate(x, y, w, h)
 ```
 5. Copy and paste the output into the "coordinates" property of a feature in one of the vector js files.
-    Note: `Translate()` may not work depending on the bounds set for your map.
+    Note: `Translate()` may not work depending on the bounds set for your map. You can try `TranslateSmall()` which works for me on maps that are 1024x1024.
 
 ## how to create new interiors
 1. Create a new tileset for your map
