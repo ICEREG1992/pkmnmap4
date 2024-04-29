@@ -123,8 +123,8 @@ markerSet(-339.25, 339.12, "Cheri Berry", berryIcon, currentMap);
 markerSet(-339.25, 340.12, "Bluk Berry", berryIcon, currentMap);
 markerSet(-339.25, 341.12, "Oran Berry", berryIcon, currentMap);
 // Route 204
-markerSet(-354.12, 225.5, "Paralyze Heal", itemIcon, currentMap);
-markerSet(-349.5, 237.5, "HP Up", itemIcon, currentMap);
+markerSet(-354.06, 225.5, "Paralyze Heal", itemIcon, currentMap);
+markerSet(-349.45, 237.5, "HP Up", itemIcon, currentMap);
 markerSet(-361.75, 210.5, "Sea Incense", itemIcon, currentMap);
 markerSet(-330.62, 228.5, "Awakening", itemIcon, currentMap);
 markerSet(-320.55, 210.5, "TM09 (Bullet Seed)", tmIcon, currentMap);
