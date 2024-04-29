@@ -2,7 +2,7 @@ import shutil, os
 from wand.image import Image
 def ImageToTileset(source, dest):
     # see if directory already exists
-    if not os.path.exists:
+    if not os.path.exists(dest):
         os.mkdir(dest)
     print("Exporting multiple sizes of your source image...")
     os.mkdir(dest+'\\maps')

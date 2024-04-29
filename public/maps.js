@@ -31,4 +31,12 @@ var maps = {
         "bounds": [-128, 128],
         "vector": oreburghMineVector
     },
+    "Ravaged Path": {
+        "shortname": 'ravagedpath',
+        "zoom": 2,
+        "minZoom": 1,
+        "maxZoom": 3,
+        "bounds": [-256, 128],
+        "vector": ravagedPathVector
+    }
 }
