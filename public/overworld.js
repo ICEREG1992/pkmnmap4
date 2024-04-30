@@ -49,6 +49,8 @@ markerSet(-372.82, 305.18, "Oreburgh Gate", entranceIcon, currentMap);
 markerSet(-410.62, 350.18, "Oreburgh Mine", entranceIcon, currentMap);
 markerSet(-340.75, 219.50, "Ravaged Path", entranceIcon, currentMap);
 markerSet(-333.96, 228.52, "Ravaged Path", entranceIcon, currentMap);
+markerSet(-287.92, 210.96, "Floaroma Meadow", entranceIcon, currentMap);
+markerSet(-265.82, 228.96, "Floaroma Meadow", entranceIcon, currentMap);
 /* TODO:
 Floaroma Meadow
 Eterna Forest

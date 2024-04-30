@@ -38,5 +38,13 @@ var maps = {
         "maxZoom": 3,
         "bounds": [-256, 128],
         "vector": ravagedPathVector
+    },
+    "Floaroma Meadow": {
+        "shortname": 'floaromameadow',
+        "zoom": 2,
+        "minZoom": 2,
+        "maxZoom": 4,
+        "bounds": [-128, 128],
+        "vector": floaromaMeadowVector
     }
 }
