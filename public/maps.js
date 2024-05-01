@@ -46,5 +46,13 @@ var maps = {
         "maxZoom": 4,
         "bounds": [-128, 128],
         "vector": floaromaMeadowVector
+    },
+    "Eterna Forest": {
+        "shortname": 'eternaforest',
+        "zoom": 3,
+        "minZoom": 2,
+        "maxZoom": 5,
+        "bounds": [-128, 128],
+        "vector": eternaForestVector
     }
 }

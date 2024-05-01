@@ -51,8 +51,9 @@ markerSet(-340.75, 219.50, "Ravaged Path", entranceIcon, currentMap);
 markerSet(-333.96, 228.52, "Ravaged Path", entranceIcon, currentMap);
 markerSet(-287.92, 210.96, "Floaroma Meadow", entranceIcon, currentMap);
 markerSet(-265.82, 228.96, "Floaroma Meadow", entranceIcon, currentMap);
+markerSet(-240.32, 255, "Eterna Forest", entranceIcon, currentMap);
+markerSet(-197.45, 306.55, "Eterna Forest", entranceIcon, currentMap);
 /* TODO:
-Floaroma Meadow
 Eterna Forest
 Old Chateau
 Wayward Cave
