@@ -183,6 +183,10 @@ markerSet(-220.45, 281.5, "Oran Berry", berryIcon, currentMap);
 // Fuego Ironworks
 markerSet(-252.7, 227.5, "Ultra Ball", hiddenIcon, currentMap);
 markerSet(-240.5, 225.5, "Big Mushroom", hiddenIcon, currentMap);
+markerSet(-252.62, 216.5, "Sitrus Berry", berryIcon, currentMap);
+markerSet(-252.62, 217.5, "Wepear Berry", berryIcon, currentMap);
+markerSet(-252.62, 218.5, "Wepear Berry", berryIcon, currentMap);
+markerSet(-252.62, 219.5, "Kelpsy Berry", berryIcon, currentMap);
 // Eterna City
 markerSet(-223.62, 365.18, "Super Potion", itemIcon, currentMap);
 markerSet(-191.25, 375.18, "TM46 (Thief)", tmIcon, currentMap);
@@ -295,6 +299,10 @@ markerSet(-414.5, 479, "Aspear Berry", berryIcon, currentMap);
 markerSet(-414.5, 480, "Sitrus Berry", berryIcon, currentMap);
 markerSet(-429.82, 467, "Lum Berry", berryIcon, currentMap);
 markerSet(-429.82, 468, "Tamato Berry", berryIcon, currentMap);
+markerSet(-458.82, 578, "Pecha Berry", berryIcon, currentMap);
+markerSet(-458.82, 579, "Pinap Berry", berryIcon, currentMap);
+markerSet(-458.82, 580, "Pinap Berry", berryIcon, currentMap);
+markerSet(-458.82, 581, "Pinap Berry", berryIcon, currentMap);
 // Pastoria City
 markerSet(-439.55, 642.06, "Mystic Water", itemIcon, currentMap);
 markerSet(-460.85, 600.12, "Zinc", hiddenIcon, currentMap);
@@ -493,6 +501,10 @@ markerSet(-5.4375, 768.68, "Max Elixir", itemIcon, currentMap);
 // Resort Area
 markerSet(-194.32, 828.5, "Nugget", hiddenIcon, currentMap);
 markerSet(-187.12, 821.5, "Nugget", itemIcon, currentMap);
+markerSet(-191.12, 822.55, "Leppa Berry", berryIcon, currentMap);
+markerSet(-191.12, 823.55, "Qualot Berry", berryIcon, currentMap);
+markerSet(-191.12, 833.55, "Grepa Berry", berryIcon, currentMap);
+markerSet(-191.12, 834.55, "Lum Berry", berryIcon, currentMap);
 // Route 229
 markerSet(-159.12, 822.5, "Reaper Cloth", itemIcon, currentMap);
 markerSet(-154.62, 834.5, "Full Restore", itemIcon, currentMap);
