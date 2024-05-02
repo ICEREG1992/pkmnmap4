@@ -11,11 +11,13 @@ markerSet(-265.82, 228.96, "Floaroma Meadow", entranceIcon, currentMap);
 markerSet(-240.32, 255, "Eterna Forest", entranceIcon, currentMap);
 markerSet(-197.45, 306.55, "Eterna Forest", entranceIcon, currentMap);
 /* TODO:
+Team Galactic Eterna Building
 Wayward Cave
 Mount Coronet
 Amity Square
 Lost Tower
 Solaceon Ruins
+Celestic Ruins
 Maniac Tunnel
 Lake Valor
 Great Marsh
