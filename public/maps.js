@@ -57,10 +57,10 @@ var maps = {
     },
     "Old Chateau": {
         "shortname": 'oldchateau',
-        "zoom": 2,
+        "zoom": 3,
         "minZoom": 2,
         "maxZoom": 4,
         "bounds": [-128, 128],
-        "vector": floaromaMeadowVector
+        "vector": oldChateauVector
     }
 }

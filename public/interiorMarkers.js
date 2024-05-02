@@ -1,5 +1,5 @@
 var currentMap = 'Verity Cavern';
-markerSet(-442, 256, 'Overworld', entranceIcon, currentMap);
+markerSet(-442, 255.5, 'Overworld', entranceIcon, currentMap);
 
 var currentMap = "Oreburgh Gate";
 markerSet(-201, 156, 'Overworld', entranceIcon, currentMap);
@@ -59,3 +59,15 @@ markerSet(-365, 401.5, "Potion", hiddenIcon, currentMap);
 markerSet(-374.5, 265.5, "Net Ball", itemIcon, currentMap);
 markerSet(-294, 230, "Parlyz Heal", itemIcon, currentMap);
 markerSet(-362, 125.5, "Antidote", itemIcon, currentMap);
+
+var currentMap = "Old Chateau";
+markerSet(-416.5, 254.75, "Eterna Forest", entranceIcon, currentMap);
+// 1F & 2F
+markerSet(-351, 147, "Old Gateau", itemIcon, currentMap);
+// 1F
+markerSet(-275.75, 119.25, "Honey", hiddenIcon, currentMap);
+markerSet(-226, 143.5, "Rare Candy", itemIcon, currentMap);
+markerSet(-245, 399.5, "Big Pearl", itemIcon, currentMap);
+// 2F
+markerSet(-117.5, 127, "Dread Plate", itemIcon, currentMap);
+markerSet(-116.5, 375, "TM90 (Substitute)", tmIcon, currentMap);
