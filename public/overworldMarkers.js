@@ -1,47 +1,4 @@
 var currentMap = "Overworld";
-function Overworldf(e) {
-    map.eachLayer(function(layer) {
-        map.removeLayer(layer);
-    });
-    info.update();
-    map.options.minZoom = 2;
-    map.options.maxZoom = 7;
-    map.options.maxBounds = maxBounds;
-    // TODO: put this feature into the new maps js system
-    if (currentMap == "Verity Cavern")
-        map.setView([-105, 28], 5);
-    if (currentMap == "Granite Cave")
-        map.setView([-90, 11], 5);
-    if (currentMap == "Jagged Pass")
-        map.setView([-17, 41], 5);
-    if (currentMap == "Meteor Falls")
-        map.setView([-15, 7], 5);
-    if (currentMap == "Mt Chimney")
-        map.setView([-11, 43], 5);
-    if (currentMap == "Mt Pyre")
-        map.setView([-30, 109], 5);
-    if (currentMap == "Petalburg Woods")
-        map.setView([-55, 4], 5);
-    if (currentMap == "Rusturf Tunnel")
-        map.setView([-33, 27], 5);
-    if (currentMap == "Safari Zone")
-        map.setView([-22, 109], 5);
-    if (currentMap == "Sootopolis")
-        map.setView([-47, 150], 5);
-    if (currentMap == "Victory Road")
-        map.setView([-54, 194], 5);
-    if (currentMap == "Meteor Falls")
-        map.setView([-17, 8], 5);
-    console.log('Exiting ' + currentMap);
-    Overworld.addTo(map);
-    OverworldItemLayer.addTo(map);
-    OverworldHiddenItemLayer.addTo(map);
-    OverworldBerryItemLayer.addTo(map);
-    OverworldTMItemLayer.addTo(map);
-    OverworldEntranceItemLayer.addTo(map);
-    OverworldInfo.addTo(map);
-    map.options.minZoom = 2;
-}
 // Entrances
 markerSet(-421.82, 114.45, "Verity Cavern", entranceIcon, currentMap);
 markerSet(-372.82, 295.45, "Oreburgh Gate", entranceIcon, currentMap);
@@ -54,8 +11,6 @@ markerSet(-265.82, 228.96, "Floaroma Meadow", entranceIcon, currentMap);
 markerSet(-240.32, 255, "Eterna Forest", entranceIcon, currentMap);
 markerSet(-197.45, 306.55, "Eterna Forest", entranceIcon, currentMap);
 /* TODO:
-Eterna Forest
-Old Chateau
 Wayward Cave
 Mount Coronet
 Amity Square
@@ -79,6 +34,7 @@ Turnback Cave
 Fullmoon Island
 Newmoon Island
 */
+// Items
 // Verity Lakefront
 markerSet(-452.12, 134.45, "TinyMushroom", hiddenIcon, currentMap);
 // Lake Verity
