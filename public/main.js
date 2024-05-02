@@ -54,7 +54,7 @@ map.on('click', function (e) {
 
 loadMap("Overworld");
 
-function loadMap(mapName) {
+function loadMap(mapName, returnLoc = undefined) {
     currentMap = mapName;
     // remove all existing layers from the map
     map.eachLayer(function (layer) {
@@ -88,7 +88,11 @@ function loadMap(mapName) {
     selectedMap?.berryLayer?.addTo(map);
     selectedMap?.tmLayer?.addTo(map);
     selectedMap?.entranceLayer?.addTo(map);
-    map.setView([selectedMap.bounds[0]/2, selectedMap.bounds[1]/2], selectedMap.zoom);
+    if (returnLoc) {
+        map.setView([returnLoc[0][0]/4, returnLoc[0][1]/4], returnLoc[1]);
+    } else {
+        map.setView([selectedMap.bounds[0]/2, selectedMap.bounds[1]/2], selectedMap.zoom);
+    }
 }
 
 function pkmnListOutput(str, arr, title, perc) {

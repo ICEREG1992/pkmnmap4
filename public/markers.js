@@ -25,7 +25,7 @@ var entranceIcon = L.divIcon({
 });
 var currentMap = "Overworld";
 var tileSize = .25;
-function markerSet(lat, lng, description, iconImage, world) {
+function markerSet(lat, lng, description, iconImage, world, returnLoc) {
     latf = lat * tileSize - (tileSize / 2);
     lngf = lng * tileSize + (tileSize / 2);
     var marker = L.marker([latf, lngf], {
@@ -34,6 +34,9 @@ function markerSet(lat, lng, description, iconImage, world) {
     });
     marker.name = description;
     marker.iconImage = iconImage;
+    if (returnLoc) {
+        marker.returnLoc = returnLoc;
+    }
     marker.bindPopup(description);
     switch (iconImage) {
         case hiddenIcon:
@@ -67,7 +70,7 @@ function markerSet(lat, lng, description, iconImage, world) {
             maps[world].entranceLayer.addLayer(marker);
             break;
         default:
-            console.log("Unknown item type specified: " + iconImage)
+            console.warn("Unknown item type specified: " + iconImage)
     }
     marker.on('click', onClickEvent);
 }
@@ -75,6 +78,10 @@ function markerSet(lat, lng, description, iconImage, world) {
 function onClickEvent(e) {
     console.log(e);
     if (e.target.iconImage.options.className == "entrance") {
-        loadMap(e.target.name);
+        if (e.target.returnLoc) {
+            loadMap(e.target.name, e.target.returnLoc);
+        } else {
+            loadMap(e.target.name);
+        }
     }
 }

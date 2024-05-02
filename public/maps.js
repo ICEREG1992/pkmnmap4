@@ -17,7 +17,7 @@ var maps = {
     },
     "Oreburgh Gate": {
         "shortname": 'oreburghgate',
-        "zoom": 2,
+        "zoom": 3,
         "minZoom": 2,
         "maxZoom": 4,
         "bounds": [-128, 128],
@@ -25,7 +25,7 @@ var maps = {
     },
     "Oreburgh Mine": {
         "shortname": 'oreburghmine',
-        "zoom": 2,
+        "zoom": 3,
         "minZoom": 2,
         "maxZoom": 4,
         "bounds": [-128, 128],
