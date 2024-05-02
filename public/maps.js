@@ -41,7 +41,7 @@ var maps = {
     },
     "Floaroma Meadow": {
         "shortname": 'floaromameadow',
-        "zoom": 2,
+        "zoom": 3,
         "minZoom": 2,
         "maxZoom": 4,
         "bounds": [-128, 128],
