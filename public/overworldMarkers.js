@@ -11,6 +11,7 @@ markerSet(-265.82, 228.96, "Floaroma Meadow", entranceIcon, currentMap);
 markerSet(-298.45, 291.55, "Valley Windworks", entranceIcon, currentMap);
 markerSet(-240.32, 255, "Eterna Forest", entranceIcon, currentMap);
 markerSet(-197.45, 306.55, "Eterna Forest", entranceIcon, currentMap);
+markerSet(-192.92, 353.18, "Team Galactic Eterna Building", entranceIcon, currentMap);
 /* TODO:
 Team Galactic Eterna Building
 Valley Windworks
@@ -363,7 +364,7 @@ markerSet(-290.45, 859.06, "Dive Ball", itemIcon, currentMap);
 markerSet(-285.82, 875.06, "Rare Candy", itemIcon, currentMap);
 // Pokémon League
 markerSet(-243.75, 859.06, "Sky Plate", hiddenIcon, currentMap);
-// Route 224 (TODO: BERRIES)
+// Route 224 
 markerSet(-231.92, 899, "Zinc", hiddenIcon, currentMap);
 markerSet(-216.88, 893.04, "Up-Grade", itemIcon, currentMap);
 markerSet(-203.62, 920.06, "PP Max", itemIcon, currentMap);

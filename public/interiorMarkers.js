@@ -74,3 +74,14 @@ markerSet(-245, 399.5, "Big Pearl", itemIcon, currentMap);
 // 2F
 markerSet(-117.5, 127, "Dread Plate", itemIcon, currentMap);
 markerSet(-116.5, 375, "TM90 (Substitute)", tmIcon, currentMap);
+
+var currentMap = "Team Galactic Eterna Building";
+markerSet(-982, 286, "Overworld", entranceIcon, currentMap, [[-192.92, 353.18], 5])
+// 2F
+markerSet(-589.5, 119.5, "X Speed", itemIcon, currentMap);
+// 3F
+markerSet(-338, 231.5, "X Special", itemIcon, currentMap);
+// 4F
+markerSet(-112.5, 199.5, "Blue Shard", itemIcon, currentMap);
+markerSet(-112.5, 215.5, "Revive", itemIcon, currentMap);
+markerSet(-99.5, 407.5, "Up-Grade", itemIcon, currentMap);

@@ -47,6 +47,14 @@ var maps = {
         "bounds": [-128, 128],
         "vector": floaromaMeadowVector
     },
+    "Valley Windworks": {
+        "shortname": 'valleywindworks',
+        "zoom": 2,
+        "minZoom": 1,
+        "maxZoom": 2,
+        "bounds": [-128, 256],
+        "vector": valleyWindworksVector
+    },
     "Eterna Forest": {
         "shortname": 'eternaforest',
         "zoom": 3,
@@ -63,12 +71,12 @@ var maps = {
         "bounds": [-128, 128],
         "vector": oldChateauVector
     },
-    "Valley Windworks": {
-        "shortname": 'valleywindworks',
-        "zoom": 2,
+    "Team Galactic Eterna Building": {
+        "shortname": 'teamgalacticeternabuilding',
+        "zoom": 1,
         "minZoom": 1,
-        "maxZoom": 2,
-        "bounds": [-128, 256],
-        "vector": valleyWindworksVector
+        "maxZoom": 3,
+        "bounds": [-256, 128],
+        "vector": teamGalacticEternaBuildingVector
     },
 }
