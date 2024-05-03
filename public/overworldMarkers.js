@@ -13,8 +13,6 @@ markerSet(-240.32, 255, "Eterna Forest", entranceIcon, currentMap);
 markerSet(-197.45, 306.55, "Eterna Forest", entranceIcon, currentMap);
 markerSet(-192.92, 353.18, "Team Galactic Eterna Building", entranceIcon, currentMap);
 /* TODO:
-Team Galactic Eterna Building
-Valley Windworks
 Wayward Cave
 Mount Coronet
 Amity Square
