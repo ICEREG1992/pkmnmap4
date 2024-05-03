@@ -47,6 +47,9 @@ markerSet(-273, 155.5, "Full Heal", hiddenIcon, currentMap);
 markerSet(-279, 107, "Honey", hiddenIcon, currentMap);
 markerSet(-273, 91.5, "Rare Candy", itemIcon, currentMap);
 
+var currentMap = "Valley Windworks";
+markerSet(-454, 525, "Overworld", entranceIcon, currentMap, [[-298.45, 291.55], 5]);
+
 var currentMap = "Eterna Forest";
 markerSet(-375, 179.625, "Overworld", entranceIcon, currentMap, [[-240.32, 255], 5]);
 markerSet(-222, 413, "Overworld", entranceIcon, currentMap, [[-197.45, 306.55], 5]);

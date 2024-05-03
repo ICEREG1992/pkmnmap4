@@ -62,5 +62,13 @@ var maps = {
         "maxZoom": 4,
         "bounds": [-128, 128],
         "vector": oldChateauVector
-    }
+    },
+    "Valley Windworks": {
+        "shortname": 'valleywindworks',
+        "zoom": 2,
+        "minZoom": 1,
+        "maxZoom": 2,
+        "bounds": [-128, 256],
+        "vector": valleyWindworksVector
+    },
 }

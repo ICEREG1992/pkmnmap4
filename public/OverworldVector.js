@@ -991,7 +991,13 @@ var overworldVector = {
                     "area": "Super Rod",
                     "levels": "30-55",
                     "rate": '45%',
-                }, ]
+                }, ],
+                "Special Encounter": [{
+                    "name": "Drifloon",
+                    "area": "By Sign",
+                    "levels": "15",
+                    "rate": 'Every Friday',
+                }, ],
             }
         },
         "geometry": {
