@@ -25,11 +25,12 @@ from HelperTools import Translate
 Translate(x, y, w, h)
 ```
 5. Copy and paste the output into the "coordinates" property of a feature in one of the vector js files.
-    Note: `Translate()` may not work depending on the bounds set for your map. You can try `TranslateSmall()` which works for me on maps that are 1024x1024.
+    Note: `Translate()` will likely not work depending on the size of your map. You can try `TranslateScale(s, x, y, w, h)` which takes scale parameter `s`, `Translate()` uses a scale factor of 16 so if your regions come out at half size try halving the scale factor.
 
 ## how to create new interiors
-1. Create a new tileset for your map
+1. Create a new tileset for your map using the above steps
 1. Add your map's information to `maps.js`
 1. Add vector data to the variable you defined in the map's information
-1. Add marker data for your interior using `markerSet()`
-1. Finally, add an entrance marker to the overworld with the description matching the new map's name.
+1. Add marker data for your interior using `markerSet(y, x, name, icon, mapname, [return location])`
+    - return location is optional, but should be a two element array that looks like [[y, x], zoom]
+1. Finally, add an entrance marker to the overworld with the name matching the new map's name.
