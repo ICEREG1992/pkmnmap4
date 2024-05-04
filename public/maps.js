@@ -79,4 +79,20 @@ var maps = {
         "bounds": [-256, 128],
         "vector": teamGalacticEternaBuildingVector
     },
+    "Wayward Cave": {
+        "shortname": 'waywardcave',
+        "zoom": 2,
+        "minZoom": 2,
+        "maxZoom": 4,
+        "bounds": [-128, 256],
+        "vector": waywardCaveVector
+    },
+    "Wayward Cave Secret": {
+        "shortname": 'waywardcavesecret',
+        "zoom": 3,
+        "minZoom": 2,
+        "maxZoom": 4,
+        "bounds": [-128, 128],
+        "vector": waywardCaveSecretVector
+    },
 }

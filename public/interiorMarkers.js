@@ -5,11 +5,11 @@ var currentMap = "Oreburgh Gate";
 markerSet(-201, 156, 'Overworld', entranceIcon, currentMap, [[-372.82, 295.45], 5]);
 markerSet(-201, 356, 'Overworld', entranceIcon, currentMap, [[-372.82, 305.18], 5]);
 
-markerSet(-347.5, 460, "TM70 (Flash)", tmIcon, currentMap)
-markerSet(-341, 332, "Big Pearl", itemIcon, currentMap)
-markerSet(-333.75, 187.5, "TM31 (Brick Break)", tmIcon, currentMap)
-markerSet(-412.45, 59.12, "Earth Plate", itemIcon, currentMap)
-markerSet(-338, 67.12, "TM01 (Focus Punch)", tmIcon, currentMap)
+markerSet(-347.5, 460, "TM70 (Flash)", tmIcon, currentMap);
+markerSet(-341, 332, "Big Pearl", itemIcon, currentMap);
+markerSet(-333.75, 187.5, "TM31 (Brick Break)", tmIcon, currentMap);
+markerSet(-412.45, 59.12, "Earth Plate", itemIcon, currentMap);
+markerSet(-338, 67.12, "TM01 (Focus Punch)", tmIcon, currentMap);
 
 var currentMap = "Oreburgh Mine";
 markerSet(-66, 252, "Overworld", entranceIcon, currentMap, [[-410.62, 350.18], 5]);
@@ -48,7 +48,7 @@ markerSet(-279, 107, "Honey", hiddenIcon, currentMap);
 markerSet(-273, 91.5, "Rare Candy", itemIcon, currentMap);
 
 var currentMap = "Valley Windworks";
-markerSet(-454, 525, "Overworld", entranceIcon, currentMap, [[-298.45, 291.55], 5]);
+markerSet(-454, 526, "Overworld", entranceIcon, currentMap, [[-298.45, 291.55], 5]);
 
 var currentMap = "Eterna Forest";
 markerSet(-375, 179.625, "Overworld", entranceIcon, currentMap, [[-240.32, 255], 5]);
@@ -76,7 +76,7 @@ markerSet(-117.5, 127, "Dread Plate", itemIcon, currentMap);
 markerSet(-116.5, 375, "TM90 (Substitute)", tmIcon, currentMap);
 
 var currentMap = "Team Galactic Eterna Building";
-markerSet(-982, 286, "Overworld", entranceIcon, currentMap, [[-192.92, 353.18], 5])
+markerSet(-982, 286, "Overworld", entranceIcon, currentMap, [[-192.92, 353.18], 5]);
 // 2F
 markerSet(-589.5, 119.5, "X Speed", itemIcon, currentMap);
 // 3F
@@ -85,3 +85,9 @@ markerSet(-338, 231.5, "X Special", itemIcon, currentMap);
 markerSet(-112.5, 199.5, "Blue Shard", itemIcon, currentMap);
 markerSet(-112.5, 215.5, "Revive", itemIcon, currentMap);
 markerSet(-99.5, 407.5, "Up-Grade", itemIcon, currentMap);
+
+var currentMap = "Wayward Cave";
+markerSet(-422, 459, "Overworld", entranceIcon, currentMap, [[-265.12, 358.22], 5]);
+
+var currentMap = "Wayward Cave Secret";
+markerSet(-368, 238.5, "Overworld", entranceIcon, currentMap, [[-268.32, 347.20], 5]);

@@ -12,6 +12,9 @@ markerSet(-298.45, 291.55, "Valley Windworks", entranceIcon, currentMap);
 markerSet(-240.32, 255, "Eterna Forest", entranceIcon, currentMap);
 markerSet(-197.45, 306.55, "Eterna Forest", entranceIcon, currentMap);
 markerSet(-192.92, 353.18, "Team Galactic Eterna Building", entranceIcon, currentMap);
+markerSet(-265.12, 358.22, "Wayward Cave", entranceIcon, currentMap);
+markerSet(-268.32, 347.20, "Wayward Cave Secret", entranceIcon, currentMap);
+
 /* TODO:
 Wayward Cave
 Mount Coronet
