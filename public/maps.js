@@ -5,7 +5,7 @@ var maps = {
         "minZoom": 2,
         "maxZoom": 7,
         "bounds": [-128, 256],
-        "vector": overworldVector
+        "vector": overworldRegions
     },
     "Verity Cavern": {
         "shortname": 'veritycavern',
@@ -13,7 +13,7 @@ var maps = {
         "minZoom": 1,
         "maxZoom": 3,
         "bounds": [-128, 128],
-        "vector": verityCavernVector
+        "vector": verityCavernRegions
     },
     "Oreburgh Gate": {
         "shortname": 'oreburghgate',
@@ -21,7 +21,7 @@ var maps = {
         "minZoom": 2,
         "maxZoom": 4,
         "bounds": [-128, 128],
-        "vector": oreburghGateVector
+        "vector": oreburghGateRegions
     },
     "Oreburgh Mine": {
         "shortname": 'oreburghmine',
@@ -29,7 +29,7 @@ var maps = {
         "minZoom": 2,
         "maxZoom": 4,
         "bounds": [-128, 128],
-        "vector": oreburghMineVector
+        "vector": oreburghMineRegions
     },
     "Ravaged Path": {
         "shortname": 'ravagedpath',
@@ -37,7 +37,7 @@ var maps = {
         "minZoom": 1,
         "maxZoom": 3,
         "bounds": [-256, 128],
-        "vector": ravagedPathVector
+        "vector": ravagedPathRegions
     },
     "Floaroma Meadow": {
         "shortname": 'floaromameadow',
@@ -45,7 +45,7 @@ var maps = {
         "minZoom": 2,
         "maxZoom": 4,
         "bounds": [-128, 128],
-        "vector": floaromaMeadowVector
+        "vector": floaromaMeadowRegions
     },
     "Valley Windworks": {
         "shortname": 'valleywindworks',
@@ -53,7 +53,7 @@ var maps = {
         "minZoom": 1,
         "maxZoom": 2,
         "bounds": [-128, 256],
-        "vector": valleyWindworksVector
+        "vector": valleyWindworksRegions
     },
     "Eterna Forest": {
         "shortname": 'eternaforest',
@@ -61,7 +61,7 @@ var maps = {
         "minZoom": 2,
         "maxZoom": 5,
         "bounds": [-128, 128],
-        "vector": eternaForestVector
+        "vector": eternaForestRegions
     },
     "Old Chateau": {
         "shortname": 'oldchateau',
@@ -69,7 +69,7 @@ var maps = {
         "minZoom": 2,
         "maxZoom": 4,
         "bounds": [-128, 128],
-        "vector": oldChateauVector
+        "vector": oldChateauRegions
     },
     "Team Galactic Eterna Building": {
         "shortname": 'teamgalacticeternabuilding',
@@ -77,7 +77,7 @@ var maps = {
         "minZoom": 1,
         "maxZoom": 3,
         "bounds": [-256, 128],
-        "vector": teamGalacticEternaBuildingVector
+        "vector": teamGalacticEternaBuildingRegions
     },
     "Wayward Cave": {
         "shortname": 'waywardcave',
@@ -85,7 +85,7 @@ var maps = {
         "minZoom": 2,
         "maxZoom": 4,
         "bounds": [-128, 256],
-        "vector": waywardCaveVector
+        "vector": waywardCaveRegions
     },
     "Wayward Cave Secret": {
         "shortname": 'waywardcavesecret',
@@ -93,6 +93,6 @@ var maps = {
         "minZoom": 2,
         "maxZoom": 4,
         "bounds": [-128, 128],
-        "vector": waywardCaveSecretVector
+        "vector": waywardCaveSecretRegions
     },
 }

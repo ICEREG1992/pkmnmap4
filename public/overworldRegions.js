@@ -1,4 +1,4 @@
-var overworldVector = {
+var overworldRegions = {
     "type": "FeatureCollection",
     "features": [{
         "type": "Feature",
