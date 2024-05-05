@@ -16,9 +16,9 @@ markerSet(-265.12, 358.22, "Wayward Cave", entranceIcon, currentMap);
 markerSet(-268.32, 347.20, "Wayward Cave Secret", entranceIcon, currentMap);
 markerSet(-325.75, 477.53, "Amity Square", entranceIcon, currentMap);
 markerSet(-325.75, 519.52, "Amity Square", entranceIcon, currentMap);
+markerSet(-324.75, 587.18, "Lost Tower", entranceIcon, currentMap);
 /* TODO:
 Mount Coronet
-Amity Square
 Lost Tower
 Solaceon Ruins
 Celestic Ruins

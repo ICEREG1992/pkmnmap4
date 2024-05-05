@@ -117,3 +117,6 @@ markerSet(-120.5, 335.5, "Amulet Coin", itemIcon, currentMap);
 markerSet(-334.5, 367.5, "Spooky Plate", itemIcon, currentMap);
 markerSet(-297.5, 222.5, "TM43 (Secret Power)", tmIcon, currentMap);
 markerSet(-197.5, 302.5, "TM45 (Attract)", tmIcon, currentMap);
+
+var currentMap = "Lost Tower";
+markerSet(-2033, 253.5, "Overworld", entranceIcon, currentMap, [[-324.75, 587.18], 5]);
