@@ -89,5 +89,22 @@ markerSet(-99.5, 407.5, "Up-Grade", itemIcon, currentMap);
 var currentMap = "Wayward Cave";
 markerSet(-422, 459, "Overworld", entranceIcon, currentMap, [[-265.12, 358.22], 5]);
 
+markerSet(-272, 475.5, "Green Shard", itemIcon, currentMap);
+markerSet(-373.5, 195.5, "TM32 (Double Team)", tmIcon, currentMap);
+markerSet(-365, 267.5, "Red Shard", hiddenIcon, currentMap);
+markerSet(-187.5, 187.5, "Revive", itemIcon, currentMap);
+markerSet(-187.5, 483.5, "Escape Rope", itemIcon, currentMap);
+markerSet(-303, 723.5, "Great Ball", hiddenIcon, currentMap);
+markerSet(-352.5, 571.5, "Super Potion", hiddenIcon, currentMap);
+markerSet(-408, 867.5, "Blue Shard", hiddenIcon, currentMap);
+markerSet(-185.5, 707.5, "Yellow Shard", hiddenIcon, currentMap);
+
 var currentMap = "Wayward Cave Secret";
 markerSet(-368, 238.5, "Overworld", entranceIcon, currentMap, [[-268.32, 347.20], 5]);
+
+markerSet(-370, 63.5, "Dusk Stone", hiddenIcon, currentMap);
+markerSet(-228.5, 279.5, "Max Ether", itemIcon, currentMap);
+markerSet(-192.5, 55.5, "Stardust", hiddenIcon, currentMap);
+markerSet(-186.5, 207.5, "Grip Claw", itemIcon, currentMap);
+markerSet(-182, 295.5, "Rare Candy", itemIcon, currentMap);
+markerSet(-367.5, 447, "TM26 (Earthquake)", tmIcon, currentMap);
