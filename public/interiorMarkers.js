@@ -108,3 +108,12 @@ markerSet(-192.5, 55.5, "Stardust", hiddenIcon, currentMap);
 markerSet(-186.5, 207.5, "Grip Claw", itemIcon, currentMap);
 markerSet(-182, 295.5, "Rare Candy", itemIcon, currentMap);
 markerSet(-367.5, 447, "TM26 (Earthquake)", tmIcon, currentMap);
+
+var currentMap = "Amity Square";
+markerSet(-426, 90.5, "Overworld", entranceIcon, currentMap, [[-325.75, 477.53], 5]);
+markerSet(-426, 428, "Overworld", entranceIcon, currentMap, [[-325.75, 519.52], 5]);
+
+markerSet(-120.5, 335.5, "Amulet Coin", itemIcon, currentMap);
+markerSet(-334.5, 367.5, "Spooky Plate", itemIcon, currentMap);
+markerSet(-297.5, 222.5, "TM43 (Secret Power)", tmIcon, currentMap);
+markerSet(-197.5, 302.5, "TM45 (Attract)", tmIcon, currentMap);

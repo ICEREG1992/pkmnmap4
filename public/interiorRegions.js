@@ -543,3 +543,21 @@ var waywardCaveSecretRegions = {
       },
     ]
 };
+
+var amitySquareRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Amity Square',
+            'world': 'Overworld',
+            'Pokémon': {},
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-61.5, 3.5), getCordfromLoc(-448.5, 3.5), getCordfromLoc(-448.5, 506.5), getCordfromLoc(-61.5, 506.5), getCordfromLoc(-61.5, 3.5)]]
+        }
+      },
+    ]
+};

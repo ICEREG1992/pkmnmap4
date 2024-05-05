@@ -14,7 +14,8 @@ markerSet(-197.45, 306.55, "Eterna Forest", entranceIcon, currentMap);
 markerSet(-192.92, 353.18, "Team Galactic Eterna Building", entranceIcon, currentMap);
 markerSet(-265.12, 358.22, "Wayward Cave", entranceIcon, currentMap);
 markerSet(-268.32, 347.20, "Wayward Cave Secret", entranceIcon, currentMap);
-
+markerSet(-325.75, 477.53, "Amity Square", entranceIcon, currentMap);
+markerSet(-325.75, 519.52, "Amity Square", entranceIcon, currentMap);
 /* TODO:
 Mount Coronet
 Amity Square
