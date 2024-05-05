@@ -16,7 +16,6 @@ markerSet(-265.12, 358.22, "Wayward Cave", entranceIcon, currentMap);
 markerSet(-268.32, 347.20, "Wayward Cave Secret", entranceIcon, currentMap);
 
 /* TODO:
-Wayward Cave
 Mount Coronet
 Amity Square
 Lost Tower
