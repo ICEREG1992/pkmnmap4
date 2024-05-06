@@ -120,3 +120,9 @@ markerSet(-197.5, 302.5, "TM45 (Attract)", tmIcon, currentMap);
 
 var currentMap = "Lost Tower";
 markerSet(-2033, 253.5, "Overworld", entranceIcon, currentMap, [[-324.75, 587.18], 5]);
+
+markerSet(-1570, 349, "Honey", hiddenIcon, currentMap);
+markerSet(-1427, 285, "Oval Stone", itemIcon, currentMap);
+markerSet(-1160, 62.5, "Revive", itemIcon, currentMap);
+markerSet(-715, 223, "TM27 (Return)", tmIcon, currentMap);
+markerSet(-690, 98, "Great Ball", hiddenIcon, currentMap);

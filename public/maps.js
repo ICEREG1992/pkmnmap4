@@ -109,6 +109,6 @@ var maps = {
         "minZoom": 1,
         "maxZoom": 2,
         "bounds": [-512, 128],
-        "vector": amitySquareRegions
+        "vector": lostTowerRegions
     },
 }

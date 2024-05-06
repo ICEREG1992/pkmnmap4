@@ -561,3 +561,165 @@ var amitySquareRegions = {
       },
     ]
 };
+
+var lostTowerRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Lost Tower (1F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Walking": [{
+                    "name": "Zubat",
+                    "area": "Walking",
+                    "levels": "17-19",
+                    "rate": '35%',
+                }, {
+                    "name": "Gastly",
+                    "area": "Walking",
+                    "levels": ['17-20', '17-20', '17-18, 20'],
+                    "rate": ['65%', '65%', '45%'],
+                }, {
+                    "name": "Duskull",
+                    "area": "Walking",
+                    "levels": "17, 19",
+                    "rate": ['0%', '0%', '20%'],
+                }, ]
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-1675.0, 47.0), getCordfromLoc(-2045.0, 47.0), getCordfromLoc(-2045.0, 461.0), getCordfromLoc(-1675.0, 461.0), getCordfromLoc(-1675.0, 47.0)]]
+        }
+      }, {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Lost Tower (2F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Walking": [{
+                    "name": "Zubat",
+                    "area": "Walking",
+                    "levels": "17-19",
+                    "rate": '35%',
+                }, {
+                    "name": "Gastly",
+                    "area": "Walking",
+                    "levels": '17-20',
+                    "rate": ['65%', '65%', '45%'],
+                }, {
+                    "name": "Duskull",
+                    "area": "Walking",
+                    "levels": "17, 19",
+                    "rate": ['0%', '0%', '20%'],
+                }, ]
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-1255.0, 47.0), getCordfromLoc(-1619.0, 47.0), getCordfromLoc(-1619.0, 461.0), getCordfromLoc(-1255.0, 461.0), getCordfromLoc(-1255.0, 47.0)]]
+        }
+      }, {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Lost Tower (3F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Walking": [{
+                    "name": "Zubat",
+                    "area": "Walking",
+                    "levels": "18-20",
+                    "rate": '35%',
+                }, {
+                    "name": "Golbat",
+                    "area": "Walking",
+                    "levels": "21",
+                    "rate": '1%',
+                }, {
+                    "name": "Gastly",
+                    "area": "Walking",
+                    "levels": '18-21',
+                    "rate": ['64%', '64%', '44%'],
+                }, {
+                    "name": "Duskull",
+                    "area": "Walking",
+                    "levels": "18, 20",
+                    "rate": ['0%', '0%', '20%'],
+                }, ]
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-835.0, 47.0), getCordfromLoc(-1199.0, 47.0), getCordfromLoc(-1199.0, 461.0), getCordfromLoc(-835.0, 461.0), getCordfromLoc(-835.0, 47.0)]]
+        }
+      }, {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Lost Tower (4F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Walking": [{
+                    "name": "Zubat",
+                    "area": "Walking",
+                    "levels": "18-20",
+                    "rate": '35%',
+                }, {
+                    "name": "Golbat",
+                    "area": "Walking",
+                    "levels": "21",
+                    "rate": '5%',
+                }, {
+                    "name": "Gastly",
+                    "area": "Walking",
+                    "levels": '18-21',
+                    "rate": ['60%', '60%', '40%'],
+                }, {
+                    "name": "Duskull",
+                    "area": "Walking",
+                    "levels": "18, 20",
+                    "rate": ['0%', '0%', '20%'],
+                }, ]
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-419.0, 47.0), getCordfromLoc(-779.0, 47.0), getCordfromLoc(-779.0, 461.0), getCordfromLoc(-419.0, 461.0), getCordfromLoc(-419.0, 47.0)]]
+        }
+      }, {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Lost Tower (5F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Walking": [{
+                    "name": "Zubat",
+                    "area": "Walking",
+                    "levels": "19-21",
+                    "rate": '30%',
+                }, {
+                    "name": "Golbat",
+                    "area": "Walking",
+                    "levels": "22",
+                    "rate": '10%',
+                }, {
+                    "name": "Gastly",
+                    "area": "Walking",
+                    "levels": ['19-22', '19-22', '19-20, 22'],
+                    "rate": ['55%', '55%', '35%'],
+                }, {
+                    "name": "Duskull",
+                    "area": "Walking",
+                    "levels": "19, 21",
+                    "rate": ['0%', '0%', '20%'],
+                }, ]
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(1.0, 47.0), getCordfromLoc(-363.0, 47.0), getCordfromLoc(-363.0, 461.0), getCordfromLoc(1.0, 461.0), getCordfromLoc(1.0, 47.0)]]
+        }
+      }
+    ]
+};
