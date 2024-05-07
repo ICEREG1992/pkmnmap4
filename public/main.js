@@ -67,6 +67,12 @@ function loadMap(mapName, returnLoc = undefined) {
     map.options.minZoom = selectedMap.minZoom;
     map.options.maxZoom = selectedMap.maxZoom;
     map.options.maxBounds = L.latLngBounds(L.latLng(selectedMap.bounds[0] - outOfBoundsInt, 0 - outOfBoundsInt), L.latLng(0 + outOfBoundsInt, selectedMap.bounds[1] + outOfBoundsInt));
+    // move view before switching map
+    if (returnLoc) {
+        map.setView([returnLoc[0][0]/4, returnLoc[0][1]/4], returnLoc[1]);
+    } else {
+        map.setView([selectedMap.bounds[0]/2, selectedMap.bounds[1]/2], selectedMap.zoom);
+    }
     // create tile and vector layers
     var tileLayer = L.tileLayer('tilesets/' + selectedMap.shortname + '/{z}/{y}/{x}.png', {
         tms: false,
@@ -88,11 +94,6 @@ function loadMap(mapName, returnLoc = undefined) {
     selectedMap?.berryLayer?.addTo(map);
     selectedMap?.tmLayer?.addTo(map);
     selectedMap?.entranceLayer?.addTo(map);
-    if (returnLoc) {
-        map.setView([returnLoc[0][0]/4, returnLoc[0][1]/4], returnLoc[1]);
-    } else {
-        map.setView([selectedMap.bounds[0]/2, selectedMap.bounds[1]/2], selectedMap.zoom);
-    }
 }
 
 function pkmnListOutput(str, arr, title, perc) {
