@@ -17,10 +17,11 @@ markerSet(-268.32, 347.20, "Wayward Cave Secret", entranceIcon, currentMap);
 markerSet(-325.75, 477.53, "Amity Square", entranceIcon, currentMap);
 markerSet(-325.75, 519.52, "Amity Square", entranceIcon, currentMap);
 markerSet(-324.75, 587.18, "Lost Tower", entranceIcon, currentMap);
+markerSet(-301.06, 616.06, "Solaceon Ruins Upper", entranceIcon, currentMap);
+markerSet(-318.92, 729.06, "Maniac Tunnel", entranceIcon, currentMap, [[-308, 3486], 1]);
+
 /* TODO:
 Mount Coronet
-Lost Tower
-Solaceon Ruins
 Celestic Ruins
 Maniac Tunnel
 Lake Valor

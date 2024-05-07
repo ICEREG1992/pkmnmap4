@@ -111,4 +111,20 @@ var maps = {
         "bounds": [-512, 128],
         "vector": lostTowerRegions
     },
+    "Solaceon Ruins Upper": { // TODO: add more zoom levels so this map makes sense
+        "shortname": 'solaceonruinsupper',
+        "zoom": 2,
+        "minZoom": 1,
+        "maxZoom": 2,
+        "bounds": [-128, 128],
+        "vector": solaceonRuinsUpperRegions
+    },
+    "Maniac Tunnel": { // TODO: add more zoom levels so this map makes sense
+        "shortname": 'maniactunnel',
+        "zoom": 2,
+        "minZoom": 1,
+        "maxZoom": 2,
+        "bounds": [-128, 1048],
+        "vector": maniacTunnelRegions
+    }
 }

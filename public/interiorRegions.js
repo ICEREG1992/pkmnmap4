@@ -723,3 +723,63 @@ var lostTowerRegions = {
       }
     ]
 };
+
+var solaceonRuinsUpperRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Solaceon Ruins Upper',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Unown (?)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '50%',
+                }, {
+                    "name": "Unown (!)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": "50%",
+                } ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-81.0, 79.0), getCordfromLoc(-427.0, 79.0), getCordfromLoc(-427.0, 431.0), getCordfromLoc(-81.0, 431.0), getCordfromLoc(-81.0, 79.0)]]
+        }
+      },
+    ]
+};
+
+var maniacTunnelRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Maniac Tunnel',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Unown (?)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '50%',
+                }, {
+                    "name": "Unown (!)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": "50%",
+                } ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-81.0, 79.0), getCordfromLoc(-427.0, 79.0), getCordfromLoc(-427.0, 431.0), getCordfromLoc(-81.0, 431.0), getCordfromLoc(-81.0, 79.0)]]
+        }
+      },
+    ]
+};

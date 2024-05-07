@@ -126,3 +126,13 @@ markerSet(-1427, 285, "Oval Stone", itemIcon, currentMap);
 markerSet(-1160, 62.5, "Revive", itemIcon, currentMap);
 markerSet(-715, 223, "TM27 (Return)", tmIcon, currentMap);
 markerSet(-690, 98, "Great Ball", hiddenIcon, currentMap);
+
+var currentMap = "Solaceon Ruins Upper";
+markerSet(-411, 257, "Overworld", entranceIcon, currentMap, [[-301.06, 616.06], 5]);
+markerSet(-200, 383, "Maniac Tunnel", entranceIcon, currentMap, [[-287, 576], 1]);
+
+var currentMap = "Maniac Tunnel";
+markerSet(-308, 3486, "Overworld", entranceIcon, currentMap, [[-318.92, 729.06], 5]);
+markerSet(-287, 576, "Solaceon Ruins Upper", entranceIcon, currentMap);
+
+markerSet(-212, 3389, "TM28 (Dig)", tmIcon, currentMap);
