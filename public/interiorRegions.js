@@ -764,21 +764,21 @@ var maniacTunnelRegions = {
             'world': 'Overworld',
             'Pokémon': {
                 "Cave": [{
-                    "name": "Unown (?)",
+                    "name": "Geodude",
                     "area": "Walking",
-                    "levels": "20-30",
-                    "rate": '50%',
+                    "levels": "23-25",
+                    "rate": '80%',
                 }, {
-                    "name": "Unown (!)",
+                    "name": "Hippopotas",
                     "area": "Walking",
-                    "levels": "20-30",
-                    "rate": "50%",
+                    "levels": "24-26",
+                    "rate": "20%",
                 } ],
             },
         },
         'geometry': {
         'type': 'Polygon',
-        'coordinates': [[getCordfromLoc(-81.0, 79.0), getCordfromLoc(-427.0, 79.0), getCordfromLoc(-427.0, 431.0), getCordfromLoc(-81.0, 431.0), getCordfromLoc(-81.0, 79.0)]]
+        'coordinates': [[getCordfromLoc(-71.0, 531.0), getCordfromLoc(-439.0, 531.0), getCordfromLoc(-439.0, 3561.0), getCordfromLoc(-71.0, 3561.0), getCordfromLoc(-71.0, 531.0)]]
         }
       },
     ]
