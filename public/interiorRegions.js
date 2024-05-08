@@ -783,3 +783,21 @@ var maniacTunnelRegions = {
       },
     ]
 };
+
+var celesticRuinsRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Celestic Ruins',
+            'world': 'Overworld',
+            'Pokémon': {},
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-117.0, 118.0), getCordfromLoc(-390.0, 118.0), getCordfromLoc(-390.0, 391.0), getCordfromLoc(-117.0, 391.0), getCordfromLoc(-117.0, 118.0)]]
+        }
+      },
+    ]
+};

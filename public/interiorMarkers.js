@@ -136,3 +136,6 @@ markerSet(-308, 3486, "Overworld", entranceIcon, currentMap, [[-318.92, 729.06],
 markerSet(-287, 576, "Solaceon Ruins Upper", entranceIcon, currentMap);
 
 markerSet(-212, 3389, "TM28 (Dig)", tmIcon, currentMap);
+
+var currentMap = "Celestic Ruins";
+markerSet(-379, 272, "Overworld", entranceIcon, currentMap, [[-199.18, 482.16], 5]);

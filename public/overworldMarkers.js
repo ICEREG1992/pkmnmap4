@@ -19,12 +19,12 @@ markerSet(-325.75, 519.52, "Amity Square", entranceIcon, currentMap);
 markerSet(-324.75, 587.18, "Lost Tower", entranceIcon, currentMap);
 markerSet(-301.06, 616.06, "Solaceon Ruins Upper", entranceIcon, currentMap);
 markerSet(-318.92, 729.06, "Maniac Tunnel", entranceIcon, currentMap, [[-308, 3486], 1]);
+markerSet(-199.18, 482.16, "Celestic Ruins", entranceIcon, currentMap);
 
 /* TODO:
 Mount Coronet
-Celestic Ruins
-Maniac Tunnel
 Lake Valor
+Galactic Veilstone Building
 Great Marsh
 Pokemon Mansion
 Trophy Garden

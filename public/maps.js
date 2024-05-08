@@ -126,5 +126,13 @@ var maps = {
         "maxZoom": 2,
         "bounds": [-128, 1048],
         "vector": maniacTunnelRegions
-    }
+    },
+    "Celestic Ruins": { // TODO: add more zoom levels so this map makes sense
+        "shortname": 'celesticruins',
+        "zoom": 2,
+        "minZoom": 1,
+        "maxZoom": 3,
+        "bounds": [-128, 128],
+        "vector": celesticRuinsRegions
+    },
 }
