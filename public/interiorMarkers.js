@@ -139,3 +139,21 @@ markerSet(-212, 3389, "TM28 (Dig)", tmIcon, currentMap);
 
 var currentMap = "Celestic Ruins";
 markerSet(-379, 272, "Overworld", entranceIcon, currentMap, [[-199.18, 482.16], 5]);
+
+var currentMap = "Great Marsh";
+markerSet(-402.82, 275.50, "Overworld", entranceIcon, currentMap, [[-423.32, 627.55], 5]);
+
+markerSet(-187.25, 197.55, "Poké Ball", itemIcon, currentMap);
+markerSet(-134.82, 133.45, "Rare Candy", hiddenIcon, currentMap);
+markerSet(-137.75, 193.55, "Yellow Shard", itemIcon, currentMap);
+markerSet(-131.55, 305.55, "Blue Shard", itemIcon, currentMap);
+markerSet(-141.06, 361.36, "Toxic Plate", hiddenIcon, currentMap);
+markerSet(-255.75, 298.25, "Hyper Potion", hiddenIcon, currentMap);
+markerSet(-261.45, 321.55, "Green Shard", itemIcon, currentMap);
+markerSet(-286.06, 333.55, "Poké Ball", itemIcon, currentMap);
+markerSet(-344.75, 365.45, "Red Shard", itemIcon, currentMap);
+markerSet(-369.55, 365.55, "Max Repel", hiddenIcon, currentMap);
+markerSet(-252.5, 197.32, "Leaf Stone", hiddenIcon, currentMap);
+markerSet(-264.55, 153.45, "Great Ball", itemIcon, currentMap);
+markerSet(-366.24, 189.45, "Great Ball", itemIcon, currentMap);
+markerSet(-391.24, 189.45, "Big Mushroom", hiddenIcon, currentMap);

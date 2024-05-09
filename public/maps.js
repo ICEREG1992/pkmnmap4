@@ -135,4 +135,12 @@ var maps = {
         "bounds": [-128, 128],
         "vector": celesticRuinsRegions
     },
+    "Great Marsh": { // TODO: add more zoom levels so this map makes sense
+        "shortname": 'greatmarsh',
+        "zoom": 3,
+        "minZoom": 2,
+        "maxZoom": 5,
+        "bounds": [-128, 128],
+        "vector": greatMarshRegions
+    },
 }

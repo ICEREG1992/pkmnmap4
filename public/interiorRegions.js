@@ -801,3 +801,21 @@ var celesticRuinsRegions = {
       },
     ]
 };
+
+var greatMarshRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Great Marsh',
+            'world': 'Overworld',
+            'Pokémon': {},
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-105.0, 119.0), getCordfromLoc(-405.0, 119.0), getCordfromLoc(-405.0, 391.0), getCordfromLoc(-105.0, 391.0), getCordfromLoc(-105.0, 119.0)]]
+        }
+      },
+    ]
+};
