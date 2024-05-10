@@ -724,6 +724,1392 @@ var lostTowerRegions = {
     ]
 };
 
+var solaceonRuinsRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Solaceon Ruins (1F)',
+            'world': 'Overworld',
+            'Pokémon': {},
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-223.0, 211.0), getCordfromLoc(-309.5, 211.0), getCordfromLoc(-309.5, 299.0), getCordfromLoc(-223.0, 299.0), getCordfromLoc(-223.0, 211.0)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Solaceon Ruins (1F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Unown (A)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (B)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (C)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (G)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (H)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (J)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (K)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (L)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (M)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (O)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (P)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Q)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (S)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (T)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (U)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (V)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (W)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (X)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Y)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Z)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-234.0, 144.5), getCordfromLoc(-277.0, 144.5), getCordfromLoc(-277.0, 208.5), getCordfromLoc(-234.0, 208.5), getCordfromLoc(-234.0, 144.5)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Solaceon Ruins (1F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Unown (A)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (B)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (C)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (G)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (H)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (J)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (K)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (L)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (M)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (O)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (P)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Q)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (S)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (T)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (U)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (V)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (W)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (X)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Y)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Z)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-276.5, 302.0), getCordfromLoc(-319.5, 302.0), getCordfromLoc(-319.5, 366.0), getCordfromLoc(-276.5, 366.0), getCordfromLoc(-276.5, 302.0)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Solaceon Ruins (B1F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Unown (F)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '100%',
+                }],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-347.0, 177.0), getCordfromLoc(-433.5, 177.0), getCordfromLoc(-433.5, 265.0), getCordfromLoc(-347.0, 265.0), getCordfromLoc(-347.0, 177.0)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Solaceon Ruins (B1F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Unown (A)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (B)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (C)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (G)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (H)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (J)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (K)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (L)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (M)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (O)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (P)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Q)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (S)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (T)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (U)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (V)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (W)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (X)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Y)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Z)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-339.0, 267.5), getCordfromLoc(-382.0, 267.5), getCordfromLoc(-382.0, 347.5), getCordfromLoc(-339.0, 347.5), getCordfromLoc(-339.0, 267.5)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Solaceon Ruins (B1F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Unown (A)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (B)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (C)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (G)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (H)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (J)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (K)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (L)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (M)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (O)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (P)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Q)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (S)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (T)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (U)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (V)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (W)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (X)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Y)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Z)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-400.0, 267.5), getCordfromLoc(-443.5, 267.5), getCordfromLoc(-443.5, 331.5), getCordfromLoc(-400.0, 331.5), getCordfromLoc(-400.0, 267.5)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Solaceon Ruins (B2F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Unown (R)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '100%',
+                }],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-463.0, 244.0), getCordfromLoc(-549.5, 244.0), getCordfromLoc(-549.5, 332.0), getCordfromLoc(-463.0, 332.0), getCordfromLoc(-463.0, 244.0)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Solaceon Ruins (B2F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Unown (A)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (B)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (C)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (G)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (H)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (J)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (K)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (L)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (M)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (O)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (P)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Q)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (S)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (T)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (U)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (V)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (W)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (X)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Y)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Z)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-473.0, 176.5), getCordfromLoc(-516.0, 176.5), getCordfromLoc(-516.0, 240.5), getCordfromLoc(-473.0, 240.5), getCordfromLoc(-473.0, 176.5)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Solaceon Ruins (B2F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Unown (A)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (B)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (C)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (G)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (H)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (J)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (K)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (L)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (M)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (O)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (P)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Q)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (S)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (T)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (U)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (V)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (W)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (X)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Y)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Z)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-516.5, 176.5), getCordfromLoc(-559.5, 176.5), getCordfromLoc(-559.5, 240.5), getCordfromLoc(-516.5, 240.5), getCordfromLoc(-516.5, 176.5)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Solaceon Ruins (B3F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Unown (I)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '100%',
+                }],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-586.0, 303.0), getCordfromLoc(-672.5, 303.0), getCordfromLoc(-672.5, 391.0), getCordfromLoc(-586.0, 391.0), getCordfromLoc(-586.0, 303.0)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Solaceon Ruins (B3F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Unown (N)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '100%',
+                }],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-594.0, 130.5), getCordfromLoc(-680.5, 130.5), getCordfromLoc(-680.5, 218.5), getCordfromLoc(-594.0, 218.5), getCordfromLoc(-594.0, 130.5)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Solaceon Ruins (B3F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Unown (A)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (B)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (C)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (G)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (H)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (J)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (K)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (L)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (M)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (O)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (P)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Q)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (S)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (T)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (U)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (V)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (W)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (X)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Y)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Z)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-604.0, 64.0), getCordfromLoc(-647.0, 64.0), getCordfromLoc(-647.0, 128.0), getCordfromLoc(-604.0, 128.0), getCordfromLoc(-604.0, 64.0)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Solaceon Ruins (B3F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Unown (A)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (B)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (C)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (G)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (H)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (J)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (K)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (L)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (M)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (O)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (P)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Q)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (S)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (T)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (U)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (V)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (W)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (X)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Y)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Z)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-639.5, 220.5), getCordfromLoc(-682.5, 220.5), getCordfromLoc(-682.5, 300.5), getCordfromLoc(-639.5, 300.5), getCordfromLoc(-639.5, 220.5)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Solaceon Ruins (B3F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Unown (A)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (B)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (C)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (G)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (H)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (J)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (K)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (L)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (M)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (O)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (P)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Q)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (S)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (T)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (U)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (V)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (W)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (X)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Y)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Z)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-639.5, 393.0), getCordfromLoc(-682.5, 393.0), getCordfromLoc(-682.5, 457.0), getCordfromLoc(-639.5, 457.0), getCordfromLoc(-639.5, 393.0)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Solaceon Ruins (B4F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Unown (E)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '100%',
+                }],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-702.5, 269.5), getCordfromLoc(-789.0, 269.5), getCordfromLoc(-789.0, 357.5), getCordfromLoc(-702.5, 357.5), getCordfromLoc(-702.5, 269.5)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Solaceon Ruins (B4F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Unown (D)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '100%',
+                }],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-710.0, 86.5), getCordfromLoc(-796.5, 86.5), getCordfromLoc(-796.5, 174.5), getCordfromLoc(-710.0, 174.5), getCordfromLoc(-710.0, 86.5)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Solaceon Ruins (B4F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Unown (A)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (B)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (C)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (G)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (H)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (J)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (K)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (L)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (M)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (O)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (P)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Q)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (S)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (T)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (U)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (V)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (W)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (X)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Y)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Z)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-736.0, 179.0), getCordfromLoc(-779.0, 179.0), getCordfromLoc(-779.0, 267.0), getCordfromLoc(-736.0, 267.0), getCordfromLoc(-736.0, 179.0)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Solaceon Ruins (B4F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Unown (A)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (B)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (C)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (G)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (H)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (J)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (K)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (L)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (M)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (O)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (P)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Q)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (S)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (T)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (U)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (V)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (W)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (X)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Y)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, {
+                    "name": "Unown (Z)",
+                    "area": "Walking",
+                    "levels": "20-30",
+                    "rate": '5%',
+                }, ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-755.5, 359.5), getCordfromLoc(-798.5, 359.5), getCordfromLoc(-798.5, 423.5), getCordfromLoc(-755.5, 423.5), getCordfromLoc(-755.5, 359.5)]]
+        }
+      },
+    ]
+};
+
 var solaceonRuinsUpperRegions = {
     'type': 'FeatureCollection',
     'features': [

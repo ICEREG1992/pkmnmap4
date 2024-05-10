@@ -127,6 +127,17 @@ markerSet(-1160, 62.5, "Revive", itemIcon, currentMap);
 markerSet(-715, 223, "TM27 (Return)", tmIcon, currentMap);
 markerSet(-690, 98, "Great Ball", hiddenIcon, currentMap);
 
+var currentMap = "Solaceon Ruins";
+markerSet(-304.25, 256, "Overworld", entranceIcon, currentMap, [[-304.75, 614.04], 5]);
+
+markerSet(-263, 173, "Fire Stone", hiddenIcon, currentMap);
+markerSet(-546, 205, "Water Stone", hiddenIcon, currentMap);
+markerSet(-785, 396, "Thunderstone", hiddenIcon, currentMap);
+markerSet(-778.5, 139, "Odd Incense", itemIcon, currentMap);
+markerSet(-778.5, 123, "Mind Plate", itemIcon, currentMap);
+markerSet(-766.5, 139, "HM05 (Defog)", tmIcon, currentMap);
+markerSet(-766.5, 123, "Nugget", itemIcon, currentMap);
+
 var currentMap = "Solaceon Ruins Upper";
 markerSet(-411, 257, "Overworld", entranceIcon, currentMap, [[-301.06, 616.06], 5]);
 markerSet(-200, 383, "Maniac Tunnel", entranceIcon, currentMap, [[-287, 576], 1]);

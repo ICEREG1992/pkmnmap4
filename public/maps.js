@@ -111,6 +111,14 @@ var maps = {
         "bounds": [-512, 128],
         "vector": lostTowerRegions
     },
+    "Solaceon Ruins": { // TODO: add more zoom levels so this map makes sense
+        "shortname": 'solaceonruins',
+        "zoom": 2,
+        "minZoom": 2,
+        "maxZoom": 4,
+        "bounds": [-256, 128],
+        "vector": solaceonRuinsRegions
+    },
     "Solaceon Ruins Upper": { // TODO: add more zoom levels so this map makes sense
         "shortname": 'solaceonruinsupper',
         "zoom": 2,
