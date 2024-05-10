@@ -804,18 +804,421 @@ var celesticRuinsRegions = {
 
 var greatMarshRegions = {
     'type': 'FeatureCollection',
-    'features': [
+    'features': [ 
         {
-        'type': 'Feature',
-        'properties': {
-            'name': 'Great Marsh',
-            'world': 'Overworld',
-            'Pokémon': {},
+            'type': 'Feature',
+            'properties': {
+                'name': 'Great Marsh (Area 1)',
+                'world': 'Overworld',
+                'Pokémon': {
+                    "Grass": [{
+                        "name": "Tangela",
+                        "area": "Grass",
+                        "levels": "30-31",
+                        "rate": '5%',
+                    }, {
+                        "name": "Noctowl",
+                        "area": "Grass",
+                        "levels": "28, 30",
+                        "rate": ['0%', '0%', '20%'],
+                    }, {
+                        "name": "Yanma",
+                        "area": "Grass",
+                        "levels": "30-31",
+                        "rate": '5%',
+                    }, {
+                        "name": "Wooper",
+                        "area": "Grass",
+                        "levels": "28-30",
+                        "rate": '40%',
+                    }, {
+                        "name": "Quagsire",
+                        "area": "Grass",
+                        "levels": "30",
+                        "rate": '10%',
+                    }, {
+                        "name": "Tropius",
+                        "area": "Grass",
+                        "levels": "28, 30",
+                        "rate": ['20%', '20%', '0%'],
+                    }, {
+                        "name": "Bibarel",
+                        "area": "Grass",
+                        "levels": "25",
+                        "rate": '20%',
+                    }, ],
+                },
+            },
+            'geometry': {
+            'type': 'Polygon',
+            'coordinates': [[getCordfromLoc(-105.0, 119.0), getCordfromLoc(-215.0, 119.0), getCordfromLoc(-215.0, 219.0), getCordfromLoc(-221.25, 219.0), getCordfromLoc(-221.25, 263.0), getCordfromLoc(-105.0, 263.0), getCordfromLoc(-105.0, 119.0)]]
+            }
         },
-        'geometry': {
-        'type': 'Polygon',
-        'coordinates': [[getCordfromLoc(-105.0, 119.0), getCordfromLoc(-405.0, 119.0), getCordfromLoc(-405.0, 391.0), getCordfromLoc(-105.0, 391.0), getCordfromLoc(-105.0, 119.0)]]
-        }
-      },
+        {
+            'type': 'Feature',
+            'properties': {
+                'name': 'Great Marsh (Area 2)',
+                'world': 'Overworld',
+                'Pokémon': {
+                    "Grass": [{
+                        "name": "Tangela",
+                        "area": "Grass",
+                        "levels": "30-31",
+                        "rate": '5%',
+                    }, {
+                        "name": "Noctowl",
+                        "area": "Grass",
+                        "levels": "28, 30",
+                        "rate": ['0%', '0%', '20%'],
+                    }, {
+                        "name": "Yanma",
+                        "area": "Grass",
+                        "levels": "30-31",
+                        "rate": '5%',
+                    }, {
+                        "name": "Wooper",
+                        "area": "Grass",
+                        "levels": "28-30",
+                        "rate": '40%',
+                    }, {
+                        "name": "Quagsire",
+                        "area": "Grass",
+                        "levels": "30",
+                        "rate": '10%',
+                    }, {
+                        "name": "Tropius",
+                        "area": "Grass",
+                        "levels": "28, 30",
+                        "rate": ['20%', '20%', '0%'],
+                    }, {
+                        "name": "Bibarel",
+                        "area": "Grass",
+                        "levels": "25",
+                        "rate": '20%',
+                    }, ],
+                    "Surfing": [{
+                        "name": "Wooper",
+                        "area": "Surfing",
+                        "levels": "20-30",
+                        "rate": '90%',
+                    }, {
+                        "name": "Quagsire",
+                        "area": "Surfing",
+                        "levels": "20-40",
+                        "rate": '10%',
+                    }, ],
+                    "Fishing": [{
+                        "name": "Magikarp",
+                        "area": "Old Rod",
+                        "levels": "3-15",
+                        "rate": '100%',
+                    }, {
+                        "name": "Magikarp",
+                        "area": "Good Rod",
+                        "levels": "10-25",
+                        "rate": '55%',
+                    }, {
+                        "name": "Barboach",
+                        "area": "Good Rod",
+                        "levels": "10-25",
+                        "rate": '45%',
+                    }, {
+                        "name": "Gyarados",
+                        "area": "Super Rod",
+                        "levels": "30-55",
+                        "rate": '40%',
+                    }, {
+                        "name": "Carvanha",
+                        "area": "Super Rod",
+                        "levels": "30-55",
+                        "rate": '45%',
+                    }, {
+                        "name": "Whiscash",
+                        "area": "Super Rod",
+                        "levels": "20-50",
+                        "rate": '15%',
+                    }, ]
+                },
+            },
+            'geometry': {
+            'type': 'Polygon',
+            'coordinates': [[getCordfromLoc(-105.0, 263.0), getCordfromLoc(-215.0, 263.0), getCordfromLoc(-215.0, 391.0), getCordfromLoc(-105.0, 391.0), getCordfromLoc(-105.0, 263.0)]]
+            }
+        },
+        {
+            'type': 'Feature',
+            'properties': {
+                'name': 'Great Marsh (Area 3)',
+                'world': 'Overworld',
+                'Pokémon': {
+                    "Grass": [{
+                        "name": "Tangela",
+                        "area": "Grass",
+                        "levels": ['27-30', '27-30', '28-30'],
+                        "rate": ['25%', '25%', '15%'],
+                    }, {
+                        "name": "Hoothoot",
+                        "area": "Grass",
+                        "levels": "27",
+                        "rate": ['0%', '0%', '10%'],
+                    }, {
+                        "name": "Noctowl",
+                        "area": "Grass",
+                        "levels": "28",
+                        "rate": ['0%', '0%', '10%'],
+                    }, {
+                        "name": "Yanma",
+                        "area": "Grass",
+                        "levels": "29-30",
+                        "rate": '5%',
+                    }, {
+                        "name": "Wooper",
+                        "area": "Grass",
+                        "levels": "27-39",
+                        "rate": '30%',
+                    }, {
+                        "name": "Quagsire",
+                        "area": "Grass",
+                        "levels": "29",
+                        "rate": '10%',
+                    }, {
+                        "name": "Bibarel",
+                        "area": "Grass",
+                        "levels": ['27-28', '27-28', '27'],
+                        "rate": ['30%', '30%', '20%'],
+                    }, ],
+                    "Surfing": [{
+                        "name": "Wooper",
+                        "area": "Surfing",
+                        "levels": "20-30",
+                        "rate": '90%',
+                    }, {
+                        "name": "Quagsire",
+                        "area": "Surfing",
+                        "levels": "20-40",
+                        "rate": '10%',
+                    }, ],
+                    "Fishing": [{
+                        "name": "Magikarp",
+                        "area": "Old Rod",
+                        "levels": "3-15",
+                        "rate": '100%',
+                    }, {
+                        "name": "Magikarp",
+                        "area": "Good Rod",
+                        "levels": "10-25",
+                        "rate": '55%',
+                    }, {
+                        "name": "Barboach",
+                        "area": "Good Rod",
+                        "levels": "10-25",
+                        "rate": '45%',
+                    }, {
+                        "name": "Gyarados",
+                        "area": "Super Rod",
+                        "levels": "30-55",
+                        "rate": '40%',
+                    }, {
+                        "name": "Carvanha",
+                        "area": "Super Rod",
+                        "levels": "30-55",
+                        "rate": '45%',
+                    }, {
+                        "name": "Whiscash",
+                        "area": "Super Rod",
+                        "levels": "20-50",
+                        "rate": '15%',
+                    }, ]
+                },
+            },
+            'geometry': {
+            'type': 'Polygon',
+            'coordinates': [[getCordfromLoc(-215.0, 119.0), getCordfromLoc(-296.75, 119.0), getCordfromLoc(-296.75, 263.0), getCordfromLoc(-221.25, 263.0), getCordfromLoc(-221.25, 219.0), getCordfromLoc(-215.0, 219.0), getCordfromLoc(-215.0, 119.0)]]
+            }
+        },
+        {
+            'type': 'Feature',
+            'properties': {
+                'name': 'Great Marsh (Area 4)',
+                'world': 'Overworld',
+                'Pokémon': {
+                    "Grass": [{
+                        "name": "Tangela",
+                        "area": "Grass",
+                        "levels": ['27-30', '27-30', '28-30'],
+                        "rate": ['25%', '25%', '15%'],
+                    }, {
+                        "name": "Hoothoot",
+                        "area": "Grass",
+                        "levels": "27",
+                        "rate": ['0%', '0%', '10%'],
+                    }, {
+                        "name": "Noctowl",
+                        "area": "Grass",
+                        "levels": "28",
+                        "rate": ['0%', '0%', '10%'],
+                    }, {
+                        "name": "Yanma",
+                        "area": "Grass",
+                        "levels": "29-30",
+                        "rate": '5%',
+                    }, {
+                        "name": "Wooper",
+                        "area": "Grass",
+                        "levels": "27-39",
+                        "rate": '30%',
+                    }, {
+                        "name": "Quagsire",
+                        "area": "Grass",
+                        "levels": "29",
+                        "rate": '10%',
+                    }, {
+                        "name": "Bibarel",
+                        "area": "Grass",
+                        "levels": ['27-28', '27-28', '27'],
+                        "rate": ['30%', '30%', '20%'],
+                    }, ],
+                },
+            },
+            'geometry': {
+            'type': 'Polygon',
+            'coordinates': [[getCordfromLoc(-215.0, 263.0), getCordfromLoc(-280.0, 263.0), getCordfromLoc(-280.0, 391.0), getCordfromLoc(-215.0, 391.0), getCordfromLoc(-215.0, 263.0)]]
+            }
+        },
+        {
+            'type': 'Feature',
+            'properties': {
+                'name': 'Great Marsh (Area 5)',
+                'world': 'Overworld',
+                'Pokémon': {
+                    "Grass": [{
+                        "name": "Tangela",
+                        "area": "Grass",
+                        "levels": '28-29',
+                        "rate": '5%',
+                    }, {
+                        "name": "Hoothoot",
+                        "area": "Grass",
+                        "levels": "26-27",
+                        "rate": ['0%', '0%', '20%'],
+                    }, {
+                        "name": "Yanma",
+                        "area": "Grass",
+                        "levels": ['26-29', '26-29', '27-29'],
+                        "rate": ['25%', '25%', '15%'],
+                    }, {
+                        "name": "Wooper",
+                        "area": "Grass",
+                        "levels": "26-28",
+                        "rate": '30%',
+                    }, {
+                        "name": "Quagsire",
+                        "area": "Grass",
+                        "levels": "28",
+                        "rate": '10%',
+                    }, {
+                        "name": "Bibarel",
+                        "area": "Grass",
+                        "levels": ['26-27', '26-27', '26'],
+                        "rate": ['30%', '30%', '20%'],
+                    }, ],
+                },
+            },
+            'geometry': {
+            'type': 'Polygon',
+            'coordinates': [[getCordfromLoc(-296.75, 119.0), getCordfromLoc(-405.0, 119.0), getCordfromLoc(-405.0, 263.0), getCordfromLoc(-296.75, 263.0), getCordfromLoc(-296.75, 119.0)]]
+            }
+        },
+        {
+            'type': 'Feature',
+            'properties': {
+                'name': 'Great Marsh (Area 6)',
+                'world': 'Overworld',
+                'Pokémon': {
+                    "Grass": [{
+                        "name": "Tangela",
+                        "area": "Grass",
+                        "levels": '28-29',
+                        "rate": '5%',
+                    }, {
+                        "name": "Hoothoot",
+                        "area": "Grass",
+                        "levels": "26-27",
+                        "rate": ['0%', '0%', '20%'],
+                    }, {
+                        "name": "Yanma",
+                        "area": "Grass",
+                        "levels": ['26-29', '26-29', '27-29'],
+                        "rate": ['25%', '25%', '15%'],
+                    }, {
+                        "name": "Wooper",
+                        "area": "Grass",
+                        "levels": "26-28",
+                        "rate": '30%',
+                    }, {
+                        "name": "Quagsire",
+                        "area": "Grass",
+                        "levels": "28",
+                        "rate": '10%',
+                    }, {
+                        "name": "Starly",
+                        "area": "Grass",
+                        "levels": "22",
+                        "rate": ['10%', '10%', '0%'],
+                    }, {
+                        "name": "Bibarel",
+                        "area": "Grass",
+                        "levels": ['26-27', '26-27', '26'],
+                        "rate": ['30%', '30%', '20%'],
+                    }, ],
+                    "Surfing": [{
+                        "name": "Wooper",
+                        "area": "Surfing",
+                        "levels": "20-30",
+                        "rate": '90%',
+                    }, {
+                        "name": "Quagsire",
+                        "area": "Surfing",
+                        "levels": "20-40",
+                        "rate": '10%',
+                    }, ],
+                    "Fishing": [{
+                        "name": "Magikarp",
+                        "area": "Old Rod",
+                        "levels": "3-15",
+                        "rate": '100%',
+                    }, {
+                        "name": "Magikarp",
+                        "area": "Good Rod",
+                        "levels": "10-25",
+                        "rate": '55%',
+                    }, {
+                        "name": "Barboach",
+                        "area": "Good Rod",
+                        "levels": "10-25",
+                        "rate": '45%',
+                    }, {
+                        "name": "Gyarados",
+                        "area": "Super Rod",
+                        "levels": "30-55",
+                        "rate": '40%',
+                    }, {
+                        "name": "Carvanha",
+                        "area": "Super Rod",
+                        "levels": "30-55",
+                        "rate": '45%',
+                    }, {
+                        "name": "Whiscash",
+                        "area": "Super Rod",
+                        "levels": "20-50",
+                        "rate": '15%',
+                    }, ]
+                },
+            },
+            'geometry': {
+            'type': 'Polygon',
+            'coordinates': [[getCordfromLoc(-280.0, 263.0), getCordfromLoc(-405.0, 263.0), getCordfromLoc(-405.0, 391.0), getCordfromLoc(-280.0, 391.0), getCordfromLoc(-280.0, 263.0)]]
+            }
+        },
     ]
 };
