@@ -23,10 +23,10 @@ markerSet(-199.18, 482.16, "Celestic Ruins", entranceIcon, currentMap);
 markerSet(-423.32, 627.55, "Great Marsh", entranceIcon, currentMap);
 
 /* TODO:
+Solaceon Ruins
 Mount Coronet
 Lake Valor
 Galactic Veilstone Building
-Great Marsh
 Pokemon Mansion
 Trophy Garden
 Fuego Ironworks
@@ -35,6 +35,7 @@ Lake Acuity
 Spear Pillar
 Victory Road
 Battle Park
+Rock Peak Ruins
 Stark Mountain
 Snowpoint Temple
 Sendoff Spring
