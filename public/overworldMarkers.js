@@ -26,7 +26,6 @@ markerSet(-386.24, 733.06, "Lake Valor", entranceIcon, currentMap);
 
 /* TODO:
 Mount Coronet
-Lake Valor
 Galactic Veilstone Building
 Pokemon Mansion
 Trophy Garden
