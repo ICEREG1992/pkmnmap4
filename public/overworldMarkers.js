@@ -28,8 +28,6 @@ markerSet(-394.24, 489.02, "Pokémon Mansion", entranceIcon, currentMap);
 /* TODO:
 Mount Coronet
 Galactic Veilstone Building
-Pokemon Mansion
-Trophy Garden
 Fuego Ironworks
 Iron Island
 Lake Acuity
