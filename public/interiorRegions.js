@@ -2766,3 +2766,48 @@ var pokemonMansionRegions = {
       }
     ]
 };
+
+var trophyGardenRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': "Trophy Garden",
+            'world': 'Overworld',
+            'Pokémon': {
+                "Grass": [{
+                    "name": "Pikachu",
+                    "area": "Grass",
+                    "levels": "22, 24",
+                    "rate": '10%',
+                }, {
+                    "name": "Pichu",
+                    "area": "Grass",
+                    "levels": "21-22",
+                    "rate": '30%',
+                }, {
+                    "name": "Roselia",
+                    "area": "Grass",
+                    "levels": "22-23",
+                    "rate": '30%',
+                }, {
+                    "name": "Staravia",
+                    "area": "Grass",
+                    "levels": ['22, 24', '22-24', '24'],
+                    "rate": ['20%', '30%', '10%'],
+                }, {
+                    "name": "Kricketune",
+                    "area": "Grass",
+                    "levels": ['23', '0', '22-23'],
+                    "rate": ['10%', '0%', '20%'],
+                }, ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-95.0, 39.0), getCordfromLoc(-414.0, 39.0), getCordfromLoc(-414.0, 471.0), getCordfromLoc(-95.0, 471.0), getCordfromLoc(-95.0, 39.0)]]
+        }
+      }
+    ]
+};

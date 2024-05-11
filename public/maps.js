@@ -182,5 +182,13 @@ var maps = {
         "maxZoom": 3,
         "bounds": [-128, 256],
         "vector": pokemonMansionRegions
+    },
+    "Trophy Garden": {
+        "shortname": 'trophygarden',
+        "zoom": 2,
+        "minZoom": 1,
+        "maxZoom": 3,
+        "bounds": [-128, 128],
+        "vector": trophyGardenRegions
     }
 }

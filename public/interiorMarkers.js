@@ -187,7 +187,11 @@ markerSet(-186, 124.5, "HP Up", hiddenIcon, currentMap);
 
 var currentMap = "Pokémon Mansion";
 markerSet(-407, 583, "Overworld", entranceIcon, currentMap, [[-394.24, 489.02], 5]);
+markerSet(-225, 583.5, "Trophy Garden", entranceIcon, currentMap);
 
 markerSet(-134.5, 904.5, "TM87 (Swagger)", tmIcon, currentMap);
 markerSet(-217, 439.5, "Protein", hiddenIcon, currentMap);
 markerSet(-146.5, 135.5, "Luxury Ball", itemIcon, currentMap);
+
+var currentMap = "Trophy Garden";
+markerSet(-405, 256, "Pokémon Mansion", entranceIcon, currentMap);
