@@ -21,11 +21,11 @@ ImageToTileset(r"[path to your png map]", r"[directory you want the tileset to b
 1. Make note of the following values: Selection top left coordinate, selection width and height.
 1. Insert those values into my helper function:
 ```
-from HelperTools import Translate
-Translate(x, y, w, h)
+from HelperTools import TranslateScale
+TranslateScale(s, x, y, w, h)
 ```
+Note: Scale parameter `s` depends on the size of your map. I believe a good way to find it is to divide the smallest dimension of your map by 512. In general, if your regions come out at half size, then halve the scale parameter.
 5. Copy and paste the output into the "coordinates" property of a feature in one of the vector js files.
-    Note: `Translate()` will likely not work depending on the size of your map. You can try `TranslateScale(s, x, y, w, h)` which takes scale parameter `s`, `Translate()` uses a scale factor of 16 so if your regions come out at half size try halving the scale factor (Larger scale factor = smaller regions).
 
 ## how to create new interiors
 1. Create a new tileset for your map using the above steps
