@@ -184,3 +184,10 @@ markerSet(-275, 283.5, "Valor Cavern", entranceIcon, currentMap);
 
 markerSet(-347.5, 451.5, "TM25 (Thunder)", tmIcon, currentMap);
 markerSet(-186, 124.5, "HP Up", hiddenIcon, currentMap);
+
+var currentMap = "Pokémon Mansion";
+markerSet(-407, 583, "Overworld", entranceIcon, currentMap, [[-394.24, 489.02], 5]);
+
+markerSet(-134.5, 904.5, "TM87 (Swagger)", tmIcon, currentMap);
+markerSet(-217, 439.5, "Protein", hiddenIcon, currentMap);
+markerSet(-146.5, 135.5, "Luxury Ball", itemIcon, currentMap);

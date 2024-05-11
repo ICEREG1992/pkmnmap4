@@ -175,4 +175,12 @@ var maps = {
         "bounds": [-128, 128],
         "vector": lakeValorDryRegions
     },
+    "Pokémon Mansion": {
+        "shortname": 'pokemonmansion',
+        "zoom": 2,
+        "minZoom": 1,
+        "maxZoom": 3,
+        "bounds": [-128, 256],
+        "vector": pokemonMansionRegions
+    }
 }

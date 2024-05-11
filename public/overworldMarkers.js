@@ -23,6 +23,7 @@ markerSet(-318.92, 729.06, "Maniac Tunnel", entranceIcon, currentMap, [[-308, 34
 markerSet(-199.18, 482.16, "Celestic Ruins", entranceIcon, currentMap);
 markerSet(-423.32, 627.55, "Great Marsh", entranceIcon, currentMap);
 markerSet(-386.24, 733.06, "Lake Valor", entranceIcon, currentMap);
+markerSet(-394.24, 489.02, "Pokémon Mansion", entranceIcon, currentMap);
 
 /* TODO:
 Mount Coronet
@@ -241,7 +242,7 @@ markerSet(-390.45, 480, "Iron", itemIcon, currentMap);
 markerSet(-398.95, 469, "TM11 (Sunny Day)", tmIcon, currentMap);
 markerSet(-409.75, 475, "Rose Incense", itemIcon, currentMap);
 markerSet(-418.82, 494, "Ultra Ball", hiddenIcon, currentMap);
-markerSet(-399.45, 485, "Pearl", hiddenIcon, currentMap);
+markerSet(-400.24, 486, "Pearl", hiddenIcon, currentMap);
 markerSet(-392, 495, "Green Shard", itemIcon, currentMap);
 markerSet(-432.95, 478, "Elixir", itemIcon, currentMap);
 markerSet(-448, 471.12, "Blue Shard", itemIcon, currentMap);

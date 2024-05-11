@@ -2748,3 +2748,21 @@ var lakeValorDryRegions = {
       }
     ]
 };
+
+var pokemonMansionRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': "Pokémon Mansion",
+            'world': 'Overworld',
+            'Pokémon': {},
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-96.0, 59.0), getCordfromLoc(-413.0, 59.0), getCordfromLoc(-413.0, 963.0), getCordfromLoc(-96.0, 963.0), getCordfromLoc(-96.0, 59.0)]]
+        }
+      }
+    ]
+};
