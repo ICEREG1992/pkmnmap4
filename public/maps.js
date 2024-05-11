@@ -151,4 +151,28 @@ var maps = {
         "bounds": [-128, 128],
         "vector": greatMarshRegions
     },
+    "Lake Valor": { // TODO: add more zoom levels so this map makes sense
+        "shortname": 'lakevalor',
+        "zoom": 3,
+        "minZoom": 2,
+        "maxZoom": 4,
+        "bounds": [-128, 128],
+        "vector": lakeValorRegions
+    },
+    "Valor Cavern": { // TODO: add more zoom levels so this map makes sense
+        "shortname": 'valorcavern',
+        "zoom": 2,
+        "minZoom": 1,
+        "maxZoom": 3,
+        "bounds": [-128, 128],
+        "vector": valorCavernRegions
+    },
+    "Lake Valor Dry": { // TODO: add more zoom levels so this map makes sense
+        "shortname": 'lakevalordry',
+        "zoom": 3,
+        "minZoom": 2,
+        "maxZoom": 4,
+        "bounds": [-128, 128],
+        "vector": lakeValorDryRegions
+    },
 }

@@ -22,6 +22,7 @@ markerSet(-304.75, 614.04, "Solaceon Ruins", entranceIcon, currentMap);
 markerSet(-318.92, 729.06, "Maniac Tunnel", entranceIcon, currentMap, [[-308, 3486], 1]);
 markerSet(-199.18, 482.16, "Celestic Ruins", entranceIcon, currentMap);
 markerSet(-423.32, 627.55, "Great Marsh", entranceIcon, currentMap);
+markerSet(-386.24, 733.06, "Lake Valor", entranceIcon, currentMap);
 
 /* TODO:
 Mount Coronet

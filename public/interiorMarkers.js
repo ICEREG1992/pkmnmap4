@@ -168,3 +168,19 @@ markerSet(-252.5, 197.32, "Leaf Stone", hiddenIcon, currentMap);
 markerSet(-264.55, 153.45, "Great Ball", itemIcon, currentMap);
 markerSet(-366.24, 189.45, "Great Ball", itemIcon, currentMap);
 markerSet(-391.24, 189.45, "Big Mushroom", hiddenIcon, currentMap);
+
+var currentMap = "Lake Valor";
+markerSet(-127, 419, "Overworld", entranceIcon, currentMap, [[-386.24, 733.06], 5]);
+markerSet(-261.5, 251.5, "Valor Cavern", entranceIcon, currentMap);
+
+markerSet(-350, 419.5, "TM25 (Thunder)", tmIcon, currentMap);
+
+var currentMap = "Valor Cavern";
+markerSet(-443.5, 256, "Lake Valor Dry", entranceIcon, currentMap);
+
+var currentMap = "Lake Valor Dry";
+markerSet(-125, 451, "Overworld", entranceIcon, currentMap, [[-386.24, 733.06], 5]);
+markerSet(-275, 283.5, "Valor Cavern", entranceIcon, currentMap);
+
+markerSet(-347.5, 451.5, "TM25 (Thunder)", tmIcon, currentMap);
+markerSet(-186, 124.5, "HP Up", hiddenIcon, currentMap);

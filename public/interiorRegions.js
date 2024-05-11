@@ -2608,3 +2608,143 @@ var greatMarshRegions = {
         },
     ]
 };
+
+var lakeValorRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Lake Valor',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Grass": [{
+                    "name": "Psyduck",
+                    "area": "Grass",
+                    "levels": "38-39",
+                    "rate": '15%',
+                }, {
+                    "name": "Golduck",
+                    "area": "Grass",
+                    "levels": "40-41",
+                    "rate": '15%',
+                }, {
+                    "name": "Staravia",
+                    "area": "Grass",
+                    "levels": "38, 40",
+                    "rate": '35%',
+                }, {
+                    "name": "Bibarel",
+                    "area": "Grass",
+                    "levels": "39, 41",
+                    "rate": '35%',
+                }, ],
+                "Surfing": [{
+                    "name": "Psyduck",
+                    "area": "Surfing",
+                    "levels": "20-30",
+                    "rate": '90%',
+                }, {
+                    "name": "Golduck",
+                    "area": "Surfing",
+                    "levels": "20-40",
+                    "rate": '10%',
+                }, ],
+                "Fishing": [{
+                    "name": "Magikarp",
+                    "area": "Old Rod",
+                    "levels": "3-15",
+                    "rate": '100%',
+                }, {
+                    "name": "Goldeen",
+                    "area": "Good Rod",
+                    "levels": "15-20",
+                    "rate": '40%',
+                }, {
+                    "name": "Seaking",
+                    "area": "Good Rod",
+                    "levels": "25-35",
+                    "rate": '5%',
+                }, {
+                    "name": "Magikarp",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '55%',
+                }, {
+                    "name": "Seaking",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '45%',
+                }, {
+                    "name": "Gyarados",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '55%',
+                }, ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-75.0, 39.0), getCordfromLoc(-435.0, 39.0), getCordfromLoc(-435.0, 471.0), getCordfromLoc(-75.0, 471.0), getCordfromLoc(-75.0, 39.0)]]
+        }
+      }
+    ]
+};
+
+var valorCavernRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Valor Cavern',
+            'world': 'Overworld',
+            'Pokémon': {},
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-58.0, 23.0), getCordfromLoc(-452.0, 23.0), getCordfromLoc(-452.0, 487.0), getCordfromLoc(-58.0, 487.0), getCordfromLoc(-58.0, 23.0)]]
+        }
+      }
+    ]
+};
+
+var lakeValorDryRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Lake Valor Dry',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Grass": [{
+                    "name": "Psyduck",
+                    "area": "Grass",
+                    "levels": "38-39",
+                    "rate": '15%',
+                }, {
+                    "name": "Golduck",
+                    "area": "Grass",
+                    "levels": "40-41",
+                    "rate": '15%',
+                }, {
+                    "name": "Staravia",
+                    "area": "Grass",
+                    "levels": "38, 40",
+                    "rate": '35%',
+                }, {
+                    "name": "Bibarel",
+                    "area": "Grass",
+                    "levels": "39, 41",
+                    "rate": '35%',
+                }, ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-90.0, 23.0), getCordfromLoc(-420.0, 23.0), getCordfromLoc(-420.0, 487.0), getCordfromLoc(-90.0, 487.0), getCordfromLoc(-90.0, 23.0)]]
+        }
+      }
+    ]
+};
