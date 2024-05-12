@@ -24,6 +24,7 @@ markerSet(-199.18, 482.16, "Celestic Ruins", entranceIcon, currentMap);
 markerSet(-423.32, 627.55, "Great Marsh", entranceIcon, currentMap);
 markerSet(-386.24, 733.06, "Lake Valor", entranceIcon, currentMap);
 markerSet(-394.24, 489.02, "Pokémon Mansion", entranceIcon, currentMap);
+markerSet(-31.92, 361.64, "Lake Acuity", entranceIcon, currentMap);
 
 /* TODO:
 Mount Coronet

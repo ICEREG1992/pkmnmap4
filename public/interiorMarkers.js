@@ -195,3 +195,12 @@ markerSet(-146.5, 135.5, "Luxury Ball", itemIcon, currentMap);
 
 var currentMap = "Trophy Garden";
 markerSet(-405, 256, "Pokémon Mansion", entranceIcon, currentMap);
+
+var currentMap = "Lake Acuity";
+markerSet(-391, 103.75, "Overworld", entranceIcon, currentMap, [[-31.92, 361.64], 5]);
+markerSet(-284.5, 243.5, "Acuity Cavern", entranceIcon, currentMap);
+
+markerSet(-137.75, 292, "TM14 (Blizzard)", tmIcon, currentMap);
+
+var currentMap = "Acuity Cavern";
+markerSet(-441.5, 255, "Lake Acuity", entranceIcon, currentMap);

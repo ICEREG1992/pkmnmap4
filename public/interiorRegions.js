@@ -2811,3 +2811,120 @@ var trophyGardenRegions = {
       }
     ]
 };
+
+var lakeAcuityRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': "Lake Acuity",
+            'world': 'Overworld',
+            'Pokémon': {
+                "Grass": [{
+                    "name": "Psyduck",
+                    "area": "Grass",
+                    "levels": "38",
+                    "rate": '5%',
+                }, {
+                    "name": "Golduck",
+                    "area": "Grass",
+                    "levels": "39-40",
+                    "rate": '15%',
+                }, {
+                    "name": "Sneasel",
+                    "area": "Grass",
+                    "levels": "41",
+                    "rate": '10%',
+                }, {
+                    "name": "Snorunt",
+                    "area": "Grass",
+                    "levels": '39-40',
+                    "rate": ['0%', '0%', '20%'],
+                }, {
+                    "name": "Bibarel",
+                    "area": "Grass",
+                    "levels": '39-40',
+                    "rate": '25%',
+                }, {
+                    "name": "Snover",
+                    "area": "Grass",
+                    "levels": ['38-41', '38-41', '38, 41'],
+                    "rate": ['45%', '45%', '25%'],
+                }, ],
+                "Surfing": [{
+                    "name": "Psyduck",
+                    "area": "Grass",
+                    "levels": "20-30",
+                    "rate": '90%',
+                }, {
+                    "name": "Golduck",
+                    "area": "Grass",
+                    "levels": "20-40",
+                    "rate": '10%',
+                }, ],
+                "Fishing": [{
+                    "name": "Magikarp",
+                    "area": "Old Rod",
+                    "levels": "3-15",
+                    "rate": '100%',
+                }, {
+                    "name": "Goldeen",
+                    "area": "Good Rod",
+                    "levels": "15-20",
+                    "rate": '40%',
+                }, {
+                    "name": "Seaking",
+                    "area": "Good Rod",
+                    "levels": "25-35",
+                    "rate": '5%',
+                }, {
+                    "name": "Magikarp",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '55%',
+                }, {
+                    "name": "Seaking",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '45%',
+                }, {
+                    "name": "Gyarados",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '55%',
+                }, ]
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-102.0, 67.0), getCordfromLoc(-407.5, 67.0), getCordfromLoc(-407.5, 443.0), getCordfromLoc(-102.0, 443.0), getCordfromLoc(-102.0, 67.0)]]
+        }
+      }
+    ]
+};
+
+var acuityCavernRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': "Acuity Cavern",
+            'world': 'Overworld',
+            'Pokémon': {
+                "Special Encounter": [{
+                    "name": "Uxie",
+                    "area": "After Giratina",
+                    "levels": "50",
+                    "rate": 'One',
+                } ]
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-58.0, 23.0), getCordfromLoc(-453.0, 23.0), getCordfromLoc(-453.0, 487.0), getCordfromLoc(-58.0, 487.0), getCordfromLoc(-58.0, 23.0)]]
+        }
+      }
+    ]
+};
