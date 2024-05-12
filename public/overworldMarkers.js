@@ -31,7 +31,6 @@ Mount Coronet
 Galactic Veilstone Building
 Fuego Ironworks
 Iron Island
-Lake Acuity
 Spear Pillar
 Victory Road
 Battle Park
