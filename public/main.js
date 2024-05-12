@@ -77,7 +77,7 @@ function loadMap(mapName, returnLoc = undefined) {
     var tileLayer = L.tileLayer('tilesets/' + selectedMap.shortname + '/{z}/{y}/{x}.png', {
         tms: false,
         reuseTiles: true,
-        attribution: 'Original by <a target="_blank" href="http://www.jaxsonkeenes.com">Jaxson Keenes</a> | Gen 4 Update by <a target="_blank" href="https://github.com/ICEREG1992/pkmnmap4">William_Williams</a>',
+        attribution: 'Original by <a target="_blank" href="http://www.jaxsonkeenes.com">Jaxson Keenes</a> | Gen 4 Update by <a target="_blank" href="https://github.com/ICEREG1992/pkmnmap4">William_Williams</a><br>Maps sourced from <a target="_blank" href="https://bulbapedia.bulbagarden.net/wiki/Category:Platinum_locations">Bulbapedia</a> | Item locations sourced from <a target="_blank" href="https://youtube.com/playlist?list=PLDHidtsnukfIVS-VhbJRuxHVfKgmPduIE&si=agUfWjlSWxbYmLkX">Techno Trainer</a>',
         bounds: L.latLngBounds(L.latLng(selectedMap.bounds[0], 0), L.latLng(0, selectedMap.bounds[1])),
         tileSize: 256
     });

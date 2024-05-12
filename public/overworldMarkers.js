@@ -33,7 +33,7 @@ Fuego Ironworks
 Iron Island
 Spear Pillar
 Victory Road
-Battle Park
+Battle Frontier
 Rock Peak Ruins
 Stark Mountain
 Snowpoint Temple
