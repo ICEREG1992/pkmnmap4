@@ -36,3 +36,6 @@ Note: Scale parameter `s` depends on the size of your map. I believe a good way 
     - return location is optional and intended for entrances, but should be a two element array that looks like `[[y, x], zoom]`.
     - return location determines where the camera should be centered when you enter the map. if no return location is specified, the camera is perfectly centered on the whole map.
 1. Finally, add an entrance marker to the overworld with the name matching the new map's name.
+
+## licensing
+Map files published under this repository are subject to a [CC BY-NC-SA 2.5 license](https://creativecommons.org/licenses/by-nc-sa/2.5/) via [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Copyrights). You are free to share or adapt this material under the terms that you provide appropriate attribution, do not use the material for commercial purposes, and distribute your work under the same license.
