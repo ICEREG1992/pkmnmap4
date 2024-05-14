@@ -99,7 +99,7 @@ var verityCavernRegions = {
                     "name": "Magikarp",
                     "area": "Old Rod",
                     "levels": "3-15",
-                    "rate": '100%%',
+                    "rate": '100%',
                 }, {
                     "name": "Magikarp",
                     "area": "Good Rod",
