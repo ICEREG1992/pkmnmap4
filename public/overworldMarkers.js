@@ -37,7 +37,6 @@ Victory Road
 Battle Frontier
 Rock Peak Ruins
 Stark Mountain
-Snowpoint Temple
 Sendoff Spring
 Turnback Cave
 Fullmoon Island
