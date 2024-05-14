@@ -2928,3 +2928,189 @@ var acuityCavernRegions = {
       }
     ]
 };
+
+var snowpointTempleRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Snowpoint Temple (1F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Golbat",
+                    "area": "Walking",
+                    "levels": "47-50",
+                    "rate": '80%',
+                }, {
+                    "name": "Sneasel",
+                    "area": "Walking",
+                    "levels": "49",
+                    "rate": "10%",
+                }, {
+                    "name": "Smoochum",
+                    "area": "Walking",
+                    "levels": "47, 49",
+                    "rate": "10%",
+                } ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-256.0, 119.0), getCordfromLoc(-452.0, 119.0), getCordfromLoc(-452.0, 391.0), getCordfromLoc(-256.0, 391.0), getCordfromLoc(-256.0, 119.0)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Snowpoint Temple (B1F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Golbat",
+                    "area": "Walking",
+                    "levels": "47-50",
+                    "rate": '80%',
+                }, {
+                    "name": "Jynx",
+                    "area": "Walking",
+                    "levels": "47, 49",
+                    "rate": "10%",
+                }, {
+                    "name": "Sneasel",
+                    "area": "Walking",
+                    "levels": "49",
+                    "rate": "10%",
+                } ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-484.0, 119.0), getCordfromLoc(-681.0, 119.0), getCordfromLoc(-681.0, 391.0), getCordfromLoc(-484.0, 391.0), getCordfromLoc(-484.0, 119.0)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Snowpoint Temple (B2F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Golbat",
+                    "area": "Walking",
+                    "levels": "47-50",
+                    "rate": '80%',
+                }, {
+                    "name": "Jynx",
+                    "area": "Walking",
+                    "levels": "48, 50",
+                    "rate": "10%",
+                }, {
+                    "name": "Sneasel",
+                    "area": "Walking",
+                    "levels": "50",
+                    "rate": "10%",
+                } ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-956.0, 111.0), getCordfromLoc(-1167.0, 111.0), getCordfromLoc(-1167.0, 399.0), getCordfromLoc(-956.0, 399.0), getCordfromLoc(-956.0, 111.0)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Snowpoint Temple (B3F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Golbat",
+                    "area": "Walking",
+                    "levels": "47-50",
+                    "rate": '80%',
+                }, {
+                    "name": "Jynx",
+                    "area": "Walking",
+                    "levels": "48, 50",
+                    "rate": "10%",
+                }, {
+                    "name": "Sneasel",
+                    "area": "Walking",
+                    "levels": "50",
+                    "rate": "10%",
+                } ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-713.0, 111.0), getCordfromLoc(-924.0, 111.0), getCordfromLoc(-924.0, 399.0), getCordfromLoc(-713.0, 399.0), getCordfromLoc(-713.0, 111.0)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Snowpoint Temple (B4F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Golbat",
+                    "area": "Walking",
+                    "levels": "47-50",
+                    "rate": '80%',
+                }, {
+                    "name": "Jynx",
+                    "area": "Walking",
+                    "levels": "49, 51",
+                    "rate": "10%",
+                }, {
+                    "name": "Sneasel",
+                    "area": "Walking",
+                    "levels": "51",
+                    "rate": "10%",
+                } ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-1199.0, 111.0), getCordfromLoc(-1472.0, 111.0), getCordfromLoc(-1472.0, 399.0), getCordfromLoc(-1199.0, 399.0), getCordfromLoc(-1199.0, 111.0)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Snowpoint Temple (B5F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Golbat",
+                    "area": "Walking",
+                    "levels": "47-50",
+                    "rate": '80%',
+                }, {
+                    "name": "Jynx",
+                    "area": "Walking",
+                    "levels": "49, 51",
+                    "rate": "10%",
+                }, {
+                    "name": "Sneasel",
+                    "area": "Walking",
+                    "levels": "51",
+                    "rate": "10%",
+                } ],
+                "Special Encounter": [{
+                    "name": "Regigigas",
+                    "area": "Regi Trio in Party",
+                    "levels": "1",
+                    "rate": 'One',
+                } ]
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-1504.0, 87.0), getCordfromLoc(-1789.0, 87.0), getCordfromLoc(-1789.0, 423.0), getCordfromLoc(-1504.0, 423.0), getCordfromLoc(-1504.0, 87.0)]]
+        }
+      },
+    ]
+};

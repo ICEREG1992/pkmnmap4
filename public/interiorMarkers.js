@@ -204,3 +204,10 @@ markerSet(-137.75, 292, "TM14 (Blizzard)", tmIcon, currentMap);
 
 var currentMap = "Acuity Cavern";
 markerSet(-441.5, 255, "Lake Acuity", entranceIcon, currentMap);
+
+var currentMap = "Snowpoint Temple";
+markerSet(-441, 255, "Overworld", entranceIcon, currentMap, [[-9.86, 419.64], 5]);
+
+markerSet(-670.5, 319.5, "Calcium", itemIcon, currentMap);
+markerSet(-1080, 279.5, "Full Restore", hiddenIcon, currentMap);
+markerSet(-1448.5, 295.5, "Full Heal", itemIcon, currentMap);

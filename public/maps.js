@@ -206,5 +206,13 @@ var maps = {
         "maxZoom": 3,
         "bounds": [-128, 128],
         "vector": acuityCavernRegions
+    },
+    "Snowpoint Temple": {
+        "shortname": 'snowpointtemple',
+        "zoom": 1,
+        "minZoom": 1,
+        "maxZoom": 3,
+        "bounds": [-512, 128],
+        "vector": snowpointTempleRegions
     }
 }
