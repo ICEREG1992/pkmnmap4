@@ -38,8 +38,6 @@ Victory Road
 Battle Frontier
 Rock Peak Ruins
 Stark Mountain
-Sendoff Spring
-Turnback Cave
 Fullmoon Island
 Newmoon Island
 */
