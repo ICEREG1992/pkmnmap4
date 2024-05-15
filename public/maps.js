@@ -214,5 +214,21 @@ var maps = {
         "maxZoom": 3,
         "bounds": [-512, 128],
         "vector": snowpointTempleRegions
+    },
+    "Sendoff Spring": {
+        "shortname": 'sendoffspring',
+        "zoom": 3,
+        "minZoom": 2,
+        "maxZoom": 4,
+        "bounds": [-128, 128],
+        "vector": sendoffSpringRegions
+    },
+    "Turnback Cave": {
+        "shortname": 'turnbackcave',
+        "zoom": 2,
+        "minZoom": 2,
+        "maxZoom": 5,
+        "bounds": [-256, 128],
+        "vector": turnbackCaveRegions
     }
 }

@@ -3114,3 +3114,242 @@ var snowpointTempleRegions = {
       },
     ]
 };
+
+var sendoffSpringRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': "Sendoff Spring",
+            'world': 'Overworld',
+            'Pokémon': {
+                "Grass": [{
+                    "name": "Golbat",
+                    "area": "Grass",
+                    "levels": "38",
+                    "rate": ['0%', '0%', '10%'],
+                }, {
+                    "name": "Graveler",
+                    "area": "Grass",
+                    "levels": ['37-39', '37-39', '37-38'],
+                    "rate": ['35%', '35%', '25%'],
+                }, {
+                    "name": "Dusclops",
+                    "area": "Grass",
+                    "levels": ['40', '40', '39, 40'],
+                    "rate": ['5%', '5%', '15%'],
+                }, {
+                    "name": "Staravia",
+                    "area": "Grass",
+                    "levels": ['38, 40', '38, 40', '40'],
+                    "rate": ['20%', '20%', '10%'],
+                }, {
+                    "name": "Bibarel",
+                    "area": "Grass",
+                    "levels": '37-38',
+                    "rate": '30%',
+                }, {
+                    "name": "Chingling",
+                    "area": "Grass",
+                    "levels": '37, 39',
+                    "rate": '10%',
+                }, ],
+                "Surfing": [{
+                    "name": "Golduck",
+                    "area": "Grass",
+                    "levels": "20-40",
+                    "rate": '100%',
+                }, ],
+                "Fishing": [{
+                    "name": "Magikarp",
+                    "area": "Old Rod",
+                    "levels": "3-15",
+                    "rate": '100%',
+                }, {
+                    "name": "Goldeen",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '45%',
+                }, {
+                    "name": "Magikarp",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": '55%',
+                }, {
+                    "name": "Seaking",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '45%',
+                }, {
+                    "name": "Gyarados",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": '55%',
+                }, ]
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-71.0, 63.0), getCordfromLoc(-439.0, 63.0), getCordfromLoc(-439.0, 447.0), getCordfromLoc(-71.0, 447.0), getCordfromLoc(-71.0, 63.0)]]
+        }
+      }
+    ]
+};
+
+var turnbackCaveRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Turnback Cave (No Pillars)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Golbat",
+                    "area": "Walking",
+                    "levels": "17-18",
+                    "rate": '25%',
+                }, {
+                    "name": "Ghastly",
+                    "area": "Walking",
+                    "levels": ['15-17', '15-17', '15, 17'],
+                    "rate": ['40%', '40%', '30%'],
+                }, {
+                    "name": "Duskull",
+                    "area": "Walking",
+                    "levels": "18",
+                    "rate": "5%",
+                }, {
+                    "name": "Dusclops",
+                    "area": "Walking",
+                    "levels": "16",
+                    "rate": ['0%', '0%', '10%'],
+                }, {
+                    "name": "Chingling",
+                    "area": "Walking",
+                    "levels": "16, 18",
+                    "rate": "10%",
+                }, {
+                    "name": "Bronzor",
+                    "area": "Walking",
+                    "levels": "15",
+                    "rate": "20%",
+                } ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-727.5, 113.0), getCordfromLoc(-874.75, 113.0), getCordfromLoc(-874.75, 397.0), getCordfromLoc(-727.5, 397.0), getCordfromLoc(-727.5, 113.0)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Turnback Cave (One Pillar)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Golbat",
+                    "area": "Walking",
+                    "levels": "25, 27",
+                    "rate": '25%',
+                }, {
+                    "name": "Haunter",
+                    "area": "Walking",
+                    "levels": ['25-27', '25-27', '25, 27'],
+                    "rate": ['40%', '40%', '30%'],
+                }, {
+                    "name": "Chimecho",
+                    "area": "Walking",
+                    "levels": "28",
+                    "rate": "1%",
+                }, {
+                    "name": "Duskull",
+                    "area": "Walking",
+                    "levels": "28",
+                    "rate": '4%',
+                },{
+                    "name": "Dusclops",
+                    "area": "Walking",
+                    "levels": ['28', '28', '26, 28'],
+                    "rate": ['1%', '1%', '11%'],
+                }, {
+                    "name": "Chingling",
+                    "area": "Walking",
+                    "levels": "26, 28",
+                    "rate": "9%",
+                }, {
+                    "name": "Bronzor",
+                    "area": "Walking",
+                    "levels": "25",
+                    "rate": "20%",
+                } ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-479.5, 113.0), getCordfromLoc(-626.75, 113.0), getCordfromLoc(-626.75, 397.0), getCordfromLoc(-479.5, 397.0), getCordfromLoc(-479.5, 113.0)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Turnback Cave (Two Pillars)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Golbat",
+                    "area": "Walking",
+                    "levels": "37-38",
+                    "rate": '25%',
+                }, {
+                    "name": "Haunter",
+                    "area": "Walking",
+                    "levels": ['35-37', '35-37', '35, 37'],
+                    "rate": ['40%', '40%', '30%'],
+                }, {
+                    "name": "Dusclops",
+                    "area": "Walking",
+                    "levels": ['38', '38', '36, 38'],
+                    "rate": ['5%', '5%', '15%'],
+                }, {
+                    "name": "Chimecho",
+                    "area": "Walking",
+                    "levels": "36, 38",
+                    "rate": "10%",
+                }, {
+                    "name": "Bronzong",
+                    "area": "Walking",
+                    "levels": "35",
+                    "rate": "20%",
+                }, ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-231.5, 113.0), getCordfromLoc(-378.75, 113.0), getCordfromLoc(-378.75, 397.0), getCordfromLoc(-231.5, 397.0), getCordfromLoc(-231.5, 113.0)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Turnback Cave (Three Pillars)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Special Encounter": [{
+                    "name": "Giratina",
+                    "area": "After Hall of Fame",
+                    "levels": "70",
+                    "rate": 'One',
+                }, ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-61.5, 209.0), getCordfromLoc(-132.75, 209.0), getCordfromLoc(-132.75, 301.0), getCordfromLoc(-61.5, 301.0), getCordfromLoc(-61.5, 209.0)]]
+        }
+      },
+    ]
+};

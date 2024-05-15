@@ -211,3 +211,10 @@ markerSet(-441, 255, "Overworld", entranceIcon, currentMap, [[-9.86, 419.64], 5]
 markerSet(-670.5, 319.5, "Calcium", itemIcon, currentMap);
 markerSet(-1080, 279.5, "Full Restore", hiddenIcon, currentMap);
 markerSet(-1448.5, 295.5, "Full Heal", itemIcon, currentMap);
+
+var currentMap = "Sendoff Spring";
+markerSet(-414.5, 103.75, "Overworld", entranceIcon, currentMap, [[-352.12, 779.55], 5]);
+markerSet(-165.75, 251.5, "Turnback Cave", entranceIcon, currentMap);
+
+var currentMap = "Turnback Cave";
+markerSet(-950.875, 255.75, "Sendoff Spring", entranceIcon, currentMap);

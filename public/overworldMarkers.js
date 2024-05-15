@@ -26,6 +26,7 @@ markerSet(-386.24, 733.06, "Lake Valor", entranceIcon, currentMap);
 markerSet(-394.24, 489.02, "Pokémon Mansion", entranceIcon, currentMap);
 markerSet(-31.92, 361.64, "Lake Acuity", entranceIcon, currentMap);
 markerSet(-9.86, 419.64, "Snowpoint Temple", entranceIcon, currentMap);
+markerSet(-352.12, 779.55, "Sendoff Spring", entranceIcon, currentMap);
 
 /* TODO:
 Mount Coronet
