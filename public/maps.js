@@ -230,5 +230,13 @@ var maps = {
         "maxZoom": 5,
         "bounds": [-256, 128],
         "vector": turnbackCaveRegions
+    },
+    "Stark Mountain": {
+        "shortname": 'starkmountain',
+        "zoom": 2,
+        "minZoom": 2,
+        "maxZoom": 5,
+        "bounds": [-128, 128],
+        "vector": starkMountainRegions
     }
 }

@@ -218,3 +218,28 @@ markerSet(-165.75, 251.5, "Turnback Cave", entranceIcon, currentMap);
 
 var currentMap = "Turnback Cave";
 markerSet(-950.875, 255.75, "Sendoff Spring", entranceIcon, currentMap);
+
+var currentMap = "Stark Mountain";
+markerSet(-481.125, 245.5, "Overworld", entranceIcon, currentMap, [[-5.76, 756.72], 5]);
+
+markerSet(-478.75, 197.62, "Escape Rope", itemIcon, currentMap);
+markerSet(-479.75, 298, "PP Up", itemIcon, currentMap);
+markerSet(-421, 189.75, "Full Heal", itemIcon, currentMap);
+markerSet(-415, 265.5, "Full Restore", itemIcon, currentMap);
+markerSet(-411, 265.5, "Star Piece", hiddenIcon, currentMap);
+
+markerSet(-247.5, 217.5, "Ultra Ball", itemIcon, currentMap);
+markerSet(-352.5, 137.5, "Ultra Ball", hiddenIcon, currentMap);
+markerSet(-367, 113.5, "Rare Candy", itemIcon, currentMap);
+markerSet(-268, 84.75, "Flame Plate", hiddenIcon, currentMap);
+markerSet(-263.25, 109.5, "TM50 (Overheat)", tmIcon, currentMap);
+markerSet(-365.25, 269.5, "Max Revive", hiddenIcon, currentMap);
+markerSet(-370, 289.5, "Iron Ball", itemIcon, currentMap);
+markerSet(-277.25, 405.5, "Stardust", hiddenIcon, currentMap);
+markerSet(-302.25, 341.5, "Max Elixir", itemIcon, currentMap);
+markerSet(-163.25, 357.5, "Iron", hiddenIcon, currentMap);
+markerSet(-120.75, 433.5, "Nugget", itemIcon, currentMap);
+markerSet(-120.75, 281.5, "Max Revive", itemIcon, currentMap);
+markerSet(-246.5, 277.5, "Star Piece", hiddenIcon, currentMap);
+markerSet(-286.5, 261.5, "Calcium", itemIcon, currentMap);
+markerSet(-167.25, 121.25, "Fire Stone", hiddenIcon, currentMap);

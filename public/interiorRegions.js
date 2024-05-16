@@ -3353,3 +3353,126 @@ var turnbackCaveRegions = {
       },
     ]
 };
+
+var starkMountainRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Stark Mountain (Room 1)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Golbat",
+                    "area": "Walking",
+                    "levels": "52",
+                    "rate": '20%',
+                }, {
+                    "name": "Graveler",
+                    "area": "Walking",
+                    "levels": '51, 53',
+                    "rate": '15%',
+                }, {
+                    "name": "Weezing",
+                    "area": "Walking",
+                    "levels": "51, 53",
+                    "rate": "15%",
+                }, {
+                    "name": "Rhyhorn",
+                    "area": "Walking",
+                    "levels": "52",
+                    "rate": "5%",
+                }, {
+                    "name": "Rhydon",
+                    "area": "Walking",
+                    "levels": "54",
+                    "rate": "20%",
+                }, {
+                    "name": "Slugma",
+                    "area": "Walking",
+                    "levels": "52",
+                    "rate": "5%",
+                }, {
+                    "name": "Magcargo",
+                    "area": "Walking",
+                    "levels": "54",
+                    "rate": "20%",
+                } ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-385.0, 163.0), getCordfromLoc(-483.75, 163.0), getCordfromLoc(-483.75, 327.0), getCordfromLoc(-385.0, 327.0), getCordfromLoc(-385.0, 163.0)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Stark Mountain (Room 2)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Golbat",
+                    "area": "Walking",
+                    "levels": "53",
+                    "rate": '10%',
+                }, {
+                    "name": "Graveler",
+                    "area": "Walking",
+                    "levels": "52, 54",
+                    "rate": '15%',
+                }, {
+                    "name": "Koffing",
+                    "area": "Walking",
+                    "levels": "53",
+                    "rate": "5%",
+                }, {
+                    "name": "Weezing",
+                    "area": "Walking",
+                    "levels": "52, 54",
+                    "rate": '15%',
+                },{
+                    "name": "Rhydon",
+                    "area": "Walking",
+                    "levels": '55',
+                    "rate": '10%',
+                }, {
+                    "name": "Slugma",
+                    "area": "Walking",
+                    "levels": "53",
+                    "rate": "5%",
+                }, {
+                    "name": "Magcargo",
+                    "area": "Walking",
+                    "levels": "53, 55",
+                    "rate": "40%",
+                } ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-102.0, 63.0), getCordfromLoc(-377.0, 63.0), getCordfromLoc(-377.0, 447.0), getCordfromLoc(-102.0, 447.0), getCordfromLoc(-102.0, 63.0)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Stark Mountain (Room 3)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Special Encounter": [{
+                    "name": "Heatran",
+                    "area": "After Speaking to Buck's Grandfather",
+                    "levels": "50",
+                    "rate": 'One',
+                }, ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-26.25, 222.75), getCordfromLoc(-94.0, 222.75), getCordfromLoc(-94.0, 282.75), getCordfromLoc(-26.25, 282.75), getCordfromLoc(-26.25, 222.75)]]
+        }
+      },
+    ]
+};
