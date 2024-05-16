@@ -238,5 +238,13 @@ var maps = {
         "maxZoom": 5,
         "bounds": [-128, 128],
         "vector": starkMountainRegions
+    },
+    "Fuego Ironworks": {
+        "shortname": 'fuegoironworks',
+        "zoom": 2,
+        "minZoom": 1,
+        "maxZoom": 3,
+        "bounds": [-128, 256],
+        "vector": fuegoIronworksRegions
     }
 }

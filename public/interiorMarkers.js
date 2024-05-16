@@ -243,3 +243,17 @@ markerSet(-120.75, 281.5, "Max Revive", itemIcon, currentMap);
 markerSet(-246.5, 277.5, "Star Piece", hiddenIcon, currentMap);
 markerSet(-286.5, 261.5, "Calcium", itemIcon, currentMap);
 markerSet(-167.25, 121.25, "Fire Stone", hiddenIcon, currentMap);
+
+var currentMap = "Fuego Ironworks";
+markerSet(-416, 511.5, "Overworld", entranceIcon, currentMap, [[-246.48, 217.48], 5]);
+
+markerSet(-312.5, 271.5, "Yellow Shard", itemIcon, currentMap);
+markerSet(-176.5, 271.5, "Calcium", itemIcon, currentMap);
+markerSet(-126, 447.5, "Protein", hiddenIcon, currentMap);
+markerSet(-288.5, 527.5, "Red Shard", itemIcon, currentMap);
+markerSet(-312.5, 735.5, "Blue Shard", itemIcon, currentMap);
+markerSet(-164.5, 799.5, "Green Shard", itemIcon, currentMap);
+markerSet(-276, 799.5, "Star Piece", hiddenIcon, currentMap);
+markerSet(-164.5, 910.5, "Fire Stone", itemIcon, currentMap);
+markerSet(-337.5, 831.5, "Rock Incense", itemIcon, currentMap);
+markerSet(-349.5, 431.5, "TM35 (Flamethrower)", tmIcon, currentMap);

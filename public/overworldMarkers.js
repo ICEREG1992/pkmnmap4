@@ -28,17 +28,16 @@ markerSet(-31.92, 361.64, "Lake Acuity", entranceIcon, currentMap);
 markerSet(-9.86, 419.64, "Snowpoint Temple", entranceIcon, currentMap);
 markerSet(-352.12, 779.55, "Sendoff Spring", entranceIcon, currentMap);
 markerSet(-5.76, 756.72, "Stark Mountain", entranceIcon, currentMap);
+markerSet(-246.48, 217.48, "Fuego Ironworks", entranceIcon, currentMap);
 
 /* TODO:
 Mount Coronet
 Galactic Veilstone Building
-Fuego Ironworks
 Iron Island
 Spear Pillar
 Victory Road
 Battle Frontier
 Rock Peak Ruins
-Stark Mountain
 Fullmoon Island
 Newmoon Island
 */

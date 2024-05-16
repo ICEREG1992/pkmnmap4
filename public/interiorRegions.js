@@ -3476,3 +3476,21 @@ var starkMountainRegions = {
       },
     ]
 };
+
+var fuegoIronworksRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Fuego Ironworks',
+            'world': 'Overworld',
+            'Pokémon': {},
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-88.0, 103.0), getCordfromLoc(-422.0, 103.0), getCordfromLoc(-422.0, 918.0), getCordfromLoc(-88.0, 918.0), getCordfromLoc(-88.0, 103.0)]]
+        }
+      }
+    ]
+};
