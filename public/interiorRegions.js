@@ -3512,3 +3512,28 @@ var battleFrontierRegions = {
       }
     ]
 };
+
+var rockPeakRuinsRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Rock Peak Ruins',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Special Encounter": [{
+                    "name": "Regirock",
+                    "area": "Regigigas in Party",
+                    "levels": "30",
+                    "rate": 'One',
+                }, ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-125.0, 87.0), getCordfromLoc(-385.0, 87.0), getCordfromLoc(-385.0, 423.0), getCordfromLoc(-125.0, 423.0), getCordfromLoc(-125.0, 87.0)]]
+        }
+        }
+    ]
+};

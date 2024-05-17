@@ -254,5 +254,13 @@ var maps = {
         "maxZoom": 4,
         "bounds": [-128, 256],
         "vector": battleFrontierRegions
+    },
+    "Rock Peak Ruins": {
+        "shortname": 'rockpeakruins',
+        "zoom": 2,
+        "minZoom": 1,
+        "maxZoom": 3,
+        "bounds": [-128, 128],
+        "vector": rockPeakRuinsRegions
     }
 }

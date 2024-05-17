@@ -260,3 +260,6 @@ markerSet(-349.5, 431.5, "TM35 (Flamethrower)", tmIcon, currentMap);
 
 var currentMap = "Battle Frontier";
 markerSet(-418.25, 519, "Overworld", entranceIcon, currentMap, [[-156.92, 661.18], 5]);
+
+var currentMap = "Rock Peak Ruins";
+markerSet(-368, 255.5, "Overworld", entranceIcon, currentMap, [[-93.96, 791.48], 5]);
