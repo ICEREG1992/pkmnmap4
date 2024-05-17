@@ -3494,3 +3494,21 @@ var fuegoIronworksRegions = {
       }
     ]
 };
+
+var battleFrontierRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Battle Frontier',
+            'world': 'Overworld',
+            'Pokémon': {},
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-22.0, 126.5), getCordfromLoc(-488.0, 126.5), getCordfromLoc(-488.0, 895.0), getCordfromLoc(-22.0, 895.0), getCordfromLoc(-22.0, 126.5)]]
+        }
+      }
+    ]
+};

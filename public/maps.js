@@ -246,5 +246,13 @@ var maps = {
         "maxZoom": 3,
         "bounds": [-128, 256],
         "vector": fuegoIronworksRegions
+    },
+    "Battle Frontier": {
+        "shortname": 'battlefrontier',
+        "zoom": 2,
+        "minZoom": 1,
+        "maxZoom": 4,
+        "bounds": [-128, 256],
+        "vector": battleFrontierRegions
     }
 }

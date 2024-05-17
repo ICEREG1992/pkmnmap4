@@ -257,3 +257,6 @@ markerSet(-276, 799.5, "Star Piece", hiddenIcon, currentMap);
 markerSet(-164.5, 910.5, "Fire Stone", itemIcon, currentMap);
 markerSet(-337.5, 831.5, "Rock Incense", itemIcon, currentMap);
 markerSet(-349.5, 431.5, "TM35 (Flamethrower)", tmIcon, currentMap);
+
+var currentMap = "Battle Frontier";
+markerSet(-418.25, 519, "Overworld", entranceIcon, currentMap, [[-156.92, 661.18], 5]);
