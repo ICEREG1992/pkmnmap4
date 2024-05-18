@@ -263,3 +263,44 @@ markerSet(-418.25, 519, "Overworld", entranceIcon, currentMap, [[-156.92, 661.18
 
 var currentMap = "Rock Peak Ruins";
 markerSet(-368, 255.5, "Overworld", entranceIcon, currentMap, [[-93.96, 791.48], 5]);
+
+var currentMap = "Victory Road";
+markerSet(-494.25, 1011.75, "Overworld", entranceIcon, currentMap, [[-256.06, 868.06], 5]);
+markerSet(-226.5, 1260.75, "Victory Road Secret", entranceIcon, currentMap);
+markerSet(-42.25, 1153.75, "Overworld", entranceIcon, currentMap, [[-244.75, 871.45], 5]);
+
+markerSet(-412.5, 947.5, "TM41 (Torment)", tmIcon, currentMap);
+markerSet(-309.5, 1115.5, "Max Repel", itemIcon, currentMap);
+markerSet(-183.5, 971.25, "Nugget", hiddenIcon, currentMap);
+markerSet(-289.5, 1179.5, "Ultra Ball", hiddenIcon, currentMap);
+markerSet(-332, 1227.5, "Rare Candy", itemIcon, currentMap);
+markerSet(-270, 995.5, "Razor Claw", itemIcon, currentMap);
+markerSet(-213, 1051.5, "Max Revive", hiddenIcon, currentMap);
+markerSet(-247.5, 1243.5, "Zinc", itemIcon, currentMap);
+
+markerSet(-165, 427.5, "Max Elixir", itemIcon, currentMap);
+markerSet(-276.5, 483.5, "Rare Candy", hiddenIcon, currentMap);
+markerSet(-344.5, 756.25, "Full Restore", hiddenIcon, currentMap);
+markerSet(-208.5, 739.5, "TM71 (Stone Edge)", tmIcon, currentMap);
+markerSet(-270, 667.5, "Full Restore", itemIcon, currentMap);
+markerSet(-159, 523.5, "TM79 (Dark Pulse)", tmIcon, currentMap);
+
+markerSet(-178, 1595.5, "Ultra Ball", itemIcon, currentMap);
+markerSet(-294, 1523.5, "Heart Scale", hiddenIcon, currentMap);
+markerSet(-309.5, 1611.5, "Calcium", itemIcon, currentMap);
+markerSet(-190, 1435.5, "TM59 (Dragon Pulse)", tmIcon, currentMap);
+markerSet(-207, 1372, "Max Elixir", hiddenIcon, currentMap);
+
+var currentMap = "Victory Road Secret";
+markerSet(-462.5, 527, "Victory Road", entranceIcon, currentMap);
+markerSet(-123.25, 1536.5, "Overworld", entranceIcon, currentMap, [[-229.32, 893.06], 5]);
+
+markerSet(-441, 975.5, "Leftovers", itemIcon, currentMap);
+markerSet(-356, 951.5, "Ultra Ball", hiddenIcon, currentMap);
+markerSet(-95.5, 871.5, "Dusk Stone", itemIcon, currentMap);
+markerSet(-114, 871.5, "Full Restore", itemIcon, currentMap);
+markerSet(-212.5, 999.5, "Ultra Ball", hiddenIcon, currentMap);
+markerSet(-342, 1079.5, "Rare Candy", hiddenIcon, currentMap);
+markerSet(-136.5, 1111.5, "Nugget", itemIcon, currentMap);
+markerSet(-189.5, 1159.5, "HP Up", hiddenIcon, currentMap);
+markerSet(-130.5, 935.5, "Heart Scale", hiddenIcon, currentMap);

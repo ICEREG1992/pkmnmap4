@@ -262,5 +262,21 @@ var maps = {
         "maxZoom": 3,
         "bounds": [-128, 128],
         "vector": rockPeakRuinsRegions
+    },
+    "Victory Road": {
+        "shortname": 'victoryroad',
+        "zoom": 2,
+        "minZoom": 2,
+        "maxZoom": 4,
+        "bounds": [-128, 512],
+        "vector": victoryRoadRegions
+    },
+    "Victory Road Secret": {
+        "shortname": 'victoryroadsecret',
+        "zoom": 2,
+        "minZoom": 2,
+        "maxZoom": 4,
+        "bounds": [-128, 512],
+        "vector": victoryRoadSecretRegions
     }
 }
