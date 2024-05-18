@@ -38,9 +38,9 @@ markerSet(-229.32, 893.06, "Victory Road Secret", entranceIcon, currentMap);
 /* TODO:
 Mount Coronet
 Galactic Veilstone Building
-Iron Island
 Spear Pillar
-Victory Road
+Pokemon League
+Iron Island
 Fullmoon Island
 Newmoon Island
 */
