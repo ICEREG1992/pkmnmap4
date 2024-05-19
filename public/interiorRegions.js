@@ -4019,6 +4019,5 @@ var pokemonLeagueRegions = {
             'coordinates': [[getCordfromLoc(-80.5, 195.0), getCordfromLoc(-333.5, 195.0), getCordfromLoc(-333.5, 315.0), getCordfromLoc(-80.5, 315.0), getCordfromLoc(-80.5, 195.0)]]
             }
         },
-        
     ]
 };

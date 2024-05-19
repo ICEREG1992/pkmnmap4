@@ -40,7 +40,6 @@ markerSet(-217.68, 864.10, "Pokémon League", entranceIcon, currentMap, [[-1939.
 Mount Coronet
 Galactic Veilstone Building
 Spear Pillar
-Pokemon League
 Iron Island
 Fullmoon Island
 Newmoon Island
