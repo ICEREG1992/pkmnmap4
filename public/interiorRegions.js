@@ -3882,3 +3882,143 @@ var victoryRoadSecretRegions = {
       },
     ]
 };
+
+var pokemonLeagueRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+            'type': 'Feature',
+            'properties': {
+                'name': 'Pokémon League (Lobby)',
+                'world': 'Overworld',
+                'Pokémon': {},
+            },
+            'geometry': {
+            'type': 'Polygon',
+            'coordinates': [[getCordfromLoc(-1817.5, 175.0), getCordfromLoc(-1966.0, 175.0), getCordfromLoc(-1966.0, 335.0), getCordfromLoc(-1817.5, 335.0), getCordfromLoc(-1817.5, 175.0)]]
+            }
+        }, {
+            'type': 'Feature',
+            'properties': {
+                'name': 'Pokémon League (Entrance)',
+                'world': 'Overworld',
+                'Pokémon': {},
+            },
+            'geometry': {
+            'type': 'Polygon',
+            'coordinates': [[getCordfromLoc(-1641.5, 223.0), getCordfromLoc(-1795.5, 223.0), getCordfromLoc(-1795.5, 287.0), getCordfromLoc(-1641.5, 287.0), getCordfromLoc(-1641.5, 223.0)]]
+            }
+        }, {
+            'type': 'Feature',
+            'properties': {
+                'name': 'Pokémon League (Aaron\'s Room)',
+                'world': 'Overworld',
+                'Pokémon': {},
+            },
+            'geometry': {
+            'type': 'Polygon',
+            'coordinates': [[getCordfromLoc(-1536.5, 191.5), getCordfromLoc(-1619.0, 191.5), getCordfromLoc(-1619.0, 319.5), getCordfromLoc(-1536.5, 319.5), getCordfromLoc(-1536.5, 191.5)]]
+            }
+        }, {
+            'type': 'Feature',
+            'properties': {
+                'name': 'Pokémon League (Hallway)',
+                'world': 'Overworld',
+                'Pokémon': {},
+            },
+            'geometry': {
+            'type': 'Polygon',
+            'coordinates': [[getCordfromLoc(-1388.0, 223.0), getCordfromLoc(-1516.0, 223.0), getCordfromLoc(-1516.0, 287.0), getCordfromLoc(-1388.0, 287.0), getCordfromLoc(-1388.0, 223.0)]]
+            }
+        }, {
+            'type': 'Feature',
+            'properties': {
+                'name': 'Pokémon League (Bertha\'s Room)',
+                'world': 'Overworld',
+                'Pokémon': {},
+            },
+            'geometry': {
+            'type': 'Polygon',
+            'coordinates': [[getCordfromLoc(-1285.0, 191.5), getCordfromLoc(-1367.5, 191.5), getCordfromLoc(-1367.5, 319.5), getCordfromLoc(-1285.0, 319.5), getCordfromLoc(-1285.0, 191.5)]]
+            }
+        }, {
+            'type': 'Feature',
+            'properties': {
+                'name': 'Pokémon League (Hallway)',
+                'world': 'Overworld',
+                'Pokémon': {},
+            },
+            'geometry': {
+            'type': 'Polygon',
+            'coordinates': [[getCordfromLoc(-1136.5, 223.0), getCordfromLoc(-1264.5, 223.0), getCordfromLoc(-1264.5, 287.0), getCordfromLoc(-1136.5, 287.0), getCordfromLoc(-1136.5, 223.0)]]
+            }
+        }, {
+            'type': 'Feature',
+            'properties': {
+                'name': 'Pokémon League (Flint\'s Room)',
+                'world': 'Overworld',
+                'Pokémon': {},
+            },
+            'geometry': {
+            'type': 'Polygon',
+            'coordinates': [[getCordfromLoc(-1033.5, 191.5), getCordfromLoc(-1116.0, 191.5), getCordfromLoc(-1116.0, 319.5), getCordfromLoc(-1033.5, 319.5), getCordfromLoc(-1033.5, 191.5)]]
+            }
+        }, {
+            'type': 'Feature',
+            'properties': {
+                'name': 'Pokémon League (Hallway)',
+                'world': 'Overworld',
+                'Pokémon': {},
+            },
+            'geometry': {
+            'type': 'Polygon',
+            'coordinates': [[getCordfromLoc(-885.0, 223.0), getCordfromLoc(-1013.0, 223.0), getCordfromLoc(-1013.0, 287.0), getCordfromLoc(-885.0, 287.0), getCordfromLoc(-885.0, 223.0)]]
+            }
+        }, {
+            'type': 'Feature',
+            'properties': {
+                'name': 'Pokémon League (Lucian\'s Room)',
+                'world': 'Overworld',
+                'Pokémon': {},
+            },
+            'geometry': {
+            'type': 'Polygon',
+            'coordinates': [[getCordfromLoc(-782.0, 191.5), getCordfromLoc(-864.5, 191.5), getCordfromLoc(-864.5, 319.5), getCordfromLoc(-782.0, 319.5), getCordfromLoc(-782.0, 191.5)]]
+            }
+        }, {
+            'type': 'Feature',
+            'properties': {
+                'name': 'Pokémon League (Hallway)',
+                'world': 'Overworld',
+                'Pokémon': {},
+            },
+            'geometry': {
+            'type': 'Polygon',
+            'coordinates': [[getCordfromLoc(-582.0, 223.0), getCordfromLoc(-759.5, 223.0), getCordfromLoc(-759.5, 287.0), getCordfromLoc(-582.0, 287.0), getCordfromLoc(-582.0, 223.0)]]
+            }
+        }, {
+            'type': 'Feature',
+            'properties': {
+                'name': 'Pokémon League (Cynthia\'s Room)',
+                'world': 'Overworld',
+                'Pokémon': {},
+            },
+            'geometry': {
+            'type': 'Polygon',
+            'coordinates': [[getCordfromLoc(-355.5, 195.0), getCordfromLoc(-557.5, 195.0), getCordfromLoc(-557.5, 315.0), getCordfromLoc(-355.5, 315.0), getCordfromLoc(-355.5, 195.0)]]
+            }
+        }, {
+            'type': 'Feature',
+            'properties': {
+                'name': 'Pokémon League (Hall of Fame)',
+                'world': 'Overworld',
+                'Pokémon': {},
+            },
+            'geometry': {
+            'type': 'Polygon',
+            'coordinates': [[getCordfromLoc(-80.5, 195.0), getCordfromLoc(-333.5, 195.0), getCordfromLoc(-333.5, 315.0), getCordfromLoc(-80.5, 315.0), getCordfromLoc(-80.5, 195.0)]]
+            }
+        },
+        
+    ]
+};

@@ -34,6 +34,7 @@ markerSet(-93.96, 791.48, "Rock Peak Ruins", entranceIcon, currentMap);
 markerSet(-256.06, 868.06, "Victory Road", entranceIcon, currentMap);
 markerSet(-244.75, 871.45, "Victory Road", entranceIcon, currentMap);
 markerSet(-229.32, 893.06, "Victory Road Secret", entranceIcon, currentMap);
+markerSet(-217.68, 864.10, "Pokémon League", entranceIcon, currentMap, [[-1939.5, 259.5], 2]);
 
 /* TODO:
 Mount Coronet

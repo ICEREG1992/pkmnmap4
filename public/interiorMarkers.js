@@ -304,3 +304,6 @@ markerSet(-342, 1079.5, "Rare Candy", hiddenIcon, currentMap);
 markerSet(-136.5, 1111.5, "Nugget", itemIcon, currentMap);
 markerSet(-189.5, 1159.5, "HP Up", hiddenIcon, currentMap);
 markerSet(-130.5, 935.5, "Heart Scale", hiddenIcon, currentMap);
+
+var currentMap = "Pokémon League";
+markerSet(-1939.5, 259.5, "Overworld", entranceIcon, currentMap, [[-217.68, 864.10], 5]);

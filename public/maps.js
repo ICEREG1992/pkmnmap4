@@ -278,5 +278,13 @@ var maps = {
         "maxZoom": 4,
         "bounds": [-128, 512],
         "vector": victoryRoadSecretRegions
-    }
+    },
+    "Pokémon League": {
+        "shortname": 'pokemonleague',
+        "zoom": 2,
+        "minZoom": 2,
+        "maxZoom": 4,
+        "bounds": [-512, 128],
+        "vector": pokemonLeagueRegions
+    },
 }
