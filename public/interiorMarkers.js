@@ -307,3 +307,9 @@ markerSet(-130.5, 935.5, "Heart Scale", hiddenIcon, currentMap);
 
 var currentMap = "Pokémon League";
 markerSet(-1939.5, 259.5, "Overworld", entranceIcon, currentMap, [[-217.68, 864.10], 5]);
+
+var currentMap = "Mount Coronet South";
+markerSet(-1435.5, 89, "Overworld", entranceIcon, currentMap, [[-343.68, 390.24], 5]);
+markerSet(-1559, 423.5, "Overworld", entranceIcon, currentMap, [[-355.96, 409.96], 5]);
+markerSet(-1252, 62, "Overworld", entranceIcon, currentMap, [[-344.28, 397.24], 5]);
+markerSet(-611, 84.5, "Mount Coronet Peak", entranceIcon, currentMap);

@@ -4021,3 +4021,173 @@ var pokemonLeagueRegions = {
         },
     ]
 };
+
+var mountCoronetSouthRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Mount Coronet South (1F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Golbat",
+                    "area": "Walking",
+                    "levels": ['50', '50', '47'],
+                    "rate": ['5%', '5%', '15%'],
+                }, {
+                    "name": "Graveler",
+                    "area": "Walking",
+                    "levels": ['47, 49', '47, 49', '49-50'],
+                    "rate": ['30%', '30%', '20%'],
+                }, {
+                    "name": "Onix",
+                    "area": "Walking",
+                    "levels": "48, 50",
+                    "rate": "20%",
+                }, {
+                    "name": "Steelix",
+                    "area": "Walking",
+                    "levels": "50",
+                    "rate": "5%",
+                }, {
+                    "name": "Floatzel",
+                    "area": "Walking",
+                    "levels": "47-49",
+                    "rate": "35%",
+                }, {
+                    "name": "Gabite",
+                    "area": "Walking",
+                    "levels": "50",
+                    "rate": "5%",
+                } ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-318.0, 499.0), getCordfromLoc(-497.0, 499.0), getCordfromLoc(-497.0, 739.0), getCordfromLoc(-318.0, 739.0), getCordfromLoc(-318.0, 499.0)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Mount Coronet South (2F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Golbat",
+                    "area": "Walking",
+                    "levels": ['50', '50', '47, 50'],
+                    "rate": ['5%', '5%', '15%'],
+                }, {
+                    "name": "Graveler",
+                    "area": "Walking",
+                    "levels": ['47, 49', '47, 49', '49'],
+                    "rate": ['15%', '15%', '5%'],
+                }, {
+                    "name": "Dewgong",
+                    "area": "Walking",
+                    "levels": "48, 50",
+                    "rate": "15%",
+                }, {
+                    "name": "Azumarill",
+                    "area": "Walking",
+                    "levels": "47, 49",
+                    "rate": "30%",
+                }, {
+                    "name": "Floatzel",
+                    "area": "Walking",
+                    "levels": "48-50",
+                    "rate": "30%",
+                }, {
+                    "name": "Gabite",
+                    "area": "Walking",
+                    "levels": "49",
+                    "rate": "5%",
+                } ],
+                "Surfing": [{
+                    "name": "Dewgong",
+                    "area": "Walking",
+                    "levels": "35-55",
+                    "rate": "30%",
+                }, {
+                    "name": "Lapras",
+                    "area": "Walking",
+                    "levels": "35-55",
+                    "rate": "10%",
+                }, {
+                    "name": "Floatzel",
+                    "area": "Walking",
+                    "levels": "35-55",
+                    "rate": "60%",
+                }, ],
+                "Fishing": [{
+                    "name": "Magikarp",
+                    "area": "Old Rod",
+                    "levels": "3-15",
+                    "rate": "100%",
+                }, {
+                    "name": "Magikarp",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": "100%",
+                }, {
+                    "name": "Gyarados",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": "100%",
+                }, ]
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-63.5, 763.0), getCordfromLoc(-446.5, 763.0), getCordfromLoc(-446.5, 1267.0), getCordfromLoc(-63.5, 1267.0), getCordfromLoc(-63.5, 763.0)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Mount Coronet South (3F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Golbat",
+                    "area": "Walking",
+                    "levels": ['50', '50', '47'],
+                    "rate": ['5%', '5%', '15%'],
+                }, {
+                    "name": "Graveler",
+                    "area": "Walking",
+                    "levels": ['47, 49', '47, 49', '49-50'],
+                    "rate": ['30%', '30%', '20%'],
+                }, {
+                    "name": "Onix",
+                    "area": "Walking",
+                    "levels": "48, 50",
+                    "rate": "20%",
+                }, {
+                    "name": "Steelix",
+                    "area": "Walking",
+                    "levels": "50",
+                    "rate": "5%",
+                }, {
+                    "name": "Floatzel",
+                    "area": "Walking",
+                    "levels": "47-49",
+                    "rate": "35%",
+                }, {
+                    "name": "Gabite",
+                    "area": "Walking",
+                    "levels": "50",
+                    "rate": "5%",
+                } ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-31.5, 1291.0), getCordfromLoc(-198.5, 1291.0), getCordfromLoc(-198.5, 1547.0), getCordfromLoc(-31.5, 1547.0), getCordfromLoc(-31.5, 1291.0)]]
+        }
+      },
+    ]
+};

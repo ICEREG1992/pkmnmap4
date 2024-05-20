@@ -287,4 +287,12 @@ var maps = {
         "bounds": [-512, 128],
         "vector": pokemonLeagueRegions
     },
+    "Mount Coronet South": {
+        "shortname": 'mountcoronetsouth',
+        "zoom": 2,
+        "minZoom": 1,
+        "maxZoom": 3,
+        "bounds": [-512, 128],
+        "vector": mountCoronetSouthRegions
+    },
 }

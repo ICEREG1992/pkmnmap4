@@ -35,11 +35,19 @@ markerSet(-256.06, 868.06, "Victory Road", entranceIcon, currentMap);
 markerSet(-244.75, 871.45, "Victory Road", entranceIcon, currentMap);
 markerSet(-229.32, 893.06, "Victory Road Secret", entranceIcon, currentMap);
 markerSet(-217.68, 864.10, "Pokémon League", entranceIcon, currentMap, [[-1939.5, 259.5], 2]);
+markerSet(-343.62, 390.24, "Mount Coronet South", entranceIcon, currentMap, [[-1435.5, 89], 2]);
+markerSet(-355.96, 409.96, "Mount Coronet South", entranceIcon, currentMap, [[-1559, 423.5], 2]);
+markerSet(-344.28, 397.24, "Mount Coronet South", entranceIcon, currentMap, [[-1252, 62], 2]);
 
 /* TODO:
-Mount Coronet
-Galactic Veilstone Building
+Mount Coronet South
+Mount Coronet Peak
+Mount Coronet Center
+Mount Coronet East
+Mount Coronet Tunnel
 Spear Pillar
+Mount Coronet North
+Galactic Veilstone Building
 Iron Island
 Fullmoon Island
 Newmoon Island
