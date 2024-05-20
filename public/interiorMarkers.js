@@ -313,3 +313,11 @@ markerSet(-1435.5, 89, "Overworld", entranceIcon, currentMap, [[-343.68, 390.24]
 markerSet(-1559, 423.5, "Overworld", entranceIcon, currentMap, [[-355.96, 409.96], 5]);
 markerSet(-1252, 62, "Overworld", entranceIcon, currentMap, [[-344.28, 397.24], 5]);
 markerSet(-611, 84.5, "Mount Coronet Peak", entranceIcon, currentMap);
+
+var currentMap = "Mount Coronet Peak";
+markerSet(-409, 153.5, "Mount Coronet South", entranceIcon, currentMap, [[-611, 84.5], 2]);
+markerSet(-302.5, 146.75, "Mount Coronet Center", entranceIcon, currentMap, [[-611, 84.5], 2]);
+markerSet(-312, 328, "Mount Coronet Center", entranceIcon, currentMap, [[-611, 84.5], 2]);
+markerSet(-220.5, 340.5, "Mount Coronet Center", entranceIcon, currentMap, [[-611, 84.5], 2]);
+markerSet(-173.5, 373.5, "Mount Coronet East", entranceIcon, currentMap, [[-611, 84.5], 2]);
+markerSet(-116, 167, "Mount Coronet Tunnel", entranceIcon, currentMap, [[-611, 84.5], 2]);

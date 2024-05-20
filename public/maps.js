@@ -295,4 +295,12 @@ var maps = {
         "bounds": [-512, 128],
         "vector": mountCoronetSouthRegions
     },
+    "Mount Coronet Peak": {
+        "shortname": 'mountcoronetpeak',
+        "zoom": 3,
+        "minZoom": 2,
+        "maxZoom": 4,
+        "bounds": [-128, 128],
+        "vector": mountCoronetPeakRegions
+    },
 }
