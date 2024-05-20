@@ -43,7 +43,6 @@ markerSet(-344.28, 397.24, "Mount Coronet South", entranceIcon, currentMap, [[-1
 Mount Coronet South
 Mount Coronet Peak
 Mount Coronet Center
-Mount Coronet East
 Mount Coronet Tunnel
 Spear Pillar
 Mount Coronet North

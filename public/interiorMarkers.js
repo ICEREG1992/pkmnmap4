@@ -319,5 +319,5 @@ markerSet(-409, 153.5, "Mount Coronet South", entranceIcon, currentMap, [[-611, 
 markerSet(-302.5, 146.75, "Mount Coronet Center", entranceIcon, currentMap, [[-611, 84.5], 2]);
 markerSet(-312, 328, "Mount Coronet Center", entranceIcon, currentMap, [[-611, 84.5], 2]);
 markerSet(-220.5, 340.5, "Mount Coronet Center", entranceIcon, currentMap, [[-611, 84.5], 2]);
-markerSet(-173.5, 373.5, "Mount Coronet East", entranceIcon, currentMap, [[-611, 84.5], 2]);
+markerSet(-173.5, 373.5, "Mount Coronet North", entranceIcon, currentMap, [[-611, 84.5], 2]);
 markerSet(-116, 167, "Mount Coronet Tunnel", entranceIcon, currentMap, [[-611, 84.5], 2]);
