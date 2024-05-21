@@ -40,11 +40,7 @@ markerSet(-355.96, 409.96, "Mount Coronet South", entranceIcon, currentMap, [[-1
 markerSet(-344.28, 397.24, "Mount Coronet South", entranceIcon, currentMap, [[-1252, 62], 2]);
 
 /* TODO:
-Mount Coronet South
-Mount Coronet Peak
-Mount Coronet Center
-Mount Coronet Tunnel
-Spear Pillar
+Mount Coronet East
 Mount Coronet North
 Galactic Veilstone Building
 Iron Island
