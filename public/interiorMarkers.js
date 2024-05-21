@@ -326,3 +326,10 @@ var currentMap = "Mount Coronet Center";
 markerSet(-464, 319, "Mount Coronet Peak", entranceIcon, currentMap);
 markerSet(-464, 689, "Mount Coronet Peak", entranceIcon, currentMap);
 markerSet(-285, 771, "Mount Coronet Peak", entranceIcon, currentMap);
+
+var currentMap = "Mount Coronet Tunnel";
+markerSet(-882.5, 111.5, "Mount Coronet Peak", entranceIcon, currentMap);
+markerSet(-89, 223.5, "Spear Pillar", entranceIcon, currentMap);
+
+var currentMap = "Spear Pillar";
+markerSet(-787.5, 253.5, "Mount Coronet Tunnel", entranceIcon, currentMap);

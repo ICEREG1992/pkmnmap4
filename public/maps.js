@@ -311,4 +311,20 @@ var maps = {
         "bounds": [-128, 256],
         "vector": mountCoronetCenterRegions
     },
+    "Mount Coronet Tunnel": {
+        "shortname": 'mountcoronettunnel',
+        "zoom": 2,
+        "minZoom": 1,
+        "maxZoom": 3,
+        "bounds": [-256, 128],
+        "vector": mountCoronetTunnelRegions
+    },
+    "Spear Pillar": {
+        "shortname": 'spearpillar',
+        "zoom": 2,
+        "minZoom": 1,
+        "maxZoom": 3,
+        "bounds": [-256, 128],
+        "vector": spearPillarRegions
+    },
 }
