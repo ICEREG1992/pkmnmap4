@@ -303,4 +303,12 @@ var maps = {
         "bounds": [-128, 128],
         "vector": mountCoronetPeakRegions
     },
+    "Mount Coronet Center": {
+        "shortname": 'mountcoronetcenter',
+        "zoom": 2,
+        "minZoom": 1,
+        "maxZoom": 3,
+        "bounds": [-128, 256],
+        "vector": mountCoronetCenterRegions
+    },
 }
