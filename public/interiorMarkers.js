@@ -333,3 +333,9 @@ markerSet(-89, 223.5, "Spear Pillar", entranceIcon, currentMap);
 
 var currentMap = "Spear Pillar";
 markerSet(-787.5, 253.5, "Mount Coronet Tunnel", entranceIcon, currentMap);
+
+var currentMap = "Mount Coronet North";
+markerSet(-1651.25, 200.25, "Mount Coronet Peak", entranceIcon, currentMap);
+markerSet(-542.25, 157, "Overworld", entranceIcon, currentMap, [[-166.55, 429.18], 5]);
+markerSet(-1194.5, 140, "Overworld", entranceIcon, currentMap, [[-203.45, 429.18], 5]);
+markerSet(-1157.5, 373.25, "Overworld", entranceIcon, currentMap, [[-202.62, 437.18], 5]);

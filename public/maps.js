@@ -327,4 +327,12 @@ var maps = {
         "bounds": [-256, 128],
         "vector": spearPillarRegions
     },
+    "Mount Coronet North": {
+        "shortname": 'mountcoronetnorth',
+        "zoom": 2,
+        "minZoom": 1,
+        "maxZoom": 4,
+        "bounds": [-512, 128],
+        "vector": mountCoronetNorthRegions
+    },
 }

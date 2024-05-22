@@ -38,10 +38,13 @@ markerSet(-217.68, 864.10, "Pokémon League", entranceIcon, currentMap, [[-1939.
 markerSet(-343.62, 390.24, "Mount Coronet South", entranceIcon, currentMap, [[-1435.5, 89], 2]);
 markerSet(-355.96, 409.96, "Mount Coronet South", entranceIcon, currentMap, [[-1559, 423.5], 2]);
 markerSet(-344.28, 397.24, "Mount Coronet South", entranceIcon, currentMap, [[-1252, 62], 2]);
+markerSet(-203.45, 429.18, "Mount Coronet North", entranceIcon, currentMap, [[-1194.5, 140], 3]);
+markerSet(-202.62, 437.18, "Mount Coronet North", entranceIcon, currentMap, [[-1157.5, 373.25], 3]);
+markerSet(-166.55, 429.18, "Mount Coronet North", entranceIcon, currentMap, [[-542.25, 157], 3]);
+
+
 
 /* TODO:
-Mount Coronet East
-Mount Coronet North
 Galactic Veilstone Building
 Iron Island
 Fullmoon Island
