@@ -42,14 +42,16 @@ markerSet(-203.45, 429.18, "Mount Coronet North", entranceIcon, currentMap, [[-1
 markerSet(-202.62, 437.18, "Mount Coronet North", entranceIcon, currentMap, [[-1157.5, 373.25], 3]);
 markerSet(-166.55, 429.18, "Mount Coronet North", entranceIcon, currentMap, [[-542.25, 157], 3]);
 
-
-
 /* TODO:
 Galactic Veilstone Building
 Iron Island
 Fullmoon Island
 Newmoon Island
+Seabreak Path and Flower Paradise
+Distortion World (Turnback Cave)
+Distortion World (Spear Pillar)
 */
+
 // Items
 // Verity Lakefront
 markerSet(-452.12, 134.45, "TinyMushroom", hiddenIcon, currentMap);
