@@ -89,7 +89,7 @@ markerSet(-99.5, 407.5, "Up-Grade", itemIcon, currentMap);
 var currentMap = "Wayward Cave";
 markerSet(-422, 459, "Overworld", entranceIcon, currentMap, [[-265.12, 358.22], 5]);
 
-markerSet(-272, 475.5, "Green Shard", itemIcon, currentMap);
+markerSet(-272, 475.5, "Green Shard", hiddenIcon, currentMap);
 markerSet(-373.5, 195.5, "TM32 (Double Team)", tmIcon, currentMap);
 markerSet(-365, 267.5, "Red Shard", hiddenIcon, currentMap);
 markerSet(-187.5, 187.5, "Revive", itemIcon, currentMap);
