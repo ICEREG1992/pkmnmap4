@@ -4410,52 +4410,57 @@ var mountCoronetCenterRegions = {
             'world': 'Overworld',
             'Pokémon': {
                 "Cave": [{
+                    "name": "Clefairy",
+                    "area": "Walking",
+                    "levels": '36',
+                    "rate": ['10%', '0%', '10%'],
+                }, {
                     "name": "Golbat",
                     "area": "Walking",
-                    "levels": ['50', '50', '47, 50'],
+                    "levels": ['38', '38', '37-38'],
                     "rate": ['5%', '5%', '15%'],
+                }, {
+                    "name": "Machoke",
+                    "area": "Walking",
+                    "levels": "39",
+                    "rate": "10%",
                 }, {
                     "name": "Graveler",
                     "area": "Walking",
-                    "levels": ['47, 49', '47, 49', '49'],
-                    "rate": ['15%', '15%', '5%'],
+                    "levels": ['38', '36, 38', '38'],
+                    "rate": ['20%', '30%', '20%'],
                 }, {
-                    "name": "Dewgong",
+                    "name": "Nosepass",
                     "area": "Walking",
-                    "levels": "48, 50",
-                    "rate": "15%",
-                }, {
-                    "name": "Azumarill",
-                    "area": "Walking",
-                    "levels": "47, 49",
-                    "rate": "30%",
-                }, {
-                    "name": "Floatzel",
-                    "area": "Walking",
-                    "levels": "48-50",
-                    "rate": "30%",
-                }, {
-                    "name": "Gabite",
-                    "area": "Walking",
-                    "levels": "49",
+                    "levels": "37",
                     "rate": "5%",
+                }, {
+                    "name": "Medicham",
+                    "area": "Walking",
+                    "levels": ['37-39', '37-39', '39'],
+                    "rate": ['20%', '20%', '10%'],
+                }, {
+                    "name": "Chingling",
+                    "area": "Walking",
+                    "levels": '36, 38',
+                    "rate": '10%',
+                }, {
+                    "name": "Bronzong",
+                    "area": "Walking",
+                    "levels": '37',
+                    "rate": '20%',
                 } ],
                 "Surfing": [{
-                    "name": "Dewgong",
-                    "area": "Walking",
-                    "levels": "35-55",
-                    "rate": "30%",
+                    "name": "Zubat",
+                    "area": "Surfing",
+                    "levels": "20-30",
+                    "rate": "90%",
                 }, {
-                    "name": "Lapras",
-                    "area": "Walking",
-                    "levels": "35-55",
+                    "name": "Golbat",
+                    "area": "Surfing",
+                    "levels": "20-40",
                     "rate": "10%",
-                }, {
-                    "name": "Floatzel",
-                    "area": "Walking",
-                    "levels": "35-55",
-                    "rate": "60%",
-                }, ],
+                } ],
                 "Fishing": [{
                     "name": "Magikarp",
                     "area": "Old Rod",
@@ -4465,18 +4470,38 @@ var mountCoronetCenterRegions = {
                     "name": "Magikarp",
                     "area": "Good Rod",
                     "levels": "10-25",
-                    "rate": "100%",
+                    "rate": "55%",
+                }, {
+                    "name": "Barboach",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": "45%",
                 }, {
                     "name": "Gyarados",
                     "area": "Super Rod",
                     "levels": "30-55",
-                    "rate": "100%",
+                    "rate": "40%",
+                }, {
+                    "name": "Dratini",
+                    "area": "Super Rod",
+                    "levels": "15-25",
+                    "rate": "40%",
+                }, {
+                    "name": "Dragonair",
+                    "area": "Super Rod",
+                    "levels": "20-55",
+                    "rate": "5%",
+                }, {
+                    "name": "Whiscash",
+                    "area": "Super Rod",
+                    "levels": "20-50",
+                    "rate": "15%",
                 }, ]
             },
         },
         'geometry': {
         'type': 'Polygon',
-        'coordinates': [[getCordfromLoc(-318.0, 499.0), getCordfromLoc(-497.0, 499.0), getCordfromLoc(-497.0, 739.0), getCordfromLoc(-318.0, 739.0), getCordfromLoc(-318.0, 499.0)]]
+        'coordinates': [[getCordfromLoc(-152.0, 218.0), getCordfromLoc(-482.0, 218.0), getCordfromLoc(-482.0, 803.0), getCordfromLoc(-152.0, 803.0), getCordfromLoc(-152.0, 218.0)]]
         }
       },
       {
@@ -4486,41 +4511,51 @@ var mountCoronetCenterRegions = {
             'world': 'Overworld',
             'Pokémon': {
                 "Cave": [{
+                    "name": "Clefairy",
+                    "area": "Walking",
+                    "levels": '36',
+                    "rate": ['10%', '0%', '10%'],
+                }, {
                     "name": "Golbat",
                     "area": "Walking",
-                    "levels": ['50', '50', '47'],
+                    "levels": ['38', '38', '37-38'],
                     "rate": ['5%', '5%', '15%'],
+                }, {
+                    "name": "Machoke",
+                    "area": "Walking",
+                    "levels": "39",
+                    "rate": "10%",
                 }, {
                     "name": "Graveler",
                     "area": "Walking",
-                    "levels": ['47, 49', '47, 49', '49-50'],
-                    "rate": ['30%', '30%', '20%'],
+                    "levels": ['38', '36, 38', '38'],
+                    "rate": ['20%', '30%', '20%'],
                 }, {
-                    "name": "Onix",
+                    "name": "Nosepass",
                     "area": "Walking",
-                    "levels": "48, 50",
-                    "rate": "20%",
-                }, {
-                    "name": "Steelix",
-                    "area": "Walking",
-                    "levels": "50",
+                    "levels": "37",
                     "rate": "5%",
                 }, {
-                    "name": "Floatzel",
+                    "name": "Medicham",
                     "area": "Walking",
-                    "levels": "47-49",
-                    "rate": "35%",
+                    "levels": ['37-39', '37-39', '39'],
+                    "rate": ['20%', '20%', '10%'],
                 }, {
-                    "name": "Gabite",
+                    "name": "Chingling",
                     "area": "Walking",
-                    "levels": "50",
-                    "rate": "5%",
+                    "levels": '36, 38',
+                    "rate": '10%',
+                }, {
+                    "name": "Bronzong",
+                    "area": "Walking",
+                    "levels": '37',
+                    "rate": '20%',
                 } ],
             },
         },
         'geometry': {
         'type': 'Polygon',
-        'coordinates': [[getCordfromLoc(-63.5, 763.0), getCordfromLoc(-446.5, 763.0), getCordfromLoc(-446.5, 1267.0), getCordfromLoc(-63.5, 1267.0), getCordfromLoc(-63.5, 763.0)]]
+        'coordinates': [[getCordfromLoc(-27.0, 389.0), getCordfromLoc(-120.0, 389.0), getCordfromLoc(-120.0, 510.0), getCordfromLoc(-27.0, 510.0), getCordfromLoc(-27.0, 389.0)]]
         }
       },
     ]
@@ -4536,41 +4571,56 @@ var mountCoronetTunnelRegions = {
             'world': 'Overworld',
             'Pokémon': {
                 "Cave": [{
+                    "name": "Clefairy",
+                    "area": "Walking",
+                    "levels": '36',
+                    "rate": ['10%', '0%', '10%'],
+                }, {
                     "name": "Golbat",
                     "area": "Walking",
-                    "levels": ['50', '50', '47'],
+                    "levels": ['38', '38', '37-38'],
                     "rate": ['5%', '5%', '15%'],
+                }, {
+                    "name": "Machoke",
+                    "area": "Walking",
+                    "levels": "39",
+                    "rate": "10%",
                 }, {
                     "name": "Graveler",
                     "area": "Walking",
-                    "levels": ['47, 49', '47, 49', '49-50'],
-                    "rate": ['30%', '30%', '20%'],
+                    "levels": ['38', '36, 38', '38'],
+                    "rate": ['20%', '30%', '20%'],
                 }, {
-                    "name": "Onix",
+                    "name": "Nosepass",
                     "area": "Walking",
-                    "levels": "48, 50",
-                    "rate": "20%",
-                }, {
-                    "name": "Steelix",
-                    "area": "Walking",
-                    "levels": "50",
+                    "levels": "37",
                     "rate": "5%",
                 }, {
-                    "name": "Floatzel",
+                    "name": "Medicham",
                     "area": "Walking",
-                    "levels": "47-49",
-                    "rate": "35%",
+                    "levels": ['37-39', '37-39', '39'],
+                    "rate": ['20%', '20%', '10%'],
                 }, {
-                    "name": "Gabite",
+                    "name": "Chimecho",
                     "area": "Walking",
-                    "levels": "50",
-                    "rate": "5%",
+                    "levels": '39',
+                    "rate": '1%',
+                }, {
+                    "name": "Chingling",
+                    "area": "Walking",
+                    "levels": '36, 38',
+                    "rate": '9%',
+                }, {
+                    "name": "Bronzong",
+                    "area": "Walking",
+                    "levels": '37',
+                    "rate": '20%',
                 } ],
             },
         },
         'geometry': {
         'type': 'Polygon',
-        'coordinates': [[getCordfromLoc(-318.0, 499.0), getCordfromLoc(-497.0, 499.0), getCordfromLoc(-497.0, 739.0), getCordfromLoc(-318.0, 739.0), getCordfromLoc(-318.0, 499.0)]]
+        'coordinates': [[getCordfromLoc(-819.0, 86.0), getCordfromLoc(-967.0, 86.0), getCordfromLoc(-967.0, 422.0), getCordfromLoc(-819.0, 422.0), getCordfromLoc(-819.0, 86.0)]]
         }
       },
       {
@@ -4580,41 +4630,56 @@ var mountCoronetTunnelRegions = {
             'world': 'Overworld',
             'Pokémon': {
                 "Cave": [{
+                    "name": "Clefairy",
+                    "area": "Walking",
+                    "levels": '36',
+                    "rate": ['10%', '0%', '10%'],
+                }, {
                     "name": "Golbat",
                     "area": "Walking",
-                    "levels": ['50', '50', '47, 50'],
+                    "levels": ['38', '38', '37-38'],
                     "rate": ['5%', '5%', '15%'],
+                }, {
+                    "name": "Machoke",
+                    "area": "Walking",
+                    "levels": "39",
+                    "rate": "10%",
                 }, {
                     "name": "Graveler",
                     "area": "Walking",
-                    "levels": ['47, 49', '47, 49', '49'],
-                    "rate": ['15%', '15%', '5%'],
+                    "levels": ['38', '36, 38', '38'],
+                    "rate": ['20%', '30%', '20%'],
                 }, {
-                    "name": "Dewgong",
+                    "name": "Nosepass",
                     "area": "Walking",
-                    "levels": "48, 50",
-                    "rate": "15%",
-                }, {
-                    "name": "Azumarill",
-                    "area": "Walking",
-                    "levels": "47, 49",
-                    "rate": "30%",
-                }, {
-                    "name": "Floatzel",
-                    "area": "Walking",
-                    "levels": "48-50",
-                    "rate": "30%",
-                }, {
-                    "name": "Gabite",
-                    "area": "Walking",
-                    "levels": "49",
+                    "levels": "37",
                     "rate": "5%",
+                }, {
+                    "name": "Medicham",
+                    "area": "Walking",
+                    "levels": ['37-39', '37-39', '39'],
+                    "rate": ['20%', '20%', '10%'],
+                }, {
+                    "name": "Chimecho",
+                    "area": "Walking",
+                    "levels": '39',
+                    "rate": '5%',
+                }, {
+                    "name": "Chingling",
+                    "area": "Walking",
+                    "levels": '36, 38',
+                    "rate": '5%',
+                }, {
+                    "name": "Bronzong",
+                    "area": "Walking",
+                    "levels": '37',
+                    "rate": '20%',
                 } ],
             },
         },
         'geometry': {
         'type': 'Polygon',
-        'coordinates': [[getCordfromLoc(-63.5, 763.0), getCordfromLoc(-446.5, 763.0), getCordfromLoc(-446.5, 1267.0), getCordfromLoc(-63.5, 1267.0), getCordfromLoc(-63.5, 763.0)]]
+        'coordinates': [[getCordfromLoc(-439.0, 85.0), getCordfromLoc(-785.0, 85.0), getCordfromLoc(-785.0, 421.0), getCordfromLoc(-439.0, 421.0), getCordfromLoc(-439.0, 85.0)]]
         }
       },
       {
@@ -4624,41 +4689,51 @@ var mountCoronetTunnelRegions = {
             'world': 'Overworld',
             'Pokémon': {
                 "Cave": [{
+                    "name": "Clefairy",
+                    "area": "Walking",
+                    "levels": '36',
+                    "rate": ['10%', '0%', '10%'],
+                }, {
                     "name": "Golbat",
                     "area": "Walking",
-                    "levels": ['50', '50', '47'],
+                    "levels": ['38', '38', '37-38'],
                     "rate": ['5%', '5%', '15%'],
+                }, {
+                    "name": "Machoke",
+                    "area": "Walking",
+                    "levels": "39",
+                    "rate": "10%",
                 }, {
                     "name": "Graveler",
                     "area": "Walking",
-                    "levels": ['47, 49', '47, 49', '49-50'],
-                    "rate": ['30%', '30%', '20%'],
+                    "levels": ['38', '36, 38', '38'],
+                    "rate": ['20%', '30%', '20%'],
                 }, {
-                    "name": "Onix",
+                    "name": "Nosepass",
                     "area": "Walking",
-                    "levels": "48, 50",
-                    "rate": "20%",
-                }, {
-                    "name": "Steelix",
-                    "area": "Walking",
-                    "levels": "50",
+                    "levels": "37",
                     "rate": "5%",
                 }, {
-                    "name": "Floatzel",
+                    "name": "Medicham",
                     "area": "Walking",
-                    "levels": "47-49",
-                    "rate": "35%",
+                    "levels": ['37-39', '37-39', '39'],
+                    "rate": ['20%', '20%', '10%'],
                 }, {
-                    "name": "Gabite",
+                    "name": "Chimecho",
                     "area": "Walking",
-                    "levels": "50",
-                    "rate": "5%",
+                    "levels": '39',
+                    "rate": '10%',
+                }, {
+                    "name": "Bronzong",
+                    "area": "Walking",
+                    "levels": '37',
+                    "rate": '20%',
                 } ],
             },
         },
         'geometry': {
         'type': 'Polygon',
-        'coordinates': [[getCordfromLoc(-31.5, 1291.0), getCordfromLoc(-198.5, 1291.0), getCordfromLoc(-198.5, 1547.0), getCordfromLoc(-31.5, 1547.0), getCordfromLoc(-31.5, 1291.0)]]
+        'coordinates': [[getCordfromLoc(-55.0, 103.0), getCordfromLoc(-401.0, 103.0), getCordfromLoc(-401.0, 407.0), getCordfromLoc(-55.0, 407.0), getCordfromLoc(-55.0, 103.0)]]
         }
       },
     ]
