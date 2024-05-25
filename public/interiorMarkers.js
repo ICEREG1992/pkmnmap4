@@ -314,6 +314,22 @@ markerSet(-1559, 423.5, "Overworld", entranceIcon, currentMap, [[-355.96, 409.96
 markerSet(-1252, 62, "Overworld", entranceIcon, currentMap, [[-344.28, 397.24], 5]);
 markerSet(-611, 84.5, "Mount Coronet Peak", entranceIcon, currentMap);
 
+markerSet(-1619.5, 143.5, "Revive", hiddenIcon, currentMap);
+markerSet(-1628.5, 422.5, "Dawn Stone", itemIcon, currentMap);
+markerSet(-1520.5, 222.5, "Stardust", hiddenIcon, currentMap);
+markerSet(-1403.5, 103, "EnergyPowder", hiddenIcon, currentMap);
+markerSet(-1432.5, 223, "Protein", itemIcon, currentMap);
+
+markerSet(-1026, 355, "Max Repel", itemIcon, currentMap);
+markerSet(-1001.5, 261.5, "Red Shard", hiddenIcon, currentMap);
+markerSet(-1272, 222, "Escape Rope", itemIcon, currentMap);
+markerSet(-1220.5, 89, "TM80 (Rock Slide)", tmIcon, currentMap);
+markerSet(-973.5, 89, "Max Revive", itemIcon, currentMap);
+
+markerSet(-792, 382.5, "Star Piece", hiddenIcon, currentMap);
+
+markerSet(-462, 82.5, "Max Repel", hiddenIcon, currentMap);
+
 var currentMap = "Mount Coronet Peak";
 markerSet(-409, 153.5, "Mount Coronet South", entranceIcon, currentMap, [[-611, 84.5], 2]);
 markerSet(-302.5, 146.75, "Mount Coronet Center", entranceIcon, currentMap);
