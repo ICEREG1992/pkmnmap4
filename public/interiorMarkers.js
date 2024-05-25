@@ -371,6 +371,10 @@ var currentMap = "Mount Coronet Tunnel";
 markerSet(-882.5, 111.5, "Mount Coronet Peak", entranceIcon, currentMap);
 markerSet(-89, 223.5, "Spear Pillar", entranceIcon, currentMap);
 
+markerSet(-943.5, 270.5, "Max Elixir", hiddenIcon, currentMap);
+markerSet(-678, 349.5, "Full Restore", hiddenIcon, currentMap);
+markerSet(-745, 350.5, "Rare Candy", hiddenIcon, currentMap);
+
 var currentMap = "Spear Pillar";
 markerSet(-787.5, 253.5, "Mount Coronet Tunnel", entranceIcon, currentMap);
 
