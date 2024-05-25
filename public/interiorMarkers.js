@@ -383,3 +383,36 @@ markerSet(-1651.25, 200.25, "Mount Coronet Peak", entranceIcon, currentMap);
 markerSet(-542.25, 157, "Overworld", entranceIcon, currentMap, [[-166.55, 429.18], 5]);
 markerSet(-1194.5, 140, "Overworld", entranceIcon, currentMap, [[-203.45, 429.18], 5]);
 markerSet(-1157.5, 373.25, "Overworld", entranceIcon, currentMap, [[-202.62, 437.18], 5]);
+
+markerSet(-1659, 326.75, "Green Shard", hiddenIcon, currentMap);
+markerSet(-1568.25, 353.25, "Rare Candy", hiddenIcon, currentMap);
+markerSet(-1493.5, 233, "Green Shard", hiddenIcon, currentMap);
+markerSet(-1566.5, 300.25, "Heal Powder", hiddenIcon, currentMap);
+markerSet(-1545.5, 313.5, "Stardust", hiddenIcon, currentMap);
+markerSet(-1494.75, 300, "Max Potion", hiddenIcon, currentMap);
+
+markerSet(-1313.75, 228.5, "TM02 (Dragon Claw)", tmIcon, currentMap);
+markerSet(-1304.5, 228.5, "Nugget", hiddenIcon, currentMap);
+markerSet(-1175, 252.5, "Stardust", hiddenIcon, currentMap);
+markerSet(-1134.75, 148.75, "TM69 (Rock Polish)", tmIcon, currentMap);
+markerSet(-1171.5, 228.5, "Ice Heal", itemIcon, currentMap);
+markerSet(-1193.5, 164.5, "EnergyPowder", hiddenIcon, currentMap);
+markerSet(-1209, 356.5, "Escape Rope", hiddenIcon, currentMap);
+markerSet(-1156.5, 316.5, "Star Piece", hiddenIcon, currentMap);
+markerSet(-1104, 244.5, "Rare Candy", itemIcon, currentMap);
+markerSet(-1001.5, 244.5, "Red Shard", hiddenIcon, currentMap);
+
+markerSet(-938, 144.5, "Ultra Ball", itemIcon, currentMap);
+markerSet(-942, 144.5, "Green Shard", hiddenIcon, currentMap);
+markerSet(-726.25, 171.25, "Soft Sand", itemIcon, currentMap);
+markerSet(-694, 211.25, "Star Piece", hiddenIcon, currentMap);
+markerSet(-686.25, 244.25, "Revive", itemIcon, currentMap);
+markerSet(-794.5, 324.25, "Full Restore", itemIcon, currentMap);
+markerSet(-725.25, 304.25, "Max Elixir", itemIcon, currentMap);
+markerSet(-823.25, 277.75, "Light Clay", itemIcon, currentMap);
+markerSet(-775.5, 177.75, "Blue Shard", hiddenIcon, currentMap);
+markerSet(-645.5, 171, "Rare Candy", hiddenIcon, currentMap);
+
+markerSet(-536.75, 244.25, "Yellow Shard", hiddenIcon, currentMap);
+
+// iceberg ruins also contains a nevermeltice and nugget when regigigas is not in party
