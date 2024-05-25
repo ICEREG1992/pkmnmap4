@@ -13,7 +13,16 @@ The site is available at <https://pkmnmap4.web.app/>.
 from HelperTools import ImageToTileset
 ImageToTileset(r"[path to your png map]", r"[directory you want the tileset to be placed]")
 ```
-6. To see your new map, you can update the `shortname` of the Overworld map in maps.js to point to the tileset directory, just make sure to change `bounds` to be representative of your map's aspect ratio.
+6. To see your new map, you can update the `shortname` of the Overworld map in maps.js to point to the tileset directory, just make sure to change `bounds` to be representative of your map's aspect ratio. Your smaller dimension should always be 128, and the larger dimension should be scaled to fit that ratio.
+
+## how to create new interiors
+1. Create a new tileset for your map using the above steps
+1. Add your map's information to `maps.js`
+1. Add region data to the variable you defined in the map's information
+1. Add marker data for your interior using `markerSet(y, x, name, icon, mapname, [return location])`
+    - return location is optional and intended for entrances, but should be a two element array that looks like `[[y, x], zoom]`.
+    - return location determines where the camera should be centered when you enter the map. if no return location is specified, the camera is perfectly centered on the whole map.
+1. Finally, add an entrance marker to the overworld with the name matching the new map's name.
 
 ## how to create new regions
 1. Open your final map png in an image editor like Paint.NET
@@ -24,18 +33,9 @@ ImageToTileset(r"[path to your png map]", r"[directory you want the tileset to b
 from HelperTools import TranslateScale
 TranslateScale(s, x, y, w, h)
 ```
-Note: Scale parameter `s` depends on the size of your map. I believe a good way to find it is to divide the smallest dimension of your map by 512. In general, if your regions come out at half size, then halve the scale parameter.
+Note: Scale parameter `s` depends on the size of your map. A good way to find it is to divide the smallest dimension of your map by 512. In general, if your regions come out at half size, then halve the scale parameter.
 
 5. Copy and paste the output into the "coordinates" property of a feature in one of the vector js files.
-
-## how to create new interiors
-1. Create a new tileset for your map using the above steps
-1. Add your map's information to `maps.js`
-1. Add region data to the variable you defined in the map's information
-1. Add marker data for your interior using `markerSet(y, x, name, icon, mapname, [return location])`
-    - return location is optional and intended for entrances, but should be a two element array that looks like `[[y, x], zoom]`.
-    - return location determines where the camera should be centered when you enter the map. if no return location is specified, the camera is perfectly centered on the whole map.
-1. Finally, add an entrance marker to the overworld with the name matching the new map's name.
 
 ## licensing
 Map files published under this repository are subject to a [CC BY-NC-SA 2.5 license](https://creativecommons.org/licenses/by-nc-sa/2.5/) via [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Copyrights). You are free to share or adapt this material under the terms that you provide appropriate attribution, do not use the material for commercial purposes, and distribute your work under the same license.
