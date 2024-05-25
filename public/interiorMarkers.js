@@ -338,10 +338,34 @@ markerSet(-220.5, 340.5, "Mount Coronet Center", entranceIcon, currentMap);
 markerSet(-173.5, 373.5, "Mount Coronet North", entranceIcon, currentMap, [[-1651.25, 200.25], 2]);
 markerSet(-116, 167, "Mount Coronet Tunnel", entranceIcon, currentMap, [[-611, 84.5], 2]);
 
+markerSet(-400.5, 276.25, "Max Potion", hiddenIcon, currentMap);
+markerSet(-267.5, 295.5, "Energy Root", hiddenIcon, currentMap);
+markerSet(-250.5, 360.25, "Star Piece", hiddenIcon, currentMap);
+markerSet(-366, 160, "Blue Shard", hiddenIcon, currentMap);
+markerSet(-329, 173, "Revival Herb", hiddenIcon, currentMap);
+markerSet(-240, 340.5, "Star Piece", hiddenIcon, currentMap);
+markerSet(-105, 353.75, "Moon Stone", hiddenIcon, currentMap);
+markerSet(-96.5, 282.75, "Revival Herb", hiddenIcon, currentMap);
+markerSet(-91, 198.75, "Full Restore", hiddenIcon, currentMap);
+markerSet(-82.25, 289.25, "Stardust", hiddenIcon, currentMap);
+markerSet(-122.5, 140.75, "Energy Root", hiddenIcon, currentMap);
+
 var currentMap = "Mount Coronet Center";
 markerSet(-464, 319, "Mount Coronet Peak", entranceIcon, currentMap);
 markerSet(-464, 689, "Mount Coronet Peak", entranceIcon, currentMap);
 markerSet(-285, 771, "Mount Coronet Peak", entranceIcon, currentMap);
+
+markerSet(-331, 730.5, "Stardust", hiddenIcon, currentMap);
+markerSet(-462, 610.5, "Yellow Shard", hiddenIcon, currentMap);
+markerSet(-408.5, 570.5, "Heal Powder", hiddenIcon, currentMap);
+markerSet(-231.5, 290.5, "Sun Stone", hiddenIcon, currentMap);
+markerSet(-205.5, 478, "Full Heal", hiddenIcon, currentMap);
+markerSet(-267.5, 717, "Ultra Ball", hiddenIcon, currentMap);
+markerSet(-307.5, 610.5, "Max Revive", hiddenIcon, currentMap);
+
+markerSet(-76, 449.5, "Stone Plate", hiddenIcon, currentMap);
+markerSet(-69.5, 423, "Adamant Orb", itemIcon, currentMap);
+markerSet(-69.5, 476.5, "Lustrous Orb", itemIcon, currentMap);
 
 var currentMap = "Mount Coronet Tunnel";
 markerSet(-882.5, 111.5, "Mount Coronet Peak", entranceIcon, currentMap);
