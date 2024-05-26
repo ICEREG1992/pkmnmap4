@@ -42,12 +42,18 @@ markerSet(-203.45, 429.18, "Mount Coronet North", entranceIcon, currentMap, [[-1
 markerSet(-202.62, 437.18, "Mount Coronet North", entranceIcon, currentMap, [[-1157.5, 373.25], 2]);
 markerSet(-166.55, 429.18, "Mount Coronet North", entranceIcon, currentMap, [[-542.25, 157], 2]);
 markerSet(-174.92, 924.06, "Flower Paradise", entranceIcon, currentMap, [[-1899.5, 229.5], 3]);
+markerSet(-374.62, 95.45, "Iron Island", entranceIcon, currentMap);
+markerSet(-375.92, 95.45, "Fullmoon Island", entranceIcon, currentMap);
+markerSet(-381.62, 95.45, "Newmoon Island", entranceIcon, currentMap);
 
 /* TODO:
 Galactic Veilstone Building
-Iron Island
-Fullmoon Island
-Newmoon Island
+Iron Island Exterior
+Iron Island Interior
+Fullmoon Island Exterior
+Fullmoon Island Interior
+Newmoon Island Exterior
+Newmoon Island Interior
 Distortion World (Turnback Cave)
 Distortion World (Spear Pillar)
 */

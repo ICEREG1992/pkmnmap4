@@ -418,5 +418,13 @@ markerSet(-536.75, 244.25, "Yellow Shard", hiddenIcon, currentMap);
 // iceberg ruins also contains a nevermeltice and nugget when regigigas is not in party
 
 var currentMap = "Flower Paradise";
-
 markerSet(-1899.5, 229.5, "Overworld", entranceIcon, currentMap, [[-174.92, 924.06], 5]);
+
+var currentMap = "Iron Island";
+markerSet(-335, 31.5, "Overworld", entranceIcon, currentMap, [[-374.62, 95.45], 5]);
+markerSet(-83, 351.75, "Iron Island Interior", entranceIcon, currentMap, [[-114.75, 288.625], 4]);
+markerSet(-177, 143.5, "Iron Island Interior", entranceIcon, currentMap, [[-366.75, 56.125], 4]);
+
+var currentMap = "Iron Island Interior";
+markerSet(-114.75, 288.625, "Iron Island", entranceIcon, currentMap);
+markerSet(-366.75, 56.125, "Iron Island", entranceIcon, currentMap);

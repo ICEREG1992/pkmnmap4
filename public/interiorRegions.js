@@ -5101,3 +5101,74 @@ var flowerParadiseRegions = {
       }
     ]
 };
+
+var ironIslandRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': "Iron Island",
+            'world': 'Overworld',
+            'Pokémon': {
+                "Surfing": [{
+                    "name": "Tentacool",
+                    "area": "Surfing",
+                    "levels": "20-30",
+                    "rate": "30%",
+                }, {
+                    "name": "Tentacruel",
+                    "area": "Surfing",
+                    "levels": "20-40",
+                    "rate": "1%",
+                }, {
+                    "name": "Wingull",
+                    "area": "Surfing",
+                    "levels": "20-30",
+                    "rate": "60%",
+                }, {
+                    "name": "Pelipper",
+                    "area": "Surfing",
+                    "levels": "20-40",
+                    "rate": "9%",
+                }, ],
+                "Fishing": [{
+                    "name": "Magikarp",
+                    "area": "Old Rod",
+                    "levels": "3-15",
+                    "rate": "100%",
+                }, {
+                    "name": "Magikarp",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": "55%",
+                }, {
+                    "name": "Finneon",
+                    "area": "Good Rod",
+                    "levels": "10-25",
+                    "rate": "45%",
+                }, {
+                    "name": "Gyarados",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": "40%",
+                }, {
+                    "name": "Qwilfish",
+                    "area": "Super Rod",
+                    "levels": "20-50",
+                    "rate": "15%",
+                }, {
+                    "name": "Lumineon",
+                    "area": "Super Rod",
+                    "levels": "30-55",
+                    "rate": "45%",
+                }, ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-53.0, -1.0), getCordfromLoc(-457.0, -1.0), getCordfromLoc(-457.0, 511.0), getCordfromLoc(-53.0, 511.0), getCordfromLoc(-53.0, -1.0)]]
+        }
+      },
+    ]
+};

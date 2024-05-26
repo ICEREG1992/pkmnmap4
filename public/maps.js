@@ -343,4 +343,20 @@ var maps = {
         "bounds": [-512, 128],
         "vector": flowerParadiseRegions
     },
+    "Iron Island": {
+        "shortname": 'ironisland',
+        "zoom": 2,
+        "minZoom": 1,
+        "maxZoom": 3,
+        "bounds": [-128, 128],
+        "vector": ironIslandRegions
+    },
+    "Iron Island Interior": {
+        "shortname": 'ironislandinterior',
+        "zoom": 2,
+        "minZoom": 2,
+        "maxZoom": 5,
+        "bounds": [-128, 128],
+        "vector": ironIslandRegions
+    },
 }
