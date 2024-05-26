@@ -5052,3 +5052,52 @@ var mountCoronetNorthRegions = {
       },
     ]
 };
+
+var flowerParadiseRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': "Route 224",
+            'world': 'Overworld',
+            'Pokémon': {},
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-1848.5, 125.0), getCordfromLoc(-1976.5, 125.0), getCordfromLoc(-1976.5, 385.0), getCordfromLoc(-1848.5, 385.0), getCordfromLoc(-1848.5, 125.0)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': "Seabreak Path",
+            'world': 'Overworld',
+            'Pokémon': {},
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-260.5, 189.0), getCordfromLoc(-1848.5, 189.0), getCordfromLoc(-1848.5, 317.0), getCordfromLoc(-260.5, 317.0), getCordfromLoc(-260.5, 189.0)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': "Flower Paradise",
+            'world': 'Overworld',
+            'Pokémon': {
+                "Special Encounter": [{
+                    "name": "Shaymin",
+                    "area": "Center of Island",
+                    "levels": "30",
+                    "rate": 'One',
+                } ]
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-69.5, 133.0), getCordfromLoc(-260.5, 133.0), getCordfromLoc(-260.5, 373.0), getCordfromLoc(-69.5, 373.0), getCordfromLoc(-69.5, 133.0)]]
+        }
+      }
+    ]
+};

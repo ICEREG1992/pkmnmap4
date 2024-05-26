@@ -335,4 +335,12 @@ var maps = {
         "bounds": [-512, 128],
         "vector": mountCoronetNorthRegions
     },
+    "Flower Paradise": {
+        "shortname": 'flowerparadise',
+        "zoom": 2,
+        "minZoom": 1,
+        "maxZoom": 4,
+        "bounds": [-512, 128],
+        "vector": flowerParadiseRegions
+    },
 }
