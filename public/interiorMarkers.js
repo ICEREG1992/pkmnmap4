@@ -425,6 +425,34 @@ markerSet(-335, 31.5, "Overworld", entranceIcon, currentMap, [[-374.62, 95.45], 
 markerSet(-83, 351.75, "Iron Island Interior", entranceIcon, currentMap, [[-114.75, 288.625], 4]);
 markerSet(-177, 143.5, "Iron Island Interior", entranceIcon, currentMap, [[-366.75, 56.125], 4]);
 
+markerSet(-319.5, 303.5, "Star Piece", hiddenIcon, currentMap);
+
 var currentMap = "Iron Island Interior";
-markerSet(-114.75, 288.625, "Iron Island", entranceIcon, currentMap);
+markerSet(-114.75, 288.5, "Iron Island", entranceIcon, currentMap);
 markerSet(-366.75, 56.125, "Iron Island", entranceIcon, currentMap);
+
+markerSet(-148.5, 220.5, "Protector", itemIcon, currentMap);
+markerSet(-156.75, 228.25, "Yellow Shard", itemIcon, currentMap);
+
+markerSet(-184.5, 315.5, "Escape Rope", itemIcon, currentMap);
+markerSet(-174.5, 391.5, "Max Repel", itemIcon, currentMap);
+markerSet(-160, 351.5, "Star Piece", hiddenIcon, currentMap);
+markerSet(-194, 335.5, "Revive", itemIcon, currentMap);
+
+markerSet(-254.75, 447.5, "Elixir", itemIcon, currentMap);
+markerSet(-303.5, 411, "TM23 (Iron Tail)", tmIcon, currentMap);
+markerSet(-303.5, 431, "Star Piece", hiddenIcon, currentMap);
+
+markerSet(-260.5, 195.75, "Dusk Ball", itemIcon, currentMap);
+markerSet(-319, 164.25, "Magnet", itemIcon, currentMap);
+markerSet(-299, 180, "Max Potion", itemIcon, currentMap);
+markerSet(-344.25, 216.25, "Star Piece", hiddenIcon, currentMap);
+markerSet(-364.25, 244, "HP Up", itemIcon, currentMap);
+markerSet(-339, 276, "Star Piece", hiddenIcon, currentMap);
+markerSet(-294.75, 312, "Ultra Ball", itemIcon, currentMap);
+markerSet(-374.75, 288.25, "Iron Plate", hiddenIcon, currentMap);
+markerSet(-307.5, 228.12, "Red Shard", itemIcon, currentMap);
+
+markerSet(-374.5, 108.25, "Shiny Stone", itemIcon, currentMap);
+
+// iron ruins also contains a metal coat and nugget when regigigas is not in party

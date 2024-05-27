@@ -5172,3 +5172,228 @@ var ironIslandRegions = {
       },
     ]
 };
+
+var ironIslandInteriorRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Iron Island (1F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Zubat",
+                    "area": "Walking",
+                    "levels": "30",
+                    "rate": "10%",
+                }, {
+                    "name": "Golbat",
+                    "area": "Walking",
+                    "levels": "32",
+                    "rate": "10%",
+                }, {
+                    "name": "Geodude",
+                    "area": "Walking",
+                    "levels": '30-32',
+                    "rate": '35%',
+                }, {
+                    "name": "Graveler",
+                    "area": "Walking",
+                    "levels": '31-33',
+                    "rate": '35%',
+                }, {
+                    "name": "Onix",
+                    "area": "Walking",
+                    "levels": '31, 33',
+                    "rate": '10%',
+                } ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-84.0, 261.75), getCordfromLoc(-117.5, 261.75), getCordfromLoc(-117.5, 313.25), getCordfromLoc(-84.0, 313.25), getCordfromLoc(-84.0, 261.75)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Mount Coronet (B1F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Golbat",
+                    "area": "Walking",
+                    "levels": '30, 32',
+                    "rate": '20%',
+                }, {
+                    "name": "Graveler",
+                    "area": "Walking",
+                    "levels": "30-33",
+                    "rate": "70%",
+                }, {
+                    "name": "Onix",
+                    "area": "Walking",
+                    "levels": "31, 33",
+                    "rate": "10%",
+                } ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-125.5, 198.0), getCordfromLoc(-180.5, 198.0), getCordfromLoc(-180.5, 269.5), getCordfromLoc(-125.5, 269.5), getCordfromLoc(-125.5, 198.0)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Mount Coronet (B1F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Golbat",
+                    "area": "Walking",
+                    "levels": '30, 32',
+                    "rate": '20%',
+                }, {
+                    "name": "Graveler",
+                    "area": "Walking",
+                    "levels": "30-33",
+                    "rate": "70%",
+                }, {
+                    "name": "Onix",
+                    "area": "Walking",
+                    "levels": "31, 33",
+                    "rate": "10%",
+                } ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-125.5, 305.25), getCordfromLoc(-236.25, 305.25), getCordfromLoc(-236.25, 396.75), getCordfromLoc(-125.5, 396.75), getCordfromLoc(-125.5, 305.25)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Mount Coronet (B2F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Golbat",
+                    "area": "Walking",
+                    "levels": '31, 33',
+                    "rate": '20%',
+                }, {
+                    "name": "Graveler",
+                    "area": "Walking",
+                    "levels": "31-34",
+                    "rate": "50%",
+                }, {
+                    "name": "Onix",
+                    "area": "Walking",
+                    "levels": "32",
+                    "rate": "20%",
+                }, {
+                    "name": "Steelix",
+                    "area": "Walking",
+                    "levels": "33, 35",
+                    "rate": "10%",
+                } ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-244.25, 381.0), getCordfromLoc(-318.0, 381.0), getCordfromLoc(-318.0, 460.5), getCordfromLoc(-244.25, 460.5), getCordfromLoc(-244.25, 381.0)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Mount Coronet (B2F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Golbat",
+                    "area": "Walking",
+                    "levels": '31, 33',
+                    "rate": '20%',
+                }, {
+                    "name": "Graveler",
+                    "area": "Walking",
+                    "levels": "31-34",
+                    "rate": "50%",
+                }, {
+                    "name": "Onix",
+                    "area": "Walking",
+                    "levels": "32",
+                    "rate": "20%",
+                }, {
+                    "name": "Steelix",
+                    "area": "Walking",
+                    "levels": "33, 35",
+                    "rate": "10%",
+                } ],
+                "Gift": [{
+                    "name": "Riolu",
+                    "area": "Egg",
+                    "levels": "1",
+                    "rate": "One",
+                }]
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-244.25, 157.75), getCordfromLoc(-425.75, 157.75), getCordfromLoc(-425.75, 321.25), getCordfromLoc(-244.25, 321.25), getCordfromLoc(-244.25, 157.75)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Mount Coronet (B3F)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Cave": [{
+                    "name": "Golbat",
+                    "area": "Walking",
+                    "levels": '31, 33',
+                    "rate": '20%',
+                }, {
+                    "name": "Graveler",
+                    "area": "Walking",
+                    "levels": "31-34",
+                    "rate": "50%",
+                }, {
+                    "name": "Onix",
+                    "area": "Walking",
+                    "levels": "32-33, 35",
+                    "rate": "30%",
+                } ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-346.25, 49.75), getCordfromLoc(-425.75, 49.75), getCordfromLoc(-425.75, 125.25), getCordfromLoc(-346.25, 125.25), getCordfromLoc(-346.25, 49.75)]]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Iron Ruins',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Special Encounter": [{
+                    "name": "Registeel",
+                    "area": "Regigigas in Party",
+                    "levels": "30",
+                    "rate": 'One',
+                }, ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-273.25, 65.5), getCordfromLoc(-338.25, 65.5), getCordfromLoc(-338.25, 149.5), getCordfromLoc(-273.25, 149.5), getCordfromLoc(-273.25, 65.5)]]
+        }
+      },
+    ]
+};

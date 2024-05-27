@@ -357,6 +357,6 @@ var maps = {
         "minZoom": 2,
         "maxZoom": 5,
         "bounds": [-128, 128],
-        "vector": ironIslandRegions
+        "vector": ironIslandInteriorRegions
     },
 }
