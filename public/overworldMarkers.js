@@ -48,8 +48,6 @@ markerSet(-374.62, 95.45, "Iron Island", entranceIcon, currentMap);
 
 /* TODO:
 Galactic Veilstone Building
-Iron Island Exterior
-Iron Island Interior
 Fullmoon Island Exterior
 Fullmoon Island Interior
 Newmoon Island Exterior
