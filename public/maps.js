@@ -359,4 +359,37 @@ var maps = {
         "bounds": [-128, 128],
         "vector": ironIslandInteriorRegions
     },
+    "Fullmoon Island": {
+        "shortname": 'fullmoonisland',
+        "zoom": 2,
+        "minZoom": 1,
+        "maxZoom": 3,
+        "bounds": [-128, 128],
+        "vector": fullmoonIslandRegions
+    },
+    "Fullmoon Island Interior": {
+        "shortname": 'fullmoonislandinterior',
+        "zoom": 2,
+        "minZoom": 1,
+        "maxZoom": 3,
+        "bounds": [-128, 128],
+        "vector": fullmoonIslandInteriorRegions
+    },
+    "Newmoon Island": {
+        "shortname": 'newmoonisland',
+        "zoom": 2,
+        "minZoom": 1,
+        "maxZoom": 3,
+        "bounds": [-128, 128],
+        "vector": newmoonIslandRegions
+    },
+    "Newmoon Island Interior": {
+        "shortname": 'newmoonislandinterior',
+        "zoom": 2,
+        "minZoom": 1,
+        "maxZoom": 3,
+        "bounds": [-128, 128],
+        "vector": newmoonIslandInteriorRegions
+    },
+    
 }

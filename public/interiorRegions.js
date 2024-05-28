@@ -5397,3 +5397,82 @@ var ironIslandInteriorRegions = {
       },
     ]
 };
+
+var fullmoonIslandRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Fullmoon Island',
+            'world': 'Overworld',
+            'Pokémon': {},
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-57.0, -1.0), getCordfromLoc(-453.0, -1.0), getCordfromLoc(-453.0, 511.0), getCordfromLoc(-57.0, 511.0), getCordfromLoc(-57.0, -1.0)]]
+        }
+        }
+    ]
+};
+
+var fullmoonIslandInteriorRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Fullmoon Island (Interior)',
+            'world': 'Overworld',
+            'Pokémon': {},
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-93.0, 63.0), getCordfromLoc(-417.0, 63.0), getCordfromLoc(-417.0, 447.0), getCordfromLoc(-93.0, 447.0), getCordfromLoc(-93.0, 63.0)]]
+        }
+        }
+    ]
+};
+
+var newmoonIslandRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Newmoon Island',
+            'world': 'Overworld',
+            'Pokémon': {},
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-57.0, -1.0), getCordfromLoc(-453.0, -1.0), getCordfromLoc(-453.0, 511.0), getCordfromLoc(-57.0, 511.0), getCordfromLoc(-57.0, -1.0)]]
+        }
+        }
+    ]
+};
+
+var newmoonIslandInteriorRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Newmoon Island (Interior)',
+            'world': 'Overworld',
+            'Pokémon': {
+                "Special Encounter": [{
+                    "name": "Darkrai",
+                    "area": "First Visit",
+                    "levels": "50",
+                    "rate": 'One',
+                }, ],
+            },
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-81.0, 31.0), getCordfromLoc(-429.0, 31.0), getCordfromLoc(-429.0, 479.0), getCordfromLoc(-81.0, 479.0), getCordfromLoc(-81.0, 31.0)]]
+        }
+        }
+    ]
+};

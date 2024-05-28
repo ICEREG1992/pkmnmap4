@@ -456,3 +456,19 @@ markerSet(-307.5, 228.12, "Red Shard", itemIcon, currentMap);
 markerSet(-374.5, 108.25, "Shiny Stone", itemIcon, currentMap);
 
 // iron ruins also contains a metal coat and nugget when regigigas is not in party
+
+var currentMap = "Fullmoon Island";
+markerSet(-329, 184, "Overworld", entranceIcon, currentMap, [[-381.62, 95.45], 5]);
+markerSet(-186.5, 351.5, "Fullmoon Island Interior", entranceIcon, currentMap);
+
+var currentMap = "Fullmoon Island Interior"
+markerSet(-330, 271, "Fullmoon Island", entranceIcon, currentMap);
+
+markerSet(-236.5, 263, "Lunar Wing", itemIcon, currentMap);
+
+var currentMap = "Newmoon Island";
+markerSet(-328.5, 328.5, "Overworld", entranceIcon, currentMap, [[-346.45, 106.45], 5]);
+markerSet(-187.5, 160, "Newmoon Island Interior", entranceIcon, currentMap);
+
+var currentMap = "Newmoon Island Interior"
+markerSet(-353, 271.5, "Newmoon Island", entranceIcon, currentMap);
