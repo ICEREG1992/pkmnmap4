@@ -48,10 +48,6 @@ markerSet(-346.45, 106.45, "Newmoon Island", entranceIcon, currentMap);
 
 /* TODO:
 Galactic Veilstone Building
-Fullmoon Island Exterior
-Fullmoon Island Interior
-Newmoon Island Exterior
-Newmoon Island Interior
 Distortion World (Turnback Cave)
 Distortion World (Spear Pillar)
 */
