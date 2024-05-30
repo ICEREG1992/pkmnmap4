@@ -47,7 +47,8 @@ markerSet(-381.62, 95.45, "Fullmoon Island", entranceIcon, currentMap);
 markerSet(-346.45, 106.45, "Newmoon Island", entranceIcon, currentMap);
 
 /* TODO:
-Galactic Veilstone Building
+Team Galactic HQ
+Team Galactic HQ Warehouse
 Distortion World (Turnback Cave)
 Distortion World (Spear Pillar)
 */
