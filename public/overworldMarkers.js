@@ -45,10 +45,12 @@ markerSet(-174.92, 924.06, "Flower Paradise", entranceIcon, currentMap, [[-1899.
 markerSet(-375.32, 95.45, "Iron Island", entranceIcon, currentMap);
 markerSet(-381.62, 95.45, "Fullmoon Island", entranceIcon, currentMap);
 markerSet(-346.45, 106.45, "Newmoon Island", entranceIcon, currentMap);
+markerSet(-251.55, 731.08, "Team Galactic HQ", entranceIcon, currentMap, [[-462.75, 181.5], 3]);
+markerSet(-251.55, 734.08, "Team Galactic HQ", entranceIcon, currentMap, [[-462.75, 265.5], 3]);
+markerSet(-251.55, 737.08, "Team Galactic HQ", entranceIcon, currentMap, [[-462.75, 317.5], 3]);
+markerSet(-254.45, 718.06, "Team Galactic HQ Warehouse", entranceIcon, currentMap, [[-324.5, 206], 2]);
 
 /* TODO:
-Team Galactic HQ
-Team Galactic HQ Warehouse
 Distortion World (Turnback Cave)
 Distortion World (Spear Pillar)
 */

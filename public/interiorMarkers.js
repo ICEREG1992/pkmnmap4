@@ -470,5 +470,18 @@ var currentMap = "Newmoon Island";
 markerSet(-328.5, 328.5, "Overworld", entranceIcon, currentMap, [[-346.45, 106.45], 5]);
 markerSet(-187.5, 160, "Newmoon Island Interior", entranceIcon, currentMap);
 
-var currentMap = "Newmoon Island Interior"
+var currentMap = "Newmoon Island Interior";
 markerSet(-353, 271.5, "Newmoon Island", entranceIcon, currentMap);
+
+var currentMap = "Team Galactic HQ";
+markerSet(-462.75, 181.5, "Overworld", entranceIcon, currentMap, [[-251.55, 731.08], 5]);
+markerSet(-462.75, 265.5, "Overworld", entranceIcon, currentMap, [[-251.55, 734.08], 5]);
+markerSet(-462.75, 317.5, "Overworld", entranceIcon, currentMap, [[-251.55, 737.08], 5]);
+markerSet(-403, 188, "Team Galactic HQ Warehouse", entranceIcon, currentMap, [[-165, 1190], 2]);
+markerSet(-403, 328, "Team Galactic HQ Warehouse", entranceIcon, currentMap, [[-230, 1946], 2]);
+
+
+var currentMap = "Team Galactic HQ Warehouse";
+markerSet(-324.5, 206, "Overworld", entranceIcon, currentMap, [[-254.45, 718.06], 5]);
+markerSet(-165, 1190, "Team Galactic HQ", entranceIcon, currentMap, [[-403, 188], 3]);
+markerSet(-230, 1946, "Team Galactic HQ", entranceIcon, currentMap, [[-403, 328], 3]);

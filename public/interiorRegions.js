@@ -5476,3 +5476,39 @@ var newmoonIslandInteriorRegions = {
         }
     ]
 };
+
+var teamGalacticHQRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Newmoon Island',
+            'world': 'Overworld',
+            'Pokémon': {},
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-57.0, -1.0), getCordfromLoc(-453.0, -1.0), getCordfromLoc(-453.0, 511.0), getCordfromLoc(-57.0, 511.0), getCordfromLoc(-57.0, -1.0)]]
+        }
+        }
+    ]
+};
+
+var teamGalacticHQWarehouseRegions = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Newmoon Island',
+            'world': 'Overworld',
+            'Pokémon': {},
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-57.0, -1.0), getCordfromLoc(-453.0, -1.0), getCordfromLoc(-453.0, 511.0), getCordfromLoc(-57.0, 511.0), getCordfromLoc(-57.0, -1.0)]]
+        }
+        }
+    ]
+};

@@ -391,5 +391,21 @@ var maps = {
         "bounds": [-128, 128],
         "vector": newmoonIslandInteriorRegions
     },
+    "Team Galactic HQ": {
+        "shortname": 'teamgalactichq',
+        "zoom": 3,
+        "minZoom": 2,
+        "maxZoom": 5,
+        "bounds": [-128, 128],
+        "vector": teamGalacticHQRegions
+    },
+    "Team Galactic HQ Warehouse": {
+        "shortname": 'teamgalactichqwarehouse',
+        "zoom": 2,
+        "minZoom": 1,
+        "maxZoom": 3,
+        "bounds": [-128, 512],
+        "vector": teamGalacticHQWarehouseRegions
+    },
     
 }
