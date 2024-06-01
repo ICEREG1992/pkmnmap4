@@ -5483,15 +5483,87 @@ var teamGalacticHQRegions = {
         {
         'type': 'Feature',
         'properties': {
-            'name': 'Newmoon Island',
+            'name': 'Team Galactic HQ (1F)',
             'world': 'Overworld',
             'Pokémon': {},
         },
         'geometry': {
         'type': 'Polygon',
-        'coordinates': [[getCordfromLoc(-57.0, -1.0), getCordfromLoc(-453.0, -1.0), getCordfromLoc(-453.0, 511.0), getCordfromLoc(-57.0, 511.0), getCordfromLoc(-57.0, -1.0)]]
+        'coordinates': [[getCordfromLoc(-392.75, 151.0), getCordfromLoc(-463.75, 151.0), getCordfromLoc(-463.75, 359.0), getCordfromLoc(-392.75, 359.0), getCordfromLoc(-392.75, 151.0)]]
         }
+        },
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Team Galactic HQ (2F)',
+            'world': 'Overworld',
+            'Pokémon': {},
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-310.0, 151.0), getCordfromLoc(-381.0, 151.0), getCordfromLoc(-381.0, 359.0), getCordfromLoc(-310.0, 359.0), getCordfromLoc(-310.0, 151.0)]]
         }
+        },
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Team Galactic HQ (Hall)',
+            'world': 'Overworld',
+            'Pokémon': {},
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-308.25, 370.25), getCordfromLoc(-382.0, 370.25), getCordfromLoc(-382.0, 470.25), getCordfromLoc(-308.25, 470.25), getCordfromLoc(-308.25, 370.25)]]
+        }
+        },
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Team Galactic HQ (3F)',
+            'world': 'Overworld',
+            'Pokémon': {},
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-227.25, 151.0), getCordfromLoc(-298.25, 151.0), getCordfromLoc(-298.25, 359.0), getCordfromLoc(-227.25, 359.0), getCordfromLoc(-227.25, 151.0)]]
+        }
+        },
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Team Galactic HQ (4F1)',
+            'world': 'Overworld',
+            'Pokémon': {},
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-156.5, 211.0), getCordfromLoc(-215.5, 211.0), getCordfromLoc(-215.5, 299.0), getCordfromLoc(-156.5, 299.0), getCordfromLoc(-156.5, 211.0)]]
+        }
+        },
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Team Galactic HQ (4F2)',
+            'world': 'Overworld',
+            'Pokémon': {},
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-99.5, 169.25), getCordfromLoc(-145.5, 169.25), getCordfromLoc(-145.5, 325.25), getCordfromLoc(-99.5, 325.25), getCordfromLoc(-99.5, 169.25)]]
+        }
+        },
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Team Galactic HQ (4F3)',
+            'world': 'Overworld',
+            'Pokémon': {},
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-45.75, 281.0), getCordfromLoc(-89.0, 281.0), getCordfromLoc(-89.0, 341.0), getCordfromLoc(-45.75, 341.0), getCordfromLoc(-45.75, 281.0)]]
+        }
+        },
     ]
 };
 
@@ -5501,14 +5573,38 @@ var teamGalacticHQWarehouseRegions = {
         {
         'type': 'Feature',
         'properties': {
-            'name': 'Newmoon Island',
+            'name': 'Team Galactic HQ Warehouse (Entrance)',
             'world': 'Overworld',
             'Pokémon': {},
         },
         'geometry': {
         'type': 'Polygon',
-        'coordinates': [[getCordfromLoc(-57.0, -1.0), getCordfromLoc(-453.0, -1.0), getCordfromLoc(-453.0, 511.0), getCordfromLoc(-57.0, 511.0), getCordfromLoc(-57.0, -1.0)]]
+        'coordinates': [[getCordfromLoc(-181.0, 86.0), getCordfromLoc(-330.0, 86.0), getCordfromLoc(-330.0, 326.0), getCordfromLoc(-181.0, 326.0), getCordfromLoc(-181.0, 86.0)]]
         }
+        },
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Team Galactic HQ Warehouse (B2F)',
+            'world': 'Overworld',
+            'Pokémon': {},
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-133.0, 373.0), getCordfromLoc(-378.0, 373.0), getCordfromLoc(-378.0, 1700.0), getCordfromLoc(-133.0, 1700.0), getCordfromLoc(-133.0, 373.0)]]
         }
+        },
+        {
+        'type': 'Feature',
+        'properties': {
+            'name': 'Team Galactic HQ Warehouse (B1F)',
+            'world': 'Overworld',
+            'Pokémon': {},
+        },
+        'geometry': {
+        'type': 'Polygon',
+        'coordinates': [[getCordfromLoc(-200.0, 1753.0), getCordfromLoc(-310.0, 1753.0), getCordfromLoc(-310.0, 1961.0), getCordfromLoc(-200.0, 1961.0), getCordfromLoc(-200.0, 1753.0)]]
+        }
+        },
     ]
 };

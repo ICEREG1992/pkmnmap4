@@ -457,6 +457,8 @@ markerSet(-374.5, 108.25, "Shiny Stone", itemIcon, currentMap);
 
 // iron ruins also contains a metal coat and nugget when regigigas is not in party
 
+// rock peak ruins also contains a hard stone and nugget when regigigas is not in party
+
 var currentMap = "Fullmoon Island";
 markerSet(-329, 184, "Overworld", entranceIcon, currentMap, [[-381.62, 95.45], 5]);
 markerSet(-186.5, 351.5, "Fullmoon Island Interior", entranceIcon, currentMap);
@@ -480,8 +482,28 @@ markerSet(-462.75, 317.5, "Overworld", entranceIcon, currentMap, [[-251.55, 737.
 markerSet(-403, 188, "Team Galactic HQ Warehouse", entranceIcon, currentMap, [[-165, 1190], 2]);
 markerSet(-403, 328, "Team Galactic HQ Warehouse", entranceIcon, currentMap, [[-230, 1946], 2]);
 
+markerSet(-347.5, 153.5, "Max Potion", hiddenIcon, currentMap);
+markerSet(-345, 161.5, "Green Shard", itemIcon, currentMap);
+markerSet(-376, 341.5, "Max Revive", itemIcon, currentMap);
+markerSet(-325, 325.5, "Poké Doll", hiddenIcon, currentMap);
+markerSet(-273, 233.5, "Nugget", hiddenIcon, currentMap);
+markerSet(-290, 302, "Protein", itemIcon, currentMap);
+markerSet(-293.5, 349.5, "Max Elixir", itemIcon, currentMap);
+markerSet(-292.5, 305.5, "Elixir", hiddenIcon, currentMap);
+markerSet(-180, 289.5, "Razor Claw", hiddenIcon, currentMap);
+markerSet(-125, 191.75, "Full Restore", itemIcon, currentMap);
+markerSet(-457.75, 329.5, "PP Up", hiddenIcon, currentMap);
+markerSet(-437, 357.5, "TM49 (Snatch)", tmIcon, currentMap);
+markerSet(-412.25, 213.5, "Dubious Disc", itemIcon, currentMap);
+markerSet(-282.25, 157.5, "Rare Candy", hiddenIcon, currentMap);
+markerSet(-265.75, 293.5, "TM21 (Frustration)", tmIcon, currentMap);
 
 var currentMap = "Team Galactic HQ Warehouse";
 markerSet(-324.5, 206, "Overworld", entranceIcon, currentMap, [[-254.45, 718.06], 5]);
 markerSet(-165, 1190, "Team Galactic HQ", entranceIcon, currentMap, [[-403, 188], 3]);
 markerSet(-230, 1946, "Team Galactic HQ", entranceIcon, currentMap, [[-403, 328], 3]);
+
+markerSet(-282.5, 286.5, "HM02 (Fly)", tmIcon, currentMap);
+markerSet(-233.5, 190.5, "Dusk Stone", itemIcon, currentMap);
+markerSet(-271.5, 829.5, "TM36 (Sludge Bomb)", tmIcon, currentMap);
+markerSet(-172.5, 1357.375, "Zinc", itemIcon, currentMap);
