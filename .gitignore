@@ -1,9 +1,3 @@
-leaflet.css
-leaflet.js
-leaflet.js.map
-tilesets
-sinnoh_overworld___interior_map___pokemon_dppt_by_dancingcouches_daflnbk.png
+public/tilesets
 __pycache__
-.firebase
-.firebase/hosting.cHVibGlj.cache
-node_modules
+!/public/tilesets/overworld/maps
