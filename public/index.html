@@ -4,7 +4,17 @@
     <meta name="description" content="An Interactive Map for Pokémon Platinum, featuring Item &amp; Berry Locations">
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
-    <link rel="stylesheet" href="./leaflet.css">
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""
+    />
+    <script
+        src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""
+    ></script>
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
@@ -36,7 +46,6 @@
         </div>
     </div>
     <script type="module" src="./firebaseAnalytics.js"></script>
-    <script src="./leaflet.js"></script>
     <script src="./functions.js"></script>
     <script src="./overworldRegions.js"></script>
     <script src="./interiorRegions.js"></script>
