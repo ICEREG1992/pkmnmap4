@@ -10,16 +10,18 @@ The site is available at <https://pkmnmap4.web.app/>.
 1. I've included my personal script for converting a large png into a tileset with multiple zoom levels in this respository as `ImageToTileset` in `HelperTools.py`. It will resize your map to the various zoom levels, and for each resize it will split the image into 256x256 pixel tiles which then get arranged into the proper directory structure for Leaflet to be able to render your map.
 1. Install [ImageMagick](https://imagemagick.org/index.php) as a prerequisite for Wand
 1. Install [Wand](https://docs.wand-py.org/en/0.6.12/) as a prerequisite for HelperTools.py
-1. Run the following in your favorite Python interpreter:
+1. Use the script [`HelperTools.py`](./HelperTools.py) to generate the tilesets:
+
+    To generate tilesets for every map in [maps/](./maps/)
 
     ```sh
     # note that you may need to adjust you ImageMagick policy.xml file to allow for larger images
     python HelperTools.py
     # or
-    python HelperTools.py 5 # to specify the multiprocessing
+    python HelperTools.py 5 # to specify the number or multiprocess
     ```
 
-    Or using python
+    Or to generate a single tileset using as a python lib
 
     ```python
     from HelperTools import ImageToTileset

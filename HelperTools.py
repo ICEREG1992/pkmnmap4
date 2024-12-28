@@ -1,18 +1,24 @@
-import shutil, os
-from os import listdir
-from os.path import join
+"""Helper functions for the tileset generation process"""
+
+import shutil
+from os import listdir, makedirs
+from os.path import join, exists
+from multiprocessing import Pool
+from sys import argv
+
+# https://docs.wand-py.org/
 from wand.image import Image
 
 
 def make_dir(path):
     """custom mkdir"""
-    if not os.path.exists(path):
-        os.makedirs(path)
+    if not exists(path):
+        makedirs(path)
 
 
 def ImageToTileset(source, dest):
     # see if directory already exists
-    if not os.path.exists(source):
+    if not exists(source):
         print("Source image does not exist")
         return
     make_dir(dest)
@@ -30,7 +36,7 @@ def ImageToTileset(source, dest):
         source_path = join(maps_path, i)
         # this is jank but we need to get width to GridToTileset
         path_to_grid_done = join(dest, str(size))
-        if os.path.exists(path_to_grid_done) and len(listdir(path_to_grid_done)) > 0:
+        if exists(path_to_grid_done) and len(listdir(path_to_grid_done)) > 0:
             print("Grid already done")
             continue
         width = ImageToGrid(source_path, grid_path)
@@ -53,7 +59,7 @@ def ImageToSizes(source, dest):
         ind = 0
         while dim[0] % 256 == 0 and dim[1] % 256 == 0:
             output_path = join(dest, "maps", str(ind) + ".png")
-            if os.path.exists(output_path):
+            if exists(output_path):
                 print(f"Skipping {output_path}")
                 ind = ind + 1
                 dim = (int(dim[0] / 2), int(dim[1] / 2))
@@ -63,7 +69,6 @@ def ImageToSizes(source, dest):
             with img.clone() as i:
                 i.resize(dim[0], dim[1], filter="point")  # nearest neighbor filter
                 i.save(filename=output_path)
-                pass
             dim = (int(dim[0] / 2), int(dim[1] / 2))
             ind = ind + 1
 
@@ -75,7 +80,7 @@ def ImageToGrid(source, dest):
         for h in range(0, img.size[1], 256):
             for w in range(0, img.size[0], 256):
                 output_path = join(dest, f"{i:06d}.png")
-                if os.path.exists(output_path):
+                if exists(output_path):
                     print(f"Skipping {output_path}")
                     i = i + 1
                     continue
@@ -123,25 +128,22 @@ def TranslateScale(s, x, y, w, h):
     # [[getCordfromLoc(-234.0625, 207.5), getCordfromLoc(-262.5625, 207.5), getCordfromLoc(-262.5625, 239.5), getCordfromLoc(-234.0625, 239.5), getCordfromLoc(-234.0625, 207.5)]]
 
 
+def wrapper_to_tileset(args_of_func):
+    """wrapper to call ImageToTileset with a single argument"""
+    return ImageToTileset(args_of_func[0], args_of_func[1])
+
+
+# https://golb.n4n5.dev/python
+def multi_process(my_func, my_args, num_processes=10):
+    """my_args is a table of arguments for my_func"""
+    results = []
+    with Pool(processes=num_processes) as pool:
+        for result in pool.imap(my_func, my_args):
+            results.append(result)
+    return results
+
+
 if __name__ == "__main__":
-    from multiprocessing import Pool
-    from sys import argv
-
-    # https://golb.n4n5.dev/python
-    def multi_process(my_func, my_args, num_processes=10):
-        """my_args is a table of arguments for my_func"""
-        results = []
-
-        with Pool(processes=num_processes) as pool:
-            for result in pool.imap(my_func, my_args):
-                results.append(result)
-
-        return results
-
-    def wrapper_to_tileset(args_of_func):
-        """wrapper to call ImageToTileset with a single argument"""
-        return ImageToTileset(args_of_func[0], args_of_func[1])
-
     args = [
         [
             join("maps", one_map),
