@@ -47,12 +47,12 @@ The site is available at <https://pkmnmap4.web.app/>.
 1. Make note of the following values: Selection top left coordinate, selection width and height.
 1. Insert those values into my helper function:
 
-```python
-from HelperTools import TranslateScale
-TranslateScale(s, x, y, w, h)
-```
+    ```python
+    from HelperTools import TranslateScale
+    TranslateScale(s, x, y, w, h)
+    ```
 
-Note: Scale parameter `s` depends on the size of your map. A good way to find it is to divide the smallest dimension of your map by 512. In general, if your regions come out at half size, then halve the scale parameter.
+    Note: Scale parameter `s` depends on the size of your map. A good way to find it is to divide the smallest dimension of your map by 512. In general, if your regions come out at half size, then halve the scale parameter.
 
 1. Copy and paste the output into the "coordinates" property of a feature in one of the vector js files.
 
