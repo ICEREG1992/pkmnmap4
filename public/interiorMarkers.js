@@ -1,9 +1,9 @@
-var currentMap = 'Verity Cavern';
-markerSet(-442, 255.5, 'Overworld', entranceIcon, currentMap, [[-421.82, 114.45], 5]);
+var currentMap = "Verity Cavern";
+markerSet(-442, 255.5, "Overworld", entranceIcon, currentMap, [[-421.82, 114.45], 5]);
 
 var currentMap = "Oreburgh Gate";
-markerSet(-201, 156, 'Overworld', entranceIcon, currentMap, [[-372.82, 295.45], 5]);
-markerSet(-201, 356, 'Overworld', entranceIcon, currentMap, [[-372.82, 305.18], 5]);
+markerSet(-201, 156, "Overworld", entranceIcon, currentMap, [[-372.82, 295.45], 5]);
+markerSet(-201, 356, "Overworld", entranceIcon, currentMap, [[-372.82, 305.18], 5]);
 
 markerSet(-347.5, 460, "TM70 (Flash)", tmIcon, currentMap);
 markerSet(-341, 332, "Big Pearl", itemIcon, currentMap);
@@ -19,7 +19,7 @@ markerSet(-445, 164, "Escape Rope", itemIcon, currentMap);
 markerSet(-420, 340, "Potion", itemIcon, currentMap);
 
 var currentMap = "Ravaged Path";
-markerSet(-826, 312, "Overworld", entranceIcon, currentMap, [[-340.75, 219.50], 5]);
+markerSet(-826, 312, "Overworld", entranceIcon, currentMap, [[-340.75, 219.5], 5]);
 markerSet(-730, 456, "Overworld", entranceIcon, currentMap, [[-333.96, 228.52], 5]);
 
 markerSet(-652, 120, "TM39 (Rock Tomb)", tmIcon, currentMap);
@@ -100,7 +100,7 @@ markerSet(-408, 867.5, "Blue Shard", hiddenIcon, currentMap);
 markerSet(-185.5, 707.5, "Yellow Shard", hiddenIcon, currentMap);
 
 var currentMap = "Wayward Cave Secret";
-markerSet(-368, 238.5, "Overworld", entranceIcon, currentMap, [[-268.32, 347.20], 5]);
+markerSet(-368, 238.5, "Overworld", entranceIcon, currentMap, [[-268.32, 347.2], 5]);
 
 markerSet(-370, 63.5, "Dusk Stone", hiddenIcon, currentMap);
 markerSet(-228.5, 279.5, "Max Ether", itemIcon, currentMap);
@@ -152,7 +152,7 @@ var currentMap = "Celestic Ruins";
 markerSet(-379, 272, "Overworld", entranceIcon, currentMap, [[-199.18, 482.16], 5]);
 
 var currentMap = "Great Marsh";
-markerSet(-402.82, 275.50, "Overworld", entranceIcon, currentMap, [[-423.32, 627.55], 5]);
+markerSet(-402.82, 275.5, "Overworld", entranceIcon, currentMap, [[-423.32, 627.55], 5]);
 
 markerSet(-187.25, 197.55, "Poké Ball", itemIcon, currentMap);
 markerSet(-134.82, 133.45, "Rare Candy", hiddenIcon, currentMap);
@@ -306,7 +306,7 @@ markerSet(-189.5, 1159.5, "HP Up", hiddenIcon, currentMap);
 markerSet(-130.5, 935.5, "Heart Scale", hiddenIcon, currentMap);
 
 var currentMap = "Pokémon League";
-markerSet(-1939.5, 259.5, "Overworld", entranceIcon, currentMap, [[-217.68, 864.10], 5]);
+markerSet(-1939.5, 259.5, "Overworld", entranceIcon, currentMap, [[-217.68, 864.1], 5]);
 
 var currentMap = "Mount Coronet South";
 markerSet(-1435.5, 89, "Overworld", entranceIcon, currentMap, [[-343.68, 390.24], 5]);
@@ -463,7 +463,7 @@ var currentMap = "Fullmoon Island";
 markerSet(-329, 184, "Overworld", entranceIcon, currentMap, [[-381.62, 95.45], 5]);
 markerSet(-186.5, 351.5, "Fullmoon Island Interior", entranceIcon, currentMap);
 
-var currentMap = "Fullmoon Island Interior"
+var currentMap = "Fullmoon Island Interior";
 markerSet(-330, 271, "Fullmoon Island", entranceIcon, currentMap);
 
 markerSet(-236.5, 263, "Lunar Wing", itemIcon, currentMap);
@@ -505,5 +505,6 @@ markerSet(-230, 1946, "Team Galactic HQ", entranceIcon, currentMap, [[-403, 328]
 
 markerSet(-282.5, 286.5, "HM02 (Fly)", tmIcon, currentMap);
 markerSet(-233.5, 190.5, "Dusk Stone", itemIcon, currentMap);
+markerSet(-196.5, 685.5, "Galactic Key", itemIcon, currentMap);
 markerSet(-271.5, 829.5, "TM36 (Sludge Bomb)", tmIcon, currentMap);
 markerSet(-172.5, 1357.375, "Zinc", itemIcon, currentMap);
