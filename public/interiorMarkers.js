@@ -505,6 +505,6 @@ markerSet(-230, 1946, "Team Galactic HQ", entranceIcon, currentMap, [[-403, 328]
 
 markerSet(-282.5, 286.5, "HM02 (Fly)", tmIcon, currentMap);
 markerSet(-233.5, 190.5, "Dusk Stone", itemIcon, currentMap);
-markerSet(-197, 685, "Galactic Key", itemIcon, currentMap);
+markerSet(-196.5, 685.5, "Galactic Key", itemIcon, currentMap);
 markerSet(-271.5, 829.5, "TM36 (Sludge Bomb)", tmIcon, currentMap);
 markerSet(-172.5, 1357.375, "Zinc", itemIcon, currentMap);
