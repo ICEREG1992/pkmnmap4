@@ -56,6 +56,8 @@ Distortion World (Spear Pillar)
 */
 
 // Items
+// Twinleaf Town
+markerSet(-485.55, 155.55, "Odd Keystone", hiddenIcon, currentMap);
 // Verity Lakefront
 markerSet(-452.12, 134.45, "TinyMushroom", hiddenIcon, currentMap);
 // Lake Verity
@@ -149,7 +151,7 @@ markerSet(-193.5, 328.5, "Oran Berry", berryIcon, currentMap);
 // Valley Windworks
 markerSet(-303.62, 294.55, "Potion", itemIcon, currentMap);
 markerSet(-295.12, 280.45, "Electirizer", itemIcon, currentMap);
-markerSet(-296.32, 284.32, "Max Ether", hiddenIcon, currentMap);
+markerSet(-296.32, 284.32, "Max Elixir", hiddenIcon, currentMap);
 markerSet(-291.56, 290.45, "TM24 (Thunderbolt)", tmIcon, currentMap);
 // Eterna Forest
 markerSet(-233, 276.5, "SilverPowder", itemIcon, currentMap);
@@ -179,6 +181,8 @@ markerSet(-283.92, 362.18, "Super Repel", itemIcon, currentMap);
 markerSet(-277.82, 340.18, "Poison Barb", itemIcon, currentMap);
 markerSet(-328.25, 343.25, "Razz Berry", berryIcon, currentMap);
 markerSet(-328.25, 344.25, "Razz Berry", berryIcon, currentMap);
+markerSet(-280.62, 341.25, "Rawst Berry", berryIcon, currentMap);
+markerSet(-280.62, 342.25, "Rawst Berry", berryIcon, currentMap);
 // Route 211
 markerSet(-208.45, 416.18, "TM12 (Taunt)", tmIcon, currentMap);
 markerSet(-195.15, 403.18, "Great Ball", hiddenIcon, currentMap);
@@ -209,10 +213,14 @@ markerSet(-211, 546.32, "Smoke Ball", itemIcon, currentMap);
 markerSet(-212.36, 512.16, "TM30 (Shadow Ball)", tmIcon, currentMap);
 markerSet(-205.22, 566.16, "Shiny Stone", hiddenIcon, currentMap);
 markerSet(-205.55, 581.12, "Zinc", itemIcon, currentMap);
-markerSet(-197.45, 511.16, "Aspear Berry", berryIcon, currentMap);
-markerSet(-197.45, 512.16, "Aspear Berry", berryIcon, currentMap);
-markerSet(-197.45, 513.16, "Razz Berry", berryIcon, currentMap);
-markerSet(-197.45, 514.16, "Pinap Berry", berryIcon, currentMap);
+markerSet(-197.45, 511.16, "Sitrus Berry", berryIcon, currentMap);
+markerSet(-197.45, 512.16, "Chesto Berry", berryIcon, currentMap);
+markerSet(-197.45, 513.16, "Wiki Berry", berryIcon, currentMap);
+markerSet(-197.45, 514.16, "Aguav Berry", berryIcon, currentMap);
+markerSet(-283.36, 589.16, "Aspear Berry", berryIcon, currentMap);
+markerSet(-283.36, 590.16, "Aspear Berry", berryIcon, currentMap);
+markerSet(-283.36, 591.16, "Razz Berry", berryIcon, currentMap);
+markerSet(-283.36, 592.16, "Pinap Berry", berryIcon, currentMap);
 // Solaceon Town
 markerSet(-293.32, 613.12, "Big Mushroom", hiddenIcon, currentMap);
 markerSet(-310.35, 603.06, "PP Up", itemIcon, currentMap);

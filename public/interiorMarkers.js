@@ -397,7 +397,7 @@ markerSet(-1175, 252.5, "Stardust", hiddenIcon, currentMap);
 markerSet(-1134.75, 148.75, "TM69 (Rock Polish)", tmIcon, currentMap);
 markerSet(-1171.5, 228.5, "Ice Heal", itemIcon, currentMap);
 markerSet(-1193.5, 164.5, "EnergyPowder", hiddenIcon, currentMap);
-markerSet(-1209, 356.5, "Escape Rope", hiddenIcon, currentMap);
+markerSet(-1209, 356.5, "Escape Rope", itemIcon, currentMap);
 markerSet(-1156.5, 316.5, "Star Piece", hiddenIcon, currentMap);
 markerSet(-1104, 244.5, "Rare Candy", itemIcon, currentMap);
 markerSet(-1001.5, 244.5, "Red Shard", hiddenIcon, currentMap);
