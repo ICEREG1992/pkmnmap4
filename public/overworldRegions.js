@@ -161,7 +161,7 @@ var overworldRegions = {
     }, {
         "type": "Feature",
         "properties": {
-            "name": "Fallarbor Town",
+            "name": "Sandgem Town",
             "world": "Overworld",
             "Pokémon": {}
         },
