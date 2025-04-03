@@ -8,6 +8,9 @@ body,
   width:100%;
   overflow:hidden
 }
+#page-content {
+  height: 100%;
+}
 #controls {
   display:none;
   grid-column-gap:5px;
