@@ -23,6 +23,7 @@ new L.Control.Zoom({
     position: 'bottomright'
 }).addTo(map);
 var LocationArray = [];
+var disableTab = false;
 
 // create bottom-left pokemon info box and add to map
 var info = L.control({
@@ -51,6 +52,12 @@ map.on('click', function (e) {
     'Map Location: ' + Math.floor(lat * tileSize) + ', ' + Math.floor(lng * tileSize)
     );
 });
+
+window.addEventListener("keydown", (event) => {
+    if (disableTab && event.key === "Tab") {
+        event.preventDefault();
+    }
+})
 
 loadMap("Overworld");
 
